@@ -262,7 +262,7 @@ class MPJPELoss(nn.Module):
         # Calculate mean per joint position error
         mpjpe = torch.mean(distances, dim=2)
 
-        return torch.mean(mpjpe)
+        return torch.mean(mpjpe)   
 def copyfile(file_list, folder=''):
   for file in file_list:
     shutil.copyfile(file, os.path.join(folder,os.path.basename(file)))
