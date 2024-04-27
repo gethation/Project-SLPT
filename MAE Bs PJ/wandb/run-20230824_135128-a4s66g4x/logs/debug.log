@@ -1,0 +1,20 @@
+2023-08-24 13:51:28,345 INFO    MainThread:15800 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-08-24 13:51:28,346 INFO    MainThread:15800 [wandb_setup.py:_flush():76] Configure stats pid to 15800
+2023-08-24 13:51:28,346 INFO    MainThread:15800 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Huang\.config\wandb\settings
+2023-08-24 13:51:28,346 INFO    MainThread:15800 [wandb_setup.py:_flush():76] Loading settings from d:\google drive\MAE Bs PJ\wandb\settings
+2023-08-24 13:51:28,346 INFO    MainThread:15800 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-24 13:51:28,346 INFO    MainThread:15800 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-24 13:51:28,346 INFO    MainThread:15800 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-08-24 13:51:28,346 INFO    MainThread:15800 [wandb_init.py:_log_setup():507] Logging user logs to d:\google drive\MAE Bs PJ\wandb\run-20230824_135128-a4s66g4x\logs\debug.log
+2023-08-24 13:51:28,346 INFO    MainThread:15800 [wandb_init.py:_log_setup():508] Logging internal logs to d:\google drive\MAE Bs PJ\wandb\run-20230824_135128-a4s66g4x\logs\debug-internal.log
+2023-08-24 13:51:28,346 INFO    MainThread:15800 [wandb_init.py:init():547] calling init triggers
+2023-08-24 13:51:28,346 INFO    MainThread:15800 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-07, 'architecture': 'ViT', 'dataset': 'customer', 'epochs': 200}
+2023-08-24 13:51:28,346 INFO    MainThread:15800 [wandb_init.py:init():571] re-initializing run, found existing run on stack: if6wdm6f
+2023-08-24 13:51:28,348 INFO    MainThread:15800 [wandb_run.py:_finish():1894] finishing run gethation-rx/MaE bs PJ/if6wdm6f
+2023-08-24 13:51:28,348 ERROR   MainThread:15800 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-08-24 13:51:28,348 INFO    MainThread:15800 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-08-24 13:51:28,348 INFO    MainThread:15800 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-08-24 13:51:28,348 INFO    MainThread:15800 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-08-24 13:51:28,348 INFO    MainThread:15800 [wandb_run.py:_restore():2111] restore
+2023-08-24 13:51:28,349 INFO    MainThread:15800 [wandb_run.py:_restore():2117] restore done
