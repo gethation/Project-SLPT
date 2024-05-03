@@ -3,12 +3,12 @@ import mediapipe as mp
 import numpy as np
 import os
 from moviepy.video.io.VideoFileClip import VideoFileClip
-import torchvision.transforms as transforms
 import json
 import time
-import torchvision
 import torch
 from torch import nn
+import torchvision
+import torchvision.transforms as transforms
 from model.model import MAE
 
 mp_hands = mp.solutions.hands
@@ -246,15 +246,15 @@ def offsetalize(coordinates):
 x = [(i, i+1) for i in range(0,4)]+[(i, i+1) for i in range(5,8)]+[(i, i+1) for i in range(9,12)]+[(i, i+1) for i in range(13,16)]+[(i, i+1) for i in range(17,19)]+[(0,5),(0,17),(5,9),(9,13),(13,17)]
 connections = [i for i in x]+[ (i[0]+21, i[1]+21) for i in x]
 
-def visualize(input_file):
+def visualize(input_file, lenth=64):
     with open(input_file, 'r') as f:
         coordinates = json.load(f)
     coordinates = np.array(coordinates)
     # coordinates = takeout_zero(coordinates)
-    coordinates = random_rotate(coordinates)
-    coordinates = random_scaling(coordinates)
-    coordinates = offsetalize(coordinates)
-    keypoint_coordinates = extend(coordinates, 64).astype(np.int16)
+    # coordinates = random_rotate(coordinates)
+    # coordinates = random_scaling(coordinates)
+    # coordinates = offsetalize(coordinates)
+    keypoint_coordinates = extend(coordinates, lenth).astype(np.int16)
     print(coordinates.shape, keypoint_coordinates.shape)
     # 创建黑色背景
     background = 255 * np.ones((640, 640, 3), dtype=np.uint8)
@@ -290,10 +290,10 @@ def visualize(input_file):
 
     cv2.destroyAllWindows()
 
-def put_text(frame, elapsed_time, num=0):
+def put_text(frame, elapsed_time, break_time, num=0):
 
     cv2.putText(frame, f'Time: {float(elapsed_time):.1f} seconds', (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 0), 1)
-    cv2.putText(frame, f'NuM: {num}/{100}', (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 0), 1)
+    # cv2.putText(frame, f'NuM: {num}/{100}', (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 0), 1)
 
     # 计算方框的位置
     height, width, _ = frame.shape
@@ -304,14 +304,14 @@ def put_text(frame, elapsed_time, num=0):
     # 绘制方框
     cv2.rectangle(frame, (x, y), (x + box_size, y + box_size), (255, 0, 0), 1)
     
-    if elapsed_time <= 1:
-        cv2.rectangle(frame, (0, height-15), (int((elapsed_time/1)*width), height), (0, 0, 250), -1)
-    if elapsed_time > 1:
-        cv2.rectangle(frame, (0, height-15), (int(((elapsed_time-1)/2)*width), height), (0, 250, 0), -1)
+    if elapsed_time <= break_time:
+        cv2.rectangle(frame, (0, height-15), (int((elapsed_time/break_time)*width), height), (0, 0, 250), -1)
+    if elapsed_time > break_time:
+        cv2.rectangle(frame, (0, height-15), (int(((elapsed_time-break_time)/2)*width), height), (0, 250, 0), -1)
 
     return frame
 
-def web_cam(break_time=1, save_folder = ''):
+def web_cam(break_time=3, save_folder = ''):
     segment = []
     cap = cv2.VideoCapture(0)
 
@@ -345,7 +345,7 @@ def web_cam(break_time=1, save_folder = ''):
 
 
         # 计算经过的时间
-        frame = put_text(frame, elapsed_time, num)
+        frame = put_text(frame, elapsed_time, break_time, num)
 
 
         if elapsed_time < break_time:
@@ -356,7 +356,76 @@ def web_cam(break_time=1, save_folder = ''):
 
             end_frame = frame_counter
             segment.append((start_frame, end_frame))
-            num += 1
+            break
+
+        # 在窗口中显示当前帧
+        frame = cv2.resize(frame, (1280, 960))
+        cv2.imshow('', frame)
+        # 按下 'q' 键退出循环
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+
+
+    # 释放所有资源
+    cap.release()
+    out.release()
+    cv2.destroyAllWindows()
+    with open(os.path.join(save_folder,'time mark.json'), 'w') as file:
+        json.dump(segment, file)
+
+def web_cam_photo(break_time=2, save_folder = '', img_path=None):
+    segment = []
+    cap = cv2.VideoCapture(0)
+
+    # 检查摄像头是否成功打开
+    if not cap.isOpened():
+        print("无法打开摄像头")
+        exit()
+
+    # 定义视频编码器并创建VideoWriter对象
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # 使用MP4编码器
+    out = cv2.VideoWriter(os.path.join(save_folder, 'output.mp4'), fourcc, 30.0, (640, 480))  # 参数分别为输出文件名，编码器，帧率和分辨率
+
+
+    # 初始化实时帧率计算器
+    frame_counter = 0
+    start_frame = 0
+    end_frame = 0
+    num = 0
+    start_time = time.time()
+
+    while True:
+        ret, frame = cap.read()  # 读取一帧图像
+        # frame = cv2.resize(frame, (1280, 960))
+        if not ret:
+            print("无法获取图像")
+            break
+        # 将当前帧写入输出视频文件
+        if img_path == None:
+            out.write(frame)
+        else:
+            x = cv2.imread(img_path)
+            # dsize = (640,852)
+            # x = cv2.resize(x, dsize)
+            # x = x[0:640,0:640]
+            out.write(x)
+        frame_counter += 1
+        elapsed_time = time.time() - start_time
+
+
+        # 计算经过的时间
+        frame = put_text(frame, elapsed_time, break_time, num)
+
+
+        if elapsed_time < break_time:
+            start_frame = frame_counter
+
+        if start_frame+1 == frame_counter:
+            start_time = time.time()
+
+            end_frame = frame_counter
+            segment.append((start_frame, end_frame))
+            break
 
         # 在窗口中显示当前帧
         frame = cv2.resize(frame, (1280, 960))
@@ -375,7 +444,7 @@ def web_cam(break_time=1, save_folder = ''):
 
 def node_json(input_video, output_folder):
 
-    keypoint_coordinates,i = procedure(input_video, crop=True)
+    keypoint_coordinates,i = procedure(input_video, crop=True, show=True)
     print(len(keypoint_coordinates), i)
     output_file = os.path.join(output_folder, 'nodes.json')
     
@@ -408,13 +477,9 @@ def split_json(input_json, output_folder, time_mark_path):
             pass
 
 class ViT(nn.Module):
-    def __init__(self, pretrained_model, num_class):
+    def __init__(self, pretrained_model):
         super(ViT, self).__init__()
-        self.backbone = nn.Sequential(
-                    pretrained_model.backbone,
-                    nn.Linear(768, num_class),
-                    nn.Softmax(dim=1)
-                )
+        self.backbone = pretrained_model.backbone
         self.out_dim = 80
 
     def forward(self, images):
@@ -423,12 +488,12 @@ class ViT(nn.Module):
         x = self.backbone(images)
         return x
     
-def buit_eval_model(num_classes, backbone_path = ''):
+def buit_eval_model(backbone_path = ''):
     vit = torchvision.models.vit_b_16(weights=None)
-    backbone = MAE(vit, 64, 80)
+    pretrained_model = MAE(vit, 64, 80)
+    pretrained_model.load_state_dict(torch.load(backbone_path))
 
-    model = ViT(backbone, num_class = num_classes)
-    model.load_state_dict(torch.load(backbone_path))
+    model = ViT(pretrained_model)
 
     model = model.to('cuda')
     return model.eval()
@@ -447,27 +512,22 @@ def normalize_data(tensor, mean, std):
     normalized_tensor = normalize(tensor)
     return normalized_tensor
 
-def load_json(path, mean, std):
+def augmentation(x):
+    # coordinates = np.array(x)
+    # if np.random.rand()>0.5:
+    #     coordinates = flip(coordinates)
+    coordinates = random_rotate(x)
+    coordinates = random_scaling(x)
+    keypoint_coordinates = offsetalize(coordinates)
+    return keypoint_coordinates
+
+def load_json(path, mean, std, augment = False):
     with open(path, 'r') as file:
         json_ = json.load(file)
     x = coordinate_transform(json_)
+    if augment:
+        x = augmentation(x)
     data = torch.as_tensor(torch.from_numpy(x), dtype=torch.float32)
     batch = normalize_data(data, mean, std)
 
     return batch.unsqueeze(0)
-
-import os
-
-def clear_folder(folder_path):
-    # 遍历文件夹中的所有文件和子文件夹
-    for root, dirs, files in os.walk(folder_path):
-        for file in files:
-            # 构建文件的完整路径
-            file_path = os.path.join(root, file)
-            # 删除文件
-            os.remove(file_path)
-        for dir in dirs:
-            # 构建子文件夹的完整路径
-            dir_path = os.path.join(root, dir)
-            # 删除子文件夹
-            os.rmdir(dir_path)
