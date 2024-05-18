@@ -174,53 +174,15 @@ def pre_adjust(frame, crop):
 
     return frame
 
-def split_video(video_path, output_folder, start_time, end_time):
-    # Open the video file
-    cap = cv2.VideoCapture(video_path)
-    if not cap.isOpened():
-        print("Error: Could not open video.")
-        return
-
-    fps = cap.get(cv2.CAP_PROP_FPS)
-    total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
-    duration = total_frames / fps
-    
-    # Calculate the start and end frames
-    start_frame = int(start_time * fps)
-    end_frame = int(end_time * fps)
-    
-    # Set the starting position of the video
-    cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
-    
-    # Define the codec and create VideoWriter object
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+def split_video(video_path, output_folder, start_time, limit_time):
+    video_clip = VideoFileClip(video_path)
     base_filename = os.path.splitext(os.path.basename(video_path))[0]
-    output_filename = os.path.join(output_folder, f"{base_filename}_segment.mp4")
-    out = cv2.VideoWriter(output_filename, fourcc, fps, (int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))))
-    
-    # Initialize tqdm progress bar
-    pbar = tqdm(total=end_frame - start_frame, desc="Processing frames")
-    
-    # Read and write frames from start to end
-    current_frame = start_frame
-    while cap.isOpened() and current_frame <= end_frame:
-        ret, frame = cap.read()
-        if ret:
-            out.write(frame)
-            pbar.update(1)
-            current_frame += 1
-        else:
-            break
-    
-    # Close the progress bar
-    pbar.close()
 
-    # Release everything
-    cap.release()
-    out.release()
+    segment_clip = video_clip.subclip(start_time, limit_time)
+    segment_filename = os.path.join(output_folder, f"{base_filename}_segment_{0}.mp4")
+    segment_clip.write_videofile(segment_filename)
 
-    print(f"Segment saved: {output_filename}")
-
+    video_clip.reader.close()
 
 def time_to_seconds(time_str):
     time_parts = time_str.replace(',', ':').split(':')

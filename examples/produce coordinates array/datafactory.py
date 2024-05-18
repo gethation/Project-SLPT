@@ -17,7 +17,7 @@ def clip(input_video_path, base_filename):
 
     start_time = subtitles[0].get('start_seconds')
     end_time = subtitles[-1].get('start_seconds')
-    print(start_time, end_time)
+
     split_video(input_video_path, output_folder, start_time, end_time)
 
 def node_json(base_filename):
@@ -66,6 +66,6 @@ def split_json(base_filename):
     
 def integration(input_video_path):
     base_filename = os.path.splitext(os.path.basename(input_video_path))[0]
-    clip(input_video_path, base_filename)
+    # clip(input_video_path, base_filename)
     node_json(base_filename)
     split_json(base_filename)
