@@ -7,7 +7,9 @@ import os
 import json
 
 
-def clip(input_video_path, base_filename):
+def clip(input_video_path):
+
+    base_filename = os.path.splitext(os.path.basename(input_video_path))[0]
     output_folder = fr'segment_temporary/{base_filename}_segments'
     os.makedirs(output_folder, exist_ok=True)
 
@@ -20,6 +22,8 @@ def clip(input_video_path, base_filename):
 
     split_video(input_video_path, output_folder, start_time, end_time)
 
+    return base_filename
+
 def node_json(base_filename):
 
     input_dir = fr'segment_temporary/{base_filename}_segments'
@@ -31,7 +35,7 @@ def node_json(base_filename):
     path = video_list[0]
 
     try:
-        keypoint_coordinates = procedure(os.path.join(input_dir, path), crop=True, show=True)
+        keypoint_coordinates = procedure(os.path.join(input_dir, path), crop=True)
         output_file = os.path.join(output_folder, os.path.splitext(path)[0].replace('_segment_0','')+'.json',)
         
         with open(output_file, 'w') as f:
@@ -64,8 +68,7 @@ def split_json(base_filename):
             json.dump(keypoint_coordinates, f, indent=4)
 
     
-def integration(input_video_path):
-    base_filename = os.path.splitext(os.path.basename(input_video_path))[0]
-    # clip(input_video_path, base_filename)
+def compose(input_video_path):
+    base_filename = clip(input_video_path)
     node_json(base_filename)
     split_json(base_filename)
