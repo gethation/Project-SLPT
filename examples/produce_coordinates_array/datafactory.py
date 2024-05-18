@@ -8,6 +8,7 @@ import json
 
 
 def clip(input_video_path, base_filename):
+
     output_folder = fr'segment_temporary/{base_filename}_segments'
     os.makedirs(output_folder, exist_ok=True)
 
@@ -33,9 +34,11 @@ def node_json(base_filename):
     try:
         keypoint_coordinates = procedure(os.path.join(input_dir, path), crop=True, show=True)
         output_file = os.path.join(output_folder, os.path.splitext(path)[0].replace('_segment_0','')+'.json',)
+        x = np.concatenate((np.array(keypoint_coordinates['hand']),
+                        np.array(keypoint_coordinates['pose'])), 1)        
         
         with open(output_file, 'w') as f:
-            json.dump(keypoint_coordinates, f, indent=4)
+            json.dump(x.tolist(), f, indent=4)
     except:
         pass
 
@@ -44,21 +47,20 @@ def split_json(base_filename):
     uniform_length = 64
 
     input_folder = fr'segment_temporary/{base_filename}_segments'
-    path = os.path.join(input_folder, base_filename +'.json',)
+    path = os.path.join(input_folder, base_filename +'_segment.json',)
 
     output_folder = fr'outcome/{base_filename}_segments'
     os.makedirs(output_folder, exist_ok=True)
-
     with open(path, 'r') as f:
         coordinates_jason = json.load(f)
-    
-    for i, pointer in enumerate(range(0, len(coordinates_jason)-60, 30)):
+
+    for pointer in range(0, len(coordinates_jason)-60, 30):
         keypoint_coordinates = coordinates_jason[pointer:pointer+60]
         keypoint_coordinates = fixed(keypoint_coordinates)
         keypoint_coordinates = takeout_zero(keypoint_coordinates)
         keypoint_coordinates = extend(keypoint_coordinates, uniform_length).tolist()
 
-        output_file = os.path.join(output_folder, f'{base_filename}_{i}'+'.json')
+        output_file = os.path.join(output_folder, f'{base_filename}'+'.json')
 
         with open(output_file, 'w') as f:
             json.dump(keypoint_coordinates, f, indent=4)

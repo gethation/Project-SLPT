@@ -6,21 +6,17 @@ from moviepy.video.io.VideoFileClip import VideoFileClip
 import json
 from tqdm.auto import tqdm
 
+# 初始化mediapipe手部和姿態模型
 mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(max_num_hands=2)  # 设置最大追踪手的数量
+hands = mp_hands.Hands()
+mp_pose = mp.solutions.pose
+pose = mp_pose.Pose()
 mp_drawing = mp.solutions.drawing_utils
 
 def detect(frame, keypoint_coordinates, pose_coordinates, show):
     # 確保frame是一個有效的影像
     if frame is None:
         raise ValueError("Invalid frame input")
-
-    # 初始化mediapipe手部和姿態模型
-    mp_hands = mp.solutions.hands
-    hands = mp_hands.Hands()
-    mp_pose = mp.solutions.pose
-    pose = mp_pose.Pose()
-    mp_drawing = mp.solutions.drawing_utils
 
     # 轉換影像從BGR到RGB
     rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -95,13 +91,12 @@ def procedure(video_path, crop, show=False):
         cap.release()
         cv2.destroyAllWindows()
 
-    return {'hand': hand_coordinates, 'pose': pose_coordinates}, i
+    return {'hand': hand_coordinates, 'pose': pose_coordinates}
 
 def fixed(keypoint_coordinates):
     keypoint_coordinates = np.array(keypoint_coordinates)
     total_points = keypoint_coordinates.shape[1]
     num_pose_points = total_points - 42  # Automatically calculate the number of pose points
-    print(keypoint_coordinates.shape)
 
     def interpolate_missing_points(coords, start_index, end_index):
         """Interpolate missing points between start_index and end_index."""
@@ -180,7 +175,7 @@ def split_video(video_path, output_folder, start_time, end_time):
     if not cap.isOpened():
         print("Error: Could not open video.")
         return
-
+    
     fps = cap.get(cv2.CAP_PROP_FPS)
     total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
     duration = total_frames / fps
@@ -191,18 +186,19 @@ def split_video(video_path, output_folder, start_time, end_time):
     
     # Set the starting position of the video
     cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
-    
+
     # Define the codec and create VideoWriter object
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     base_filename = os.path.splitext(os.path.basename(video_path))[0]
     output_filename = os.path.join(output_folder, f"{base_filename}_segment.mp4")
     out = cv2.VideoWriter(output_filename, fourcc, fps, (int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))))
-    
+
     # Initialize tqdm progress bar
     pbar = tqdm(total=end_frame - start_frame, desc="Processing frames")
-    
+       
     # Read and write frames from start to end
     current_frame = start_frame
+
     while cap.isOpened() and current_frame <= end_frame:
         ret, frame = cap.read()
         if ret:
