@@ -1,4 +1,4 @@
-from utils import detect, procedure, fixed, extend, takeout_zero, split_video, parse_srt
+from utils import detect, procedure, fixed, extend, takeout_zero, parse_srt
 
 import cv2
 import mediapipe as mp
@@ -6,34 +6,23 @@ import numpy as np
 import os
 import json
 
-
-def clip(input_video_path, base_filename):
+def node_json(input_video_path, base_filename):
 
     output_folder = fr'segment_temporary/{base_filename}_segments'
     os.makedirs(output_folder, exist_ok=True)
-
 
     srt_filename = fr'Dataset/{base_filename}.srt'
     subtitles = parse_srt(srt_filename)
 
     start_time = subtitles[0].get('start_seconds')
     end_time = subtitles[-1].get('start_seconds')
-    print(start_time, end_time)
-    split_video(input_video_path, output_folder, start_time, end_time)
-
-def node_json(base_filename):
-
-    input_dir = fr'segment_temporary/{base_filename}_segments'
-    video_list = os.listdir(input_dir)
-
-    output_folder = fr'segment_temporary/{base_filename}_segments'
-    os.makedirs(output_folder, exist_ok=True)
-
-    path = video_list[0]
-
     try:
-        keypoint_coordinates = procedure(os.path.join(input_dir, path), crop=True, show=True)
-        output_file = os.path.join(output_folder, os.path.splitext(path)[0].replace('_segment_0','')+'.json',)
+        keypoint_coordinates = procedure(input_video_path,
+                                         crop=True,
+                                         start_time=start_time,
+                                         end_time=end_time,
+                                         show=True)
+        output_file = os.path.join(output_folder, base_filename +'_segment.json',)
         x = np.concatenate((np.array(keypoint_coordinates['hand']),
                         np.array(keypoint_coordinates['pose'])), 1)        
         
@@ -68,6 +57,5 @@ def split_json(base_filename, time_span=60):
     
 def integration(input_video_path):
     base_filename = os.path.splitext(os.path.basename(input_video_path))[0]
-    clip(input_video_path, base_filename)
-    node_json(base_filename)
-    split_json(base_filename)
+    node_json(input_video_path, base_filename)
+    split_json(base_filename, 120)

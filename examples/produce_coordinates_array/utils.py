@@ -65,27 +65,46 @@ def detect(frame, keypoint_coordinates, pose_coordinates, show):
 
     # return frame
 
-def procedure(video_path, crop, show=False):
+import cv2
+from tqdm import tqdm
+
+def procedure(video_path, crop, start_time, end_time, show=False):
+    # Open the video file
     cap = cv2.VideoCapture(video_path)
-    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))  # Get the total number of frames in the video
+    if not cap.isOpened():
+        print("Error: Could not open video.")
+        return
+    
+    # Get video properties
+    fps = cap.get(cv2.CAP_PROP_FPS)
+    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    
+    # Calculate the frame range for the segment
+    start_frame = int(start_time * fps)
+    end_frame = int(end_time * fps)
+    
+    # Set video to start frame
+    cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
 
     hand_coordinates = []
     pose_coordinates = []
-    i = 0
+    frames_processed = 0
 
-    # Use tqdm for the progress bar, iterating over the total number of frames
-    for _ in tqdm(range(total_frames), desc="Processing Video Frames"):
+    # Use tqdm for the progress bar, iterating over the frame range
+    for _ in tqdm(range(start_frame, min(end_frame, total_frames)), desc="Processing Video Segment"):
         ret, frame = cap.read()
-        i += 1
         if not ret:
             break
-        frame = pre_adjust(frame, crop)
-        detect(frame, hand_coordinates, pose_coordinates, show)
+        
+        frame = pre_adjust(frame, crop)  # Assuming pre_adjust handles cropping or other adjustments
+        detect(frame, hand_coordinates, pose_coordinates, show)  # Assuming detect handles detection tasks
 
         if show:
             cv2.imshow('Hand Tracking', frame)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
+
+        frames_processed += 1
 
     if show:
         cap.release()
@@ -168,55 +187,6 @@ def pre_adjust(frame, crop):
     frame = cv2.resize(frame, (640, 640))
 
     return frame
-
-def split_video(video_path, output_folder, start_time, end_time):
-    # Open the video file
-    cap = cv2.VideoCapture(video_path)
-    if not cap.isOpened():
-        print("Error: Could not open video.")
-        return
-    
-    fps = cap.get(cv2.CAP_PROP_FPS)
-    total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
-    duration = total_frames / fps
-    
-    # Calculate the start and end frames
-    start_frame = int(start_time * fps)
-    end_frame = int(end_time * fps)
-    
-    # Set the starting position of the video
-    cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
-
-    # Define the codec and create VideoWriter object
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    base_filename = os.path.splitext(os.path.basename(video_path))[0]
-    output_filename = os.path.join(output_folder, f"{base_filename}_segment.mp4")
-    out = cv2.VideoWriter(output_filename, fourcc, fps, (int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))))
-
-    # Initialize tqdm progress bar
-    pbar = tqdm(total=end_frame - start_frame, desc="Processing frames")
-       
-    # Read and write frames from start to end
-    current_frame = start_frame
-
-    while cap.isOpened() and current_frame <= end_frame:
-        ret, frame = cap.read()
-        if ret:
-            out.write(frame)
-            pbar.update(1)
-            current_frame += 1
-        else:
-            break
-    
-    # Close the progress bar
-    pbar.close()
-
-    # Release everything
-    cap.release()
-    out.release()
-
-    print(f"Segment saved: {output_filename}")
-
 
 def time_to_seconds(time_str):
     time_parts = time_str.replace(',', ':').split(':')
