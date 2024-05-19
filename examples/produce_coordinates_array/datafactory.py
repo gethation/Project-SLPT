@@ -42,7 +42,7 @@ def node_json(base_filename):
     except:
         pass
 
-def split_json(base_filename):
+def split_json(base_filename, time_span=60):
 
     uniform_length = 64
 
@@ -54,8 +54,8 @@ def split_json(base_filename):
     with open(path, 'r') as f:
         coordinates_jason = json.load(f)
 
-    for pointer in range(0, len(coordinates_jason)-60, 30):
-        keypoint_coordinates = coordinates_jason[pointer:pointer+60]
+    for pointer in range(0, len(coordinates_jason)-60, time_span//2):
+        keypoint_coordinates = coordinates_jason[pointer:pointer+time_span]
         keypoint_coordinates = fixed(keypoint_coordinates)
         keypoint_coordinates = takeout_zero(keypoint_coordinates)
         keypoint_coordinates = extend(keypoint_coordinates, uniform_length).tolist()
