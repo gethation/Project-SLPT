@@ -43,13 +43,13 @@ def split_json(base_filename, time_span=60):
     with open(path, 'r') as f:
         coordinates_jason = json.load(f)
 
-    for pointer in range(0, len(coordinates_jason)-60, time_span//2):
+    for i, pointer in enumerate(range(0, len(coordinates_jason)-60, time_span//2)):
         keypoint_coordinates = coordinates_jason[pointer:pointer+time_span]
         keypoint_coordinates = fixed(keypoint_coordinates)
         keypoint_coordinates = takeout_zero(keypoint_coordinates)
         keypoint_coordinates = extend(keypoint_coordinates, uniform_length).tolist()
 
-        output_file = os.path.join(output_folder, f'{base_filename}'+'.json')
+        output_file = os.path.join(output_folder, f'{base_filename}_{i}'+'.json')
 
         with open(output_file, 'w') as f:
             json.dump(keypoint_coordinates, f, indent=4)
