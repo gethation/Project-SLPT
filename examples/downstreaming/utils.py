@@ -469,7 +469,7 @@ def split_json(input_json, output_folder, time_mark_path):
             keypoint_coordinates = takeout_zero(keypoint_coordinates)
             keypoint_coordinates = extend(keypoint_coordinates, uniform_length).tolist()
 
-            output_file = os.path.join(output_folder, f'segment_{len(os.listdir(output_folder))}'+'.json',)
+            output_file = os.path.join(output_folder, f'segmented.json')
 
             with open(output_file, 'w') as f:
                 json.dump(keypoint_coordinates, f, indent=4)
