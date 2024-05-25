@@ -146,6 +146,7 @@ class Node_Dataset(Dataset):
         self.std = std
         self.data_folder = data_folder
         self.json_files = [f for f in os.listdir(data_folder) if f.endswith('.json')]
+        self.Augmentor = DataAugmentor()
     
     def __len__(self):
         return len(self.json_files)
@@ -157,72 +158,64 @@ class Node_Dataset(Dataset):
         with open(os.path.join(self.data_folder, json_file), 'r') as file:
             x = json.load(file)
 
-        data = augmentation(x)
+        data = self.Augmentor.augment(x)
         data = torch.as_tensor(torch.from_numpy(data), dtype=torch.float32)
         batch = normalize_data(data, self.mean, self.std)
         return batch
 
-def rotate_point(point, center, angle):
+import numpy as np
 
-    offset = point - center
+class DataAugmentor:
+    def __init__(self, center=(320, 320), angle_range=(-20, 20), scale_range=(0.7, 1.6), offset_range=(-50, 50)):
+        self.center = np.array(center)
+        self.angle = np.radians(np.random.randint(*angle_range))
+        self.scale_factor = np.random.uniform(*scale_range)
+        self.offset = np.random.randint(offset_range[0], offset_range[1], 2)
 
-    # 创建旋转矩阵
-    rotation_matrix = np.array([[np.cos(angle), -np.sin(angle)],
-                                [np.sin(angle), np.cos(angle)]])
+    def rotate_point(self, point):
+        offset = point - self.center
+        rotation_matrix = np.array([
+            [np.cos(self.angle), -np.sin(self.angle)],
+            [np.sin(self.angle), np.cos(self.angle)]
+        ])
+        rotated_offset = np.dot(rotation_matrix, offset)
+        rotated_point = rotated_offset + self.center
+        return rotated_point
 
-    # 使用旋转矩阵旋转偏移量
-    rotated_offset = np.dot(rotation_matrix, offset)
+    def scaling_point(self, point):
+        offset = point - self.center
+        scaled_offset = offset * self.scale_factor
+        scaled_point = scaled_offset + self.center
+        return scaled_point
 
-    # 将旋转后的偏移量添加回圆心坐标以获取旋转后的点
-    rotated_point = rotated_offset + center
+    def random_rotate(self, coordinates):
+        rotated_coordinates = np.empty_like(coordinates)
+        for i, frame in enumerate(coordinates):
+            for j, point in enumerate(frame):
+                rotated_coordinates[i, j] = self.rotate_point(point)
+        return rotated_coordinates
 
-    return rotated_point
+    def random_scaling(self, coordinates):
+        scaled_coordinates = np.empty_like(coordinates)
+        for i, frame in enumerate(coordinates):
+            for j, point in enumerate(frame):
+                scaled_coordinates[i, j] = self.scaling_point(point)
+        return scaled_coordinates
 
-def scaling_point(point, center, scale_factor):
+    def offsetalize(self, coordinates):
+        offsetalized_coordinates = np.empty_like(coordinates)
+        for i, frame in enumerate(coordinates):
+            for j, point in enumerate(frame):
+                offsetalized_coordinates[i, j] = point + self.offset
+        return offsetalized_coordinates
 
-    # 计算点相对于圆心的偏移量
-    offset = point - center
+    def augment(self, x):
+        coordinates = np.array(x)
+        coordinates = self.random_rotate(coordinates)
+        coordinates = self.random_scaling(coordinates)
+        coordinates = self.offsetalize(coordinates)
+        return coordinates
 
-    # 使用缩放因子对偏移量进行缩放
-    scaled_offset = offset * scale_factor
-
-    # 将缩放后的偏移量添加回圆心坐标以获取缩放后的点
-    scaled_point = scaled_offset + center
-
-    return scaled_point
-
-def random_rotate(coordinates):
-    angle = np.radians(np.random.randint(-20, 20))
-    center = [320, 320]
-    rotated_coordinates = np.empty_like(coordinates)
-    for i, frame in enumerate(coordinates):
-        for j, point in enumerate(frame):
-            rotated_coordinates[i,j] = rotate_point(point, center, angle)
-    return rotated_coordinates
-
-def random_scaling(coordinates):
-    scale_factor = np.random.uniform(0.7, 1.6)
-    center = [320, 320]
-    scaled_coordinates = np.empty_like(coordinates)
-    for i, frame in enumerate(coordinates):
-        for j, point in enumerate(frame):
-            scaled_coordinates[i,j] = scaling_point(point, center, scale_factor)
-    return scaled_coordinates
-
-def offsetalize(coordinates):
-    offset = np.random.randint(-50, 50, 2)
-    offsetalized_coordinates = np.empty_like(coordinates)
-    for i, frame in enumerate(coordinates):
-        for j, point in enumerate(frame):
-            offsetalized_coordinates[i,j] = point + offset
-    return offsetalized_coordinates
-
-def augmentation(x):
-    coordinates = np.array(x)
-    coordinates = random_rotate(coordinates)
-    coordinates = random_scaling(coordinates)
-    keypoint_coordinates = offsetalize(coordinates)
-    return keypoint_coordinates
 
 def get_time():
     current_datetime = datetime.datetime.now()
@@ -244,15 +237,16 @@ def log(CHECKPOINT_PATH, model, optimizer, step, mean, std):
     wandb.save(CHECKPOINT_PATH) # saves checkpoint to wandb
 
 class MPJPELoss(nn.Module):
-    def __init__(self):
+    def __init__(self, hand_point):
         super(MPJPELoss, self).__init__()
+        self.hand_point_num = hand_point
 
     def forward(self, predicted_joints, ground_truth_joints):
 
         batch_size = predicted_joints.shape[0]
 
-        predicted_joints = predicted_joints.reshape((batch_size, -1, 80//2, 2))
-        ground_truth_joints = ground_truth_joints.reshape((batch_size, -1, 80//2, 2))
+        predicted_joints = predicted_joints.reshape((batch_size, -1, self.hand_point_num//2, 2))
+        ground_truth_joints = ground_truth_joints.reshape((batch_size, -1, self.hand_point_num//2, 2))
 
         assert predicted_joints.shape == ground_truth_joints.shape, "Input tensors must have the same shape."
         
@@ -262,7 +256,8 @@ class MPJPELoss(nn.Module):
         # Calculate mean per joint position error
         mpjpe = torch.mean(distances, dim=2)
 
-        return torch.mean(mpjpe)   
+        return torch.mean(mpjpe)
+    
 def copyfile(file_list, folder=''):
   for file in file_list:
     shutil.copyfile(file, os.path.join(folder,os.path.basename(file)))
