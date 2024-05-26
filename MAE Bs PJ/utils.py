@@ -16,7 +16,7 @@ from tqdm.auto import tqdm
 # 逆归一化操作
 
 x = [(i, i+1) for i in range(0,4)]+[(i, i+1) for i in range(5,8)]+[(i, i+1) for i in range(9,12)]+[(i, i+1) for i in range(13,16)]+[(i, i+1) for i in range(17,19)]+[(0,5),(0,17),(5,9),(9,13),(13,17)]
-connections = [i for i in x]+[ (i[0]+21, i[1]+21) for i in x] + [(i[0]+42, i[1]+42) for i in [(12,11),(12,14),(11,13),(13,0-42),(14,21-42)]]
+connections = [i for i in x]+[ (i[0]+20, i[1]+20) for i in x] + [(i[0]+40, i[1]+40) for i in [(1,2),(2,4),(1,3),(3,0-40),(4,20-40)]]
 
 
 def denormalize_data(normalized_tensor, mean, std):
