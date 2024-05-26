@@ -12,7 +12,7 @@ import torchvision.transforms as transforms
 from model.model import MAE
 
 mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(max_num_hands=2)  # 设置最大追踪手的数量
+hands = mp_hands.Hands(max_num_hands=1)  # 设置最大追踪手的数量
 mp_drawing = mp.solutions.drawing_utils
 
 def detect(frame, keypoint_coordinates, show):
@@ -103,8 +103,8 @@ def elongate(keypoint_coordinates_dim, new_length):
     return new_array
 
 def extend(keypoint_coordinates, new_length):
-    filled_keypoint_coordinates = np.zeros((new_length, 42, 2))
-    for i in range(keypoint_coordinates.shape[1]-1):
+    filled_keypoint_coordinates = np.zeros((new_length, keypoint_coordinates.shape[1], 2))
+    for i in range(keypoint_coordinates.shape[1]):
         filled_keypoint_coordinates[:, i, 0] = elongate(keypoint_coordinates[:, i, 0], new_length)
         filled_keypoint_coordinates[:, i, 1] = elongate(keypoint_coordinates[:, i, 1], new_length)
 
@@ -244,7 +244,7 @@ def offsetalize(coordinates):
     return offsetalized_coordinates
 
 x = [(i, i+1) for i in range(0,4)]+[(i, i+1) for i in range(5,8)]+[(i, i+1) for i in range(9,12)]+[(i, i+1) for i in range(13,16)]+[(i, i+1) for i in range(17,19)]+[(0,5),(0,17),(5,9),(9,13),(13,17)]
-connections = [i for i in x]+[ (i[0]+21, i[1]+21) for i in x]
+connections = [i for i in x]+[ (i[0]+20, i[1]+20) for i in x]
 
 def visualize(input_file, lenth=64):
     with open(input_file, 'r') as f:
