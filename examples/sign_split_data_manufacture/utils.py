@@ -11,70 +11,37 @@ import torchvision
 import torchvision.transforms as transforms
 from model.model import MAE
 
-# 初始化mediapipe手部和姿態模型
 mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(max_num_hands=2)
-mp_pose = mp.solutions.pose
-pose = mp_pose.Pose()
+hands = mp_hands.Hands(max_num_hands=1)  # 设置最大追踪手的数量
 mp_drawing = mp.solutions.drawing_utils
 
-def detect(frame, keypoint_coordinates, pose_coordinates, show):
-    # 確保frame是一個有效的影像
-    if frame is None:
-        raise ValueError("Invalid frame input")
-
-    # 轉換影像從BGR到RGB
+def detect(frame, keypoint_coordinates, show):
     rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
-    # 處理影像，找出手部關節點
-    hand_results = hands.process(rgb_frame)
-    landmark_coords = [[0, 0] for _ in range(42)]
-    if hand_results.multi_hand_landmarks:
-        for landmarks, handedness in zip(hand_results.multi_hand_landmarks, hand_results.multi_handedness):
+    results = hands.process(rgb_frame)
+    landmark_coords = [[0,0] for _ in range(42)]
+    if results.multi_hand_landmarks:
+        for (landmarks, handedness) in zip(results.multi_hand_landmarks, results.multi_handedness):
             if show:
-                # 繪製手部關節點和連接線
-                mp_drawing.draw_landmarks(frame, landmarks, mp_hands.HAND_CONNECTIONS)
+                mp_drawing.draw_landmarks(
+                    frame, landmarks, mp_hands.HAND_CONNECTIONS)
 
             replacement = []
             for i, landmark in enumerate(landmarks.landmark):
                 landmark_x = int(landmark.x * frame.shape[1])
                 landmark_y = int(landmark.y * frame.shape[0])
                 replacement.append([landmark_x, landmark_y])
-            # 根據左右手分配座標
-            if handedness.classification[0].index == 1:  # index 1 = Right
+            if handedness.classification[0].index == 1: #index 1 = Right
                 landmark_coords[:21] = replacement
             else:
                 landmark_coords[21:] = replacement
-
-    # 更新手部關節點座標列表
     keypoint_coordinates.append(landmark_coords)
-
-    # 處理影像，找出姿態關節點
-    pose_results = pose.process(rgb_frame)
-    selected_indices = [i for i in range(25)]  # 自定義需要的點
-    filtered_pose_landmarks = [[0, 0] for _ in range(25)]
-    replacement = []
-    if pose_results.pose_landmarks:
-        for i in selected_indices:
-            landmark = pose_results.pose_landmarks.landmark[i]
-            pose_x = int(landmark.x * frame.shape[1])
-            pose_y = int(landmark.y * frame.shape[0])
-            replacement.append([pose_x, pose_y])
-        if show:
-            # 繪製過濾後的姿態關節點
-            for landmark in replacement:
-                cv2.circle(frame, tuple(landmark), 5, (255, 0, 0), -1)
-        filtered_pose_landmarks[:25] = replacement
-    # 更新姿態關節點座標列表
-    pose_coordinates.append(filtered_pose_landmarks)
-
-    # return frame
+    return frame
 
 def procedure(video_path, crop, show = False):
     cap = cv2.VideoCapture(video_path)
 
-    hand_coordinates = []
-    pose_coordinates = []
+    keypoint_coordinates = []
     i = 0
     while cap.isOpened():
         ret, frame = cap.read()
@@ -82,7 +49,7 @@ def procedure(video_path, crop, show = False):
         if not ret:
             break
         frame = pre_adjust(frame, crop)
-        detect(frame, hand_coordinates, pose_coordinates, show)
+        detect(frame, keypoint_coordinates, show)
 
         if show:
             cv2.imshow('Hand Tracking', frame)
@@ -93,46 +60,39 @@ def procedure(video_path, crop, show = False):
         cap.release()
         cv2.destroyAllWindows()
     
-    return {'hand':hand_coordinates,'pose':pose_coordinates}, i
-
+    return keypoint_coordinates, i
 
 def fixed(keypoint_coordinates):
     keypoint_coordinates = np.array(keypoint_coordinates)
-    total_points = keypoint_coordinates.shape[1]
-    num_pose_points = total_points - 42  # Automatically calculate the number of pose points
+    f = 0
+    l_index = -1
+    r_index = -1
     print(keypoint_coordinates.shape)
-
-    def interpolate_missing_points(coords, start_index, end_index):
-        """Interpolate missing points between start_index and end_index."""
-        # 确保start_index和end_index形成一个有效的范围
-        if start_index >= 0 and end_index >= 0 and start_index < end_index and (end_index + 1 <= len(coords)):
-            coords[start_index-1:end_index+1] = np.linspace(
-                coords[start_index-1], 
-                coords[end_index], 
-                end_index - start_index + 2
-            )
-        return coords
-
-    def fix_coords(coords, offset, num_points):
-        """Fix coordinates for the specified offset and number of points."""
-        l_index = -1
-        r_index = -1
-        n = len(coords)
-        for i in range(n - 1):
-            left = coords[i, offset]
-            right = coords[i + 1, offset]
-            if sum(left) != 0 and sum(right) == 0:
-                l_index = i + 1
-            if sum(left) == 0 and sum(right) != 0 and l_index != -1:
-                r_index = i + 1
-                coords[:, offset:offset+num_points] = interpolate_missing_points(coords[:, offset:offset+num_points], l_index, r_index)
-                l_index = -1  # 重置l_index以等待下一个有效段的开始
-        return coords
-
-    keypoint_coordinates = fix_coords(keypoint_coordinates, 0, 21)   # Fix left hand (21 points)
-    keypoint_coordinates = fix_coords(keypoint_coordinates, 21, 21)  # Fix right hand (21 points)
-    keypoint_coordinates = fix_coords(keypoint_coordinates, 42, num_pose_points)  # Fix pose coordinates
-
+    for i in range(keypoint_coordinates[:,f].shape[0]-1):
+        left = keypoint_coordinates[i,f]
+        right = keypoint_coordinates[i+1,f]
+        if sum(left) != 0 and sum(right) == 0:
+            l_index = i+1
+        if sum(left) == 0 and sum(right) != 0:
+            r_index = i+1
+        if l_index < r_index:
+            keypoint_coordinates[l_index-1:r_index+1,0:20] = np.linspace(keypoint_coordinates[l_index-1,0:20],
+                                                                        keypoint_coordinates[r_index,0:20],
+                                                                        keypoint_coordinates[l_index-1:r_index+1,f].shape[0])
+    f = 21
+    l_index = -1
+    r_index = -1
+    for i in range(keypoint_coordinates[:,f].shape[0]-1):
+        left = keypoint_coordinates[i,f]
+        right = keypoint_coordinates[i+1,f]
+        if sum(left) != 0 and sum(right) == 0:
+            l_index = i+1
+        if sum(left) == 0 and sum(right) != 0:
+            r_index = i+1
+        if l_index < r_index:
+            keypoint_coordinates[l_index-1:r_index+1,21:] = np.linspace(keypoint_coordinates[l_index-1,21:],
+                                                                        keypoint_coordinates[r_index,21:],
+                                                                        keypoint_coordinates[l_index-1:r_index+1,f].shape[0])
     return keypoint_coordinates
 
 def elongate(keypoint_coordinates_dim, new_length):
@@ -284,8 +244,7 @@ def offsetalize(coordinates):
     return offsetalized_coordinates
 
 x = [(i, i+1) for i in range(0,4)]+[(i, i+1) for i in range(5,8)]+[(i, i+1) for i in range(9,12)]+[(i, i+1) for i in range(13,16)]+[(i, i+1) for i in range(17,19)]+[(0,5),(0,17),(5,9),(9,13),(13,17)]
-connections = [i for i in x]+[ (i[0]+21, i[1]+21) for i in x] + [(i[0]+42, i[1]+42) for i in [(12,11),(12,14),(11,13),(13,0-42),(14,21-42)]]
-
+connections = [i for i in x]+[ (i[0]+20, i[1]+20) for i in x]
 
 def visualize(input_file, lenth=64):
     with open(input_file, 'r') as f:
@@ -309,12 +268,10 @@ def visualize(input_file, lenth=64):
         # 绘制关键点
         for i, keypoint in enumerate(keypoints):
             x, y = keypoint[0], keypoint[1]
-            if i <= 20:
-                color = (255, 0, 0)
-            elif i > 20 and i <= 42:
+            if i >= 21:
                 color = (0, 0, 255)
-            else: color = (0, 0, 0)
-                
+            else:
+                color = (255, 0, 0)
             if i == 41 or i == 20:
                 pass
             else:
@@ -333,7 +290,7 @@ def visualize(input_file, lenth=64):
 
     cv2.destroyAllWindows()
 
-def put_text(frame, elapsed_time, break_time, num=0):
+def put_text(frame, elapsed_time, break_time, recording_time, num=0):
 
     cv2.putText(frame, f'Time: {float(elapsed_time):.1f} seconds', (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 0), 1)
     # cv2.putText(frame, f'NuM: {num}/{100}', (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 0), 1)
@@ -350,11 +307,11 @@ def put_text(frame, elapsed_time, break_time, num=0):
     if elapsed_time <= break_time:
         cv2.rectangle(frame, (0, height-15), (int((elapsed_time/break_time)*width), height), (0, 0, 250), -1)
     if elapsed_time > break_time:
-        cv2.rectangle(frame, (0, height-15), (int(((elapsed_time-break_time)/2)*width), height), (0, 250, 0), -1)
+        cv2.rectangle(frame, (0, height-15), (int(((elapsed_time-break_time)/recording_time)*width), height), (0, 250, 0), -1)
 
     return frame
 
-def web_cam(break_time=3, save_folder = ''):
+def web_cam(break_time=3, recording_time = 2, save_folder = ''):
     segment = []
     cap = cv2.VideoCapture(0)
 
@@ -388,13 +345,13 @@ def web_cam(break_time=3, save_folder = ''):
 
 
         # 计算经过的时间
-        frame = put_text(frame, elapsed_time, break_time, num)
+        frame = put_text(frame, elapsed_time, break_time, recording_time, num)
 
 
         if elapsed_time < break_time:
             start_frame = frame_counter
 
-        if elapsed_time >= break_time+2:
+        if elapsed_time >= break_time + recording_time:
             start_time = time.time()
 
             end_frame = frame_counter
@@ -487,17 +444,15 @@ def web_cam_photo(break_time=2, save_folder = '', img_path=None):
 
 def node_json(input_video, output_folder):
 
-    keypoint_coordinates, i = procedure(input_video, crop=True, show=True)
+    keypoint_coordinates,i = procedure(input_video, crop=True, show=True)
     print(len(keypoint_coordinates), i)
     output_file = os.path.join(output_folder, 'nodes.json')
-    x = np.concatenate((np.array(keypoint_coordinates['hand']),
-                    np.array(keypoint_coordinates['pose'])), 1)
+    
     with open(output_file, 'w') as f:
-        json.dump(x.tolist(), f, indent=4)
+        json.dump(keypoint_coordinates, f, indent=4)
 
-def split_json(input_json, output_folder, time_mark_path):
+def split_json(input_json, output_folder, time_mark_path, uniform_length=64):
 
-    uniform_length = 64
 
     os.makedirs(output_folder, exist_ok=True)
 
@@ -506,17 +461,19 @@ def split_json(input_json, output_folder, time_mark_path):
     with open(time_mark_path, 'r') as f:
         time_mark = json.load(f)
     
-    for (pointerL, pointerR) in time_mark:
-        keypoint_coordinates = coordinates_jason[pointerL: pointerR]
-        keypoint_coordinates = fixed(keypoint_coordinates)
-        keypoint_coordinates = takeout_zero(keypoint_coordinates)
-        keypoint_coordinates = extend(keypoint_coordinates, uniform_length).tolist()
+    for i, (pointerL, pointerR) in enumerate(time_mark):
+        try:
+            keypoint_coordinates = coordinates_jason[pointerL:pointerR]
+            keypoint_coordinates = fixed(keypoint_coordinates)
+            keypoint_coordinates = takeout_zero(keypoint_coordinates)
+            keypoint_coordinates = extend(keypoint_coordinates, uniform_length).tolist()
 
-        output_file = os.path.join(output_folder, f'segment_{len(os.listdir(output_folder))}'+'.json')
+            output_file = os.path.join(output_folder, f'segmented.json')
 
-        with open(output_file, 'w') as f:
-            json.dump(keypoint_coordinates, f, indent=4)
-        pass
+            with open(output_file, 'w') as f:
+                json.dump(keypoint_coordinates, f, indent=4)
+        except:
+            pass
 
 class ViT(nn.Module):
     def __init__(self, pretrained_model):
