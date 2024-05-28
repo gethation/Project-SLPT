@@ -1,0 +1,8 @@
+
+from selenium import webdriver
+
+
+
+str1 = input()
+arr1 = str1.split("/")
+print('arr')

@@ -1,0 +1,4832 @@
+[
+    {
+        "elemtext": "我決定努力學習手語",
+        "elemsplit": "手語/學/我_B/決定/努力",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-definite.mp4"
+    },
+    {
+        "elemtext": "你一定要幫我",
+        "elemsplit": "你/幫我/一定",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-definite_2.mp4"
+    },
+    {
+        "elemtext": "他想一定要去美國讀書",
+        "elemsplit": "他_A/想/一定/去_B/美國_A/讀書",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-definite_3.mp4"
+    },
+    {
+        "elemtext": "他們倆工作忙，很少見面",
+        "elemsplit": "他倆/工作/忙/見面_B/少",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-few.mp4"
+    },
+    {
+        "elemtext": "這裡的水果很少",
+        "elemsplit": "這/水果/這些(種類)/少",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-few_2.mp4"
+    },
+    {
+        "elemtext": "我買了一點麵包",
+        "elemsplit": "麵包/我/買_A/過了_A/一點",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-few_3.mp4"
+    },
+    {
+        "elemtext": "我有一件裙子",
+        "elemsplit": "我_B/裙子/有/一",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-one.mp4"
+    },
+    {
+        "elemtext": "爸爸一個鐘頭後就回來了",
+        "elemsplit": "爸爸/一個鐘頭_A/回來",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-one_hour_a.mp4"
+    },
+    {
+        "elemtext": "爸爸一個鐘頭後就回來了",
+        "elemsplit": "爸爸/一個鐘頭_A/回來",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-one_hour_a.mp4"
+    },
+    {
+        "elemtext": "他走了一圈，又回到了原點",
+        "elemsplit": "他_A/走一圈/這/回/一樣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-same.mp4"
+    },
+    {
+        "elemtext": "他們兄弟長的一樣",
+        "elemsplit": "他倆/哥哥/弟弟/臉/一樣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-same_2.mp4"
+    },
+    {
+        "elemtext": "忽然下了雨，把每個人都淋溼了",
+        "elemsplit": "忽然_A/下雨/人/這些/淋濕",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-suddenly_a.mp4"
+    },
+    {
+        "elemtext": "忽然下了雨，把每個人都淋溼了",
+        "elemsplit": "忽然_A/下雨/人/這些/淋濕",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-suddenly_a.mp4"
+    },
+    {
+        "elemtext": "跟我一同去郊遊",
+        "elemsplit": "旅遊/玩/同/兩個去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-together.mp4"
+    },
+    {
+        "elemtext": "跟我一同去郊遊",
+        "elemsplit": "旅遊/玩/同/兩個去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-together.mp4"
+    },
+    {
+        "elemtext": "跟我一同去郊遊",
+        "elemsplit": "旅遊/玩/同/兩個去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-together.mp4"
+    },
+    {
+        "elemtext": "今年是2020年",
+        "elemsplit": "今年/2020/年",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-year.mp4"
+    },
+    {
+        "elemtext": "歡迎再度來到台灣",
+        "elemsplit": "高興/歡迎/再_A/來/台灣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-again.mp4"
+    },
+    {
+        "elemtext": "這是標準答案",
+        "elemsplit": "這/答案/標準",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-perfect.mp4"
+    },
+    {
+        "elemtext": "那邊有兩個人",
+        "elemsplit": "那/兩個/人_B/那",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-person_b.mp4"
+    },
+    {
+        "elemtext": "一個禮拜有七天",
+        "elemsplit": "一週/多少/七/天_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-seven.mp4"
+    },
+    {
+        "elemtext": "今天下午要去打籃球",
+        "elemsplit": "今天/下午_A/去_B/籃球",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afternoon_b.mp4"
+    },
+    {
+        "elemtext": "他開車經過了許多高樓",
+        "elemsplit": "大樓_A/他_A/開車/經過",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-apartment_building_a.mp4"
+    },
+    {
+        "elemtext": "他開車經過了許多高樓",
+        "elemsplit": "大樓_A/他_A/開車/經過",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-apartment_building_a.mp4"
+    },
+    {
+        "elemtext": "過馬路要注意安全",
+        "elemsplit": "路/邊/走/安全/注意",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-careful.mp4"
+    },
+    {
+        "elemtext": "他的小孩長大了",
+        "elemsplit": "他_A/小孩/長大",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-child.mp4"
+    },
+    {
+        "elemtext": "有好多小孩在跑來跑去",
+        "elemsplit": "小孩/他們/跑來跑去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-child_2.mp4"
+    },
+    {
+        "elemtext": "這個小丑不時出現，逗人發笑",
+        "elemsplit": "這/小/小丑_A/忽然/到處/笑/幽默",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-clown_a.mp4"
+    },
+    {
+        "elemtext": "下課去商店買飲料",
+        "elemsplit": "下課/去_B/買賣/地方/飲料/買_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dismiss_class.mp4"
+    },
+    {
+        "elemtext": "工作要認真",
+        "elemsplit": "工作/認真/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-do.mp4"
+    },
+    {
+        "elemtext": "工作要認真",
+        "elemsplit": "工作/認真/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-do.mp4"
+    },
+    {
+        "elemtext": "男性與女性應該平等",
+        "elemsplit": "男/女性/平等/一樣/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-female.mp4"
+    },
+    {
+        "elemtext": "男性與女性應該平等",
+        "elemsplit": "男/女性/平等/一樣/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-female.mp4"
+    },
+    {
+        "elemtext": "男性與女性應該平等",
+        "elemsplit": "男/女性/平等/一樣/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-female.mp4"
+    },
+    {
+        "elemtext": "下班之後要去健身房運動",
+        "elemsplit": "下班/去_B/健身房/各種運動",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-go_off_work.mp4"
+    },
+    {
+        "elemtext": "那隻羊是黑色的",
+        "elemsplit": "那/羊/那/黑",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-goat.mp4"
+    },
+    {
+        "elemtext": "也許明天會下雨",
+        "elemsplit": "明天/下雨/也許/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-indefinite.mp4"
+    },
+    {
+        "elemtext": "中場休息三十分鐘",
+        "elemsplit": "介入(中間)/休息/三十分鐘",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-interfere.mp4"
+    },
+    {
+        "elemtext": "我看到坵蚓從土裡鑽出來",
+        "elemsplit": "土/平/我/見/蚯蚓爬出來",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-land_soil.mp4"
+    },
+    {
+        "elemtext": "這個地方的土很肥沃",
+        "elemsplit": "這/土/這/土/這/夠_N/肥沃",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-land_soil_2.mp4"
+    },
+    {
+        "elemtext": "他寫功課，因為不懂，所以寫了很久",
+        "elemsplit": "他_A/念書/寫/不懂_A/久",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-long.mp4"
+    },
+    {
+        "elemtext": "要隨時保持口腔清潔",
+        "elemsplit": "隨意/時間/口/乾淨/保護/依然_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mouth.mp4"
+    },
+    {
+        "elemtext": "下一站要下車",
+        "elemsplit": "搭車/那/下一個/那/下車",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-next.mp4"
+    },
+    {
+        "elemtext": "我會三種語言",
+        "elemsplit": "我/口語/三/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-oral.mp4"
+    },
+    {
+        "elemtext": "我以前很胖，現在變瘦了",
+        "elemsplit": "我_B/以前/胖//現在/瘦/竹子_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-past.mp4"
+    },
+    {
+        "elemtext": "外面下雨了",
+        "elemsplit": "外面/下雨",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rain.mp4"
+    },
+    {
+        "elemtext": "下雨不能出門",
+        "elemsplit": "下雨/出/不能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rain_2.mp4"
+    },
+    {
+        "elemtext": "我的機車被偷了",
+        "elemsplit": "我_B/機車/偷",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-steal.mp4"
+    },
+    {
+        "elemtext": "我覺得口渴了",
+        "elemsplit": "我_B/覺得/口/渴",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-thirsty.mp4"
+    },
+    {
+        "elemtext": "爸爸很生氣",
+        "elemsplit": "爸爸/生氣_A/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-angry_a.mp4"
+    },
+    {
+        "elemtext": "我們要分配好自己的時間，這樣做事才會有效率",
+        "elemsplit": "我/這些/自己_N/時間_A/分配/要/工作/事情/試試看_N/完成/快_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-assign.mp4"
+    },
+    {
+        "elemtext": "我們要分配好自己的時間，這樣做事才會有效率",
+        "elemsplit": "我/這些/自己_N/時間_A/分配/要/工作/事情/試試看_N/完成/快_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-assign.mp4"
+    },
+    {
+        "elemtext": "你不要引誘他人做違法的事情",
+        "elemsplit": "你/不要_S/引誘/什麼_A/違法/做/事情/不",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-attract.mp4"
+    },
+    {
+        "elemtext": "你不要引誘他人做違法的事情",
+        "elemsplit": "你/不要_S/引誘/什麼_A/違法/做/事情/不",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-attract.mp4"
+    },
+    {
+        "elemtext": "他很熱情，可是並不囉嗦",
+        "elemsplit": "他_A/熱情/很/可是/囉嗦/不會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-but.mp4"
+    },
+    {
+        "elemtext": "他幫我買火車票",
+        "elemsplit": "火車_N/票/他_A/幫我/買_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-ticket.mp4"
+    },
+    {
+        "elemtext": "我會包水餃",
+        "elemsplit": "我_B/水餃/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chinese_ravioli.mp4"
+    },
+    {
+        "elemtext": "謝謝貴公司一直以來對我們的信任與支持",
+        "elemsplit": "謝謝/你/公司/你/相信/我們/支持_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-company.mp4"
+    },
+    {
+        "elemtext": "弟弟和哥哥在比較誰比較高",
+        "elemsplit": "弟弟/哥哥/比較/高/贏/誰/",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-compare.mp4"
+    },
+    {
+        "elemtext": "弟弟比賽第一名",
+        "elemsplit": "弟弟/比賽/第一名_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-compete.mp4"
+    },
+    {
+        "elemtext": "你做事一定要考慮清楚，不要反反覆覆",
+        "elemsplit": "你/做/事/什麼//你/想/清楚/再/一定//出爾反爾_B/不要",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-contradict_oneself_b.mp4"
+    },
+    {
+        "elemtext": "牛可以幫忙耕田",
+        "elemsplit": "牛/可以/幫忙/什麼_A/那/耕田/田/耕田/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cow.mp4"
+    },
+    {
+        "elemtext": "台灣製造的機器品質很好",
+        "elemsplit": "台灣/有/機器/建設/各式各樣/品/程度/特別/好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-degree.mp4"
+    },
+    {
+        "elemtext": "我們的飲食習慣和國外不一樣",
+        "elemsplit": "我們/吃飯/飲料/習慣_N/四處/國外/不一樣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-different.mp4"
+    },
+    {
+        "elemtext": "我們的飲食習慣和國外不一樣",
+        "elemsplit": "我們/吃飯/飲料/習慣_N/四處/國外/不一樣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-different.mp4"
+    },
+    {
+        "elemtext": "這隻狗很瘦",
+        "elemsplit": "這/狗/瘦",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dog.mp4"
+    },
+    {
+        "elemtext": "他跑得很快",
+        "elemsplit": "他_A/跑/直/快_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fast_s.mp4"
+    },
+    {
+        "elemtext": "他們倆工作忙，很少見面",
+        "elemsplit": "他倆/工作/忙/見面_B/少",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-few.mp4"
+    },
+    {
+        "elemtext": "這裡的水果很少",
+        "elemsplit": "這/水果/這些(種類)/少",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-few_2.mp4"
+    },
+    {
+        "elemtext": "我買了一點麵包",
+        "elemsplit": "麵包/我/買_A/過了_A/一點",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-few_3.mp4"
+    },
+    {
+        "elemtext": "澳洲的一片森林被大火燒掉了",
+        "elemsplit": "澳洲/森林/火/乾淨",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fire.mp4"
+    },
+    {
+        "elemtext": "我的朋友心臟不好",
+        "elemsplit": "我_B/朋友/心_B/心跳/不好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-heart_b.mp4"
+    },
+    {
+        "elemtext": "爸爸催促我立刻上床睡覺",
+        "elemsplit": "爸爸/催/立刻/去/睡覺",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-immediately.mp4"
+    },
+    {
+        "elemtext": "爸爸要我馬上回家",
+        "elemsplit": "爸爸/告訴我/馬上/回家/馬上",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-immediately_2.mp4"
+    },
+    {
+        "elemtext": "也許明天會下雨",
+        "elemsplit": "明天/下雨/也許/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-indefinite.mp4"
+    },
+    {
+        "elemtext": "中場休息三十分鐘",
+        "elemsplit": "介入(中間)/休息/三十分鐘",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-interfere.mp4"
+    },
+    {
+        "elemtext": "請自我介紹一下",
+        "elemsplit": "(叫人)/我_B/自己/介紹",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-introduce.mp4"
+    },
+    {
+        "elemtext": "姐姐出門前會先化妝",
+        "elemsplit": "姐姐/出/之前/會_N/什麼/化妝",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-make_up.mp4"
+    },
+    {
+        "elemtext": "互相關心是婚姻幸福的關鍵",
+        "elemsplit": "互相/關心/這兩個/夫妻/幸福/重要/這",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mutual.mp4"
+    },
+    {
+        "elemtext": "這雞肉飯勉強還可以",
+        "elemsplit": "這/雞/吃飯_A/吃/還不錯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-not_bad.mp4"
+    },
+    {
+        "elemtext": "每個地方都有好人和壞人",
+        "elemsplit": "各處/人_A/好 /人_A/不好_B/有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-not_good.mp4"
+    },
+    {
+        "elemtext": "今天是星期幾呢?",
+        "elemsplit": "今天/星期幾",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-now.mp4"
+    },
+    {
+        "elemtext": "現在是幾點呢?",
+        "elemsplit": "現在/幾時_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-now_2.mp4"
+    },
+    {
+        "elemtext": "他通過了重重考驗",
+        "elemsplit": "他_A/考試_N/輪流/他_A/過/通過",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-pass.mp4"
+    },
+    {
+        "elemtext": "天上一點雲都沒有",
+        "elemsplit": "天_A/那/雲/空_B/沒有_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sky.mp4"
+    },
+    {
+        "elemtext": "天上一點雲都沒有",
+        "elemsplit": "天_A/那/雲/空_B/沒有_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sky.mp4"
+    },
+    {
+        "elemtext": "紅燈停，綠燈行",
+        "elemsplit": "紅_S/燈/停//綠/燈/走",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-stop.mp4"
+    },
+    {
+        "elemtext": "牙齒是很堅硬的",
+        "elemsplit": "牙齒/硬_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tooth.mp4"
+    },
+    {
+        "elemtext": "睡覺前要刷牙",
+        "elemsplit": "睡_A/前/刷牙/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-toothbrush.mp4"
+    },
+    {
+        "elemtext": "他剛換了一隻綠色的新牙刷",
+        "elemsplit": "綠/牙刷/這/他_A/剛剛/換_B/新",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-toothbrush_2.mp4"
+    },
+    {
+        "elemtext": "今天日期是三月八日",
+        "elemsplit": "今天/日期/三月八日",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-what_date.mp4"
+    },
+    {
+        "elemtext": "你剛剛說了什麼?",
+        "elemsplit": "你/剛剛/說/什麼_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-which_what.mp4"
+    },
+    {
+        "elemtext": "他願意和你結婚嗎？",
+        "elemsplit": "他_A/你/結婚/他_A/肯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-willing.mp4"
+    },
+    {
+        "elemtext": "這塊木頭很稀有",
+        "elemsplit": "這/木/塊/整/稀少",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-wood.mp4"
+    },
+    {
+        "elemtext": "這塊木頭很稀有",
+        "elemsplit": "這/木/塊/整/稀少",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-wood.mp4"
+    },
+    {
+        "elemtext": "年輕的時候要多閱讀",
+        "elemsplit": "年輕/過去/年輕/時間_A/讀書/多_A/讀書/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-young.mp4"
+    },
+    {
+        "elemtext": "寫作業會增加壓力",
+        "elemsplit": "作業/寫/壓力/加/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-add.mp4"
+    },
+    {
+        "elemtext": "爸爸很生氣",
+        "elemsplit": "爸爸/生氣_A/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-angry_a.mp4"
+    },
+    {
+        "elemtext": "弟弟打破了這個玻璃杯",
+        "elemsplit": "玻璃_N/杯子/這/弟弟/拿/打破",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-break.mp4"
+    },
+    {
+        "elemtext": "集市擠滿了買賣東西的人",
+        "elemsplit": "買賣/地方/人_A/擠/買_B/賣/東西/賣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-business.mp4"
+    },
+    {
+        "elemtext": "他很熱情，可是並不囉嗦",
+        "elemsplit": "他_A/熱情/很/可是/囉嗦/不會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-but.mp4"
+    },
+    {
+        "elemtext": "鐘響之後，老師就叫學生回來上課",
+        "elemsplit": "鈴_A/完了/老師_N//叫/大家過來/念書",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-call.mp4"
+    },
+    {
+        "elemtext": "爸爸是英語系主任",
+        "elemsplit": "爸爸/他_A/英文系/主任/是",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chief.mp4"
+    },
+    {
+        "elemtext": "他是成熟男人還是幼稚男孩?",
+        "elemsplit": "他_A/男/人/成(成人)/怎麼//幼稚/小孩/男/怎麼//這倆個/怎麼",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-childish_a.mp4"
+    },
+    {
+        "elemtext": "吃完一大碗冰後我覺得很冷",
+        "elemsplit": "冰/大碗/我_B/吃/覺得/冷",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cold.mp4"
+    },
+    {
+        "elemtext": "吃完一大碗冰後我覺得很冷",
+        "elemsplit": "冰/大碗/我_B/吃/覺得/冷",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cold.mp4"
+    },
+    {
+        "elemtext": "我拿「冠軍」已經是司空見慣了",
+        "elemsplit": "第一名/拿/我_B/每/司空見慣_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-common_sight_a.mp4"
+    },
+    {
+        "elemtext": "你做事一定要考慮清楚，不要反反覆覆",
+        "elemsplit": "你/做/事/什麼//你/想/清楚/再/一定//出爾反爾_B/不要",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-contradict_oneself_b.mp4"
+    },
+    {
+        "elemtext": "這個答案正確",
+        "elemsplit": "這/答案/正確",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-correct.mp4"
+    },
+    {
+        "elemtext": "我決定努力學習手語",
+        "elemsplit": "手語/學/我_B/決定/努力",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-definite.mp4"
+    },
+    {
+        "elemtext": "你一定要幫我",
+        "elemsplit": "你/幫我/一定",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-definite_2.mp4"
+    },
+    {
+        "elemtext": "他想一定要去美國讀書",
+        "elemsplit": "他_A/想/一定/去_B/美國_A/讀書",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-definite_3.mp4"
+    },
+    {
+        "elemtext": "妹妹正在用功念書",
+        "elemsplit": "妹妹/現在/用功_A/念書/用功_B/用功_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-industrious_a.mp4"
+    },
+    {
+        "elemtext": "郊遊計畫因下雨而取消，令人失望難過",
+        "elemsplit": "旅遊/玩/設計/計畫_A/那/下雨/取消//失望/難過",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-disappointed.mp4"
+    },
+    {
+        "elemtext": "他努力得到第一名",
+        "elemsplit": "他_A/認真/努力/獲得/第一名_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-effort.mp4"
+    },
+    {
+        "elemtext": "環境保護，人人有責",
+        "elemsplit": "環境/保護/每/人/責任",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-environment.mp4"
+    },
+    {
+        "elemtext": "媽媽不允許我出去玩",
+        "elemsplit": "我_B/去_B/出/玩/媽媽/允許/沒有_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-exit.mp4"
+    },
+    {
+        "elemtext": "昨天的棒球比賽，結果我們輸了",
+        "elemsplit": "昨天/棒球/比賽/結果/我們/輸",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fail_b.mp4"
+    },
+    {
+        "elemtext": "我比賽輸了",
+        "elemsplit": "我_B/比賽/輸",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fail_b_2.mp4"
+    },
+    {
+        "elemtext": "你最好不要失約",
+        "elemsplit": "你/失約_A/不要_S/記得",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fail_to_keep_an_appointment.mp4"
+    },
+    {
+        "elemtext": "他對外國的生活充滿嚮往",
+        "elemsplit": "他_A/外國/活動/情形/他_B/渴望/希望",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-foreign_country.mp4"
+    },
+    {
+        "elemtext": "未來移民到外星球是有可能的",
+        "elemsplit": "未來_B/星球/我_B/移居/可以/能/有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-future_b.mp4"
+    },
+    {
+        "elemtext": "未來移民到外星球是有可能的",
+        "elemsplit": "未來_B/星球/我_B/移居/可以/能/有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-future_b.mp4"
+    },
+    {
+        "elemtext": "他想去英國旅行",
+        "elemsplit": "他_A/想/去_B/英國/旅行",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-go_b.mp4"
+    },
+    {
+        "elemtext": "爸爸帶我去高雄玩",
+        "elemsplit": "高雄(地名)/我_B/爸爸/帶/去_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-go_b_2.mp4"
+    },
+    {
+        "elemtext": "他唸書的目的很明確",
+        "elemsplit": "他_A/讀書/目的/清楚/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-goal.mp4"
+    },
+    {
+        "elemtext": "他唸書的目的很明確",
+        "elemsplit": "他_A/讀書/目的/清楚/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-goal.mp4"
+    },
+    {
+        "elemtext": "這是奶奶最愛的佛珠",
+        "elemsplit": "佛珠/這/奶奶/很/喜歡_N/愛/這",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-grandmother.mp4"
+    },
+    {
+        "elemtext": "爸爸催促我立刻上床睡覺",
+        "elemsplit": "爸爸/催/立刻/去/睡覺",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-immediately.mp4"
+    },
+    {
+        "elemtext": "爸爸要我馬上回家",
+        "elemsplit": "爸爸/告訴我/馬上/回家/馬上",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-immediately_2.mp4"
+    },
+    {
+        "elemtext": "也許明天會下雨",
+        "elemsplit": "明天/下雨/也許/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-indefinite.mp4"
+    },
+    {
+        "elemtext": "中場休息三十分鐘",
+        "elemsplit": "介入(中間)/休息/三十分鐘",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-interfere.mp4"
+    },
+    {
+        "elemtext": "老師的主要工作是教學",
+        "elemsplit": "老師_S/工作/正(主要)/什麼/教",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/j/S-just.mp4"
+    },
+    {
+        "elemtext": "老師的主要工作是教學",
+        "elemsplit": "老師_S/工作/正(主要)/什麼/教",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/j/S-just.mp4"
+    },
+    {
+        "elemtext": "他寫功課，因為不懂，所以寫了很久",
+        "elemsplit": "他_A/念書/寫/不懂_A/久",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-long.mp4"
+    },
+    {
+        "elemtext": "她可以跟我們一起去旅遊嗎?",
+        "elemsplit": "我們/一起/去/旅行/玩/她/加入/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-may.mp4"
+    },
+    {
+        "elemtext": "他可以完成所有事情",
+        "elemsplit": "全部_A/事情/他_A/全部/做/結束/行/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-may_2.mp4"
+    },
+    {
+        "elemtext": "嬰兒要喝奶",
+        "elemsplit": "嬰兒/奶_S/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-milk_s.mp4"
+    },
+    {
+        "elemtext": "媽媽是全天下最好的",
+        "elemsplit": "媽媽/全世界/好_B/第一名_N/好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mother.mp4"
+    },
+    {
+        "elemtext": "這間教室只有我一個人",
+        "elemsplit": "這/教室/全部_A/我_B/只有一個/人_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-only_one.mp4"
+    },
+    {
+        "elemtext": "原來他是老師",
+        "elemsplit": "他_A/老師_S/原來",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-originally.mp4"
+    },
+    {
+        "elemtext": "你還有其他的計劃嗎?",
+        "elemsplit": "你/想/計畫_B/又_A/其他/有沒有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-out.mp4"
+    },
+    {
+        "elemtext": "外面的天氣不錯",
+        "elemsplit": "外面/那/晴天_B/還不錯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-out_2.mp4"
+    },
+    {
+        "elemtext": "你還有其他的計劃嗎?",
+        "elemsplit": "你/想/計畫_B/又_A/其他/有沒有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-out.mp4"
+    },
+    {
+        "elemtext": "外面的天氣不錯",
+        "elemsplit": "外面/那/晴天_B/還不錯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-out_2.mp4"
+    },
+    {
+        "elemtext": "我以前很胖，現在變瘦了",
+        "elemsplit": "我_B/以前/胖//現在/瘦/竹子_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-past.mp4"
+    },
+    {
+        "elemtext": "我以前很胖，現在變瘦了",
+        "elemsplit": "我_B/以前/胖//現在/瘦/竹子_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-past.mp4"
+    },
+    {
+        "elemtext": "看電影時請保持安靜",
+        "elemsplit": "電影/看/講/安靜/依然_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/q/S-quiet.mp4"
+    },
+    {
+        "elemtext": "看電影時請保持安靜",
+        "elemsplit": "電影/看/講/安靜/依然_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/q/S-quiet.mp4"
+    },
+    {
+        "elemtext": "看電影時請保持安靜",
+        "elemsplit": "電影/看/講/安靜/依然_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/q/S-quiet.mp4"
+    },
+    {
+        "elemtext": "剛剛弟弟跨越了平交道",
+        "elemsplit": "剛剛/平交道/弟弟/剛剛/跨越/走",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-road_junction.mp4"
+    },
+    {
+        "elemtext": "妹妹生病了",
+        "elemsplit": "妹妹/生病",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sick.mp4"
+    },
+    {
+        "elemtext": "你以為我不會手語嗎",
+        "elemsplit": "你/以為/我_B/手語/不會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-similar_a.mp4"
+    },
+    {
+        "elemtext": "用動物皮製作產品很殘忍",
+        "elemsplit": "動物/皮/做/那/哭_A/殘忍",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-skin.mp4"
+    },
+    {
+        "elemtext": "用動物皮製作產品很殘忍",
+        "elemsplit": "動物/皮/做/那/哭_A/殘忍",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-skin.mp4"
+    },
+    {
+        "elemtext": "他開始寫作業了",
+        "elemsplit": "他_A/表格/開始/寫",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-start.mp4"
+    },
+    {
+        "elemtext": "他今天替我代班",
+        "elemsplit": "他_A/今天/幫我/代替/工作",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-substitute.mp4"
+    },
+    {
+        "elemtext": "忽然下了雨，把每個人都淋溼了",
+        "elemsplit": "忽然_A/下雨/人/這些/淋濕",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-suddenly_a.mp4"
+    },
+    {
+        "elemtext": "我是最後一個交作業的人",
+        "elemsplit": "你們/表格/寫/交/完成/我_B/最後",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tail.mp4"
+    },
+    {
+        "elemtext": "我住在台北",
+        "elemsplit": "我_B/家_B/台北",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-taipei.mp4"
+    },
+    {
+        "elemtext": "台灣護士的專業能力很強",
+        "elemsplit": "台灣/護士/專/業/強/技術/棒_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-taiwan.mp4"
+    },
+    {
+        "elemtext": "他們兩個人是我的朋友",
+        "elemsplit": "他們兩個/我_B/朋友",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-the_two_of_them.mp4"
+    },
+    {
+        "elemtext": "他們兩個人是我的朋友",
+        "elemsplit": "他們兩個/我_B/朋友",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-the_two_of_them.mp4"
+    },
+    {
+        "elemtext": "我家有三台卡車",
+        "elemsplit": "我_B/家/卡車/三",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-truck.mp4"
+    },
+    {
+        "elemtext": "希望世界和平",
+        "elemsplit": "希望/世界/和平",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-world.mp4"
+    },
+    {
+        "elemtext": "他近來的行動怪異",
+        "elemsplit": "他_A/過去的最近/行動/奇怪_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-action.mp4"
+    },
+    {
+        "elemtext": "他看見蜜蜂就害怕",
+        "elemsplit": "蜜蜂/他_A/見/怕_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_n.mp4"
+    },
+    {
+        "elemtext": "自己去森林很危險",
+        "elemsplit": "自己_N/去_B/森林/危險/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_n_3.mp4"
+    },
+    {
+        "elemtext": "這麼繁重的工作，真叫我害怕",
+        "elemsplit": "這/工作/這些/我_B/怕_N/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_n_2.mp4"
+    },
+    {
+        "elemtext": "歡迎再度來到台灣",
+        "elemsplit": "高興/歡迎/再_A/來/台灣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-again.mp4"
+    },
+    {
+        "elemtext": "我想(同意)他一定來",
+        "elemsplit": "我_B/同意_A/他_A/來/會/一樣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-agree_h.mp4"
+    },
+    {
+        "elemtext": "爸爸完全不知道這件事",
+        "elemsplit": "這/事情/爸爸/完全/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-all.mp4"
+    },
+    {
+        "elemtext": "他完全聽不懂我說的話",
+        "elemsplit": "我_B/說/我/演講_S/告訴/他_A//全部/一竅不通/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-all_2.mp4"
+    },
+    {
+        "elemtext": "我剛剛已經回答了你的問題",
+        "elemsplit": "你/問題/我_B/剛剛/回答你/完了",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-answer.mp4"
+    },
+    {
+        "elemtext": "明天我安排了一場會議",
+        "elemsplit": "明天/會議/我_B/安排/完了",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-arrange.mp4"
+    },
+    {
+        "elemtext": "媽媽昨天整理好了客廳",
+        "elemsplit": "媽媽/昨天/整理/客/地方/整理/結束",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-arrange_2.mp4"
+    },
+    {
+        "elemtext": "我每天騎腳踏車上學",
+        "elemsplit": "我_B/每天/騎腳踏車_A/去/讀書",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bicycle_a.mp4"
+    },
+    {
+        "elemtext": "集市擠滿了買賣東西的人",
+        "elemsplit": "買賣/地方/人_A/擠/買_B/賣/東西/賣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-business.mp4"
+    },
+    {
+        "elemtext": "我忙得沒時間吃飯",
+        "elemsplit": "我_B/忙/吃飯_A/時間_A/沒有_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-busy.mp4"
+    },
+    {
+        "elemtext": "我忙得沒時間吃飯",
+        "elemsplit": "我_B/忙/吃飯_A/時間_A/沒有_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-busy.mp4"
+    },
+    {
+        "elemtext": "他跟我是同學",
+        "elemsplit": "我倆/同學_A/是",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-classmate.mp4"
+    },
+    {
+        "elemtext": "衣服在桌子上",
+        "elemsplit": "桌子/衣服/放",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-clothes.mp4"
+    },
+    {
+        "elemtext": "你有收集郵票嗎?",
+        "elemsplit": "郵票/張/郵票/你/收集/有沒有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-collect.mp4"
+    },
+    {
+        "elemtext": "開會時要充分溝通",
+        "elemsplit": "開會/溝通/要_S/溝通/想/什麼/溝通/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-communication.mp4"
+    },
+    {
+        "elemtext": "這部電影既愚蠢、無聊又保守",
+        "elemsplit": "這/電影/呆/呆板/守舊",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-conservative_a.mp4"
+    },
+    {
+        "elemtext": "他是一位負責的刑警",
+        "elemsplit": "他/刑警/警察/他/工作/事情/負責_B/好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-criminal_police.mp4"
+    },
+    {
+        "elemtext": "我第一次出國，對於所看到的一 切事物都很好奇",
+        "elemsplit": "我_B/搭飛機/第一次//我/對於/見/好奇/見/好奇",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-curious.mp4"
+    },
+    {
+        "elemtext": "不懂的字要勤查字典",
+        "elemsplit": "字/一竅不通/自己_S/這/檢查/字典/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dictionary.mp4"
+    },
+    {
+        "elemtext": "我的狗昨天死了",
+        "elemsplit": "昨天/我_B/狗/死",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-die_a.mp4"
+    },
+    {
+        "elemtext": "不要難過，我會陪你",
+        "elemsplit": "難過/不/我_B/陪伴/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-discouraged.mp4"
+    },
+    {
+        "elemtext": "你不要因為碰到小小的阻礙而灰心",
+        "elemsplit": "你/碰壁/阻礙_A/少/灰心/不要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-discouraged_2.mp4"
+    },
+    {
+        "elemtext": "他包的餃子很好吃",
+        "elemsplit": "他_A/水餃/吃/好",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-eat.mp4"
+    },
+    {
+        "elemtext": "你今天晚上要回家吃飯嗎",
+        "elemsplit": "你/今天/晚上/回家//吃飯_A//要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-eat_rice.mp4"
+    },
+    {
+        "elemtext": "他常說話說得太自大，你可別相信",
+        "elemsplit": "他_A/演講_N/自大_B/演講_N//你/他_A/相信他/不行",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-egoistic.mp4"
+    },
+    {
+        "elemtext": "每次出門都要帶錢包",
+        "elemsplit": "每/出/錢/皮包/放進/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-every.mp4"
+    },
+    {
+        "elemtext": "他爸爸是有名的演員",
+        "elemsplit": "他_A/爸爸/演員/有名_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-famous.mp4"
+    },
+    {
+        "elemtext": "工作還沒完成，繼續把它做完",
+        "elemsplit": "工作/完/還沒/再_A/繼續/工作/完",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-for.mp4"
+    },
+    {
+        "elemtext": "連續的大雨使得多處山崩",
+        "elemsplit": "下雨/連/那/山/山崩",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-for_2.mp4"
+    },
+    {
+        "elemtext": "我吃飽了",
+        "elemsplit": "我_B/吃飯_A/飽",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-full_b.mp4"
+    },
+    {
+        "elemtext": "那隻羊是黑色的",
+        "elemsplit": "那/羊/那/黑",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-goat.mp4"
+    },
+    {
+        "elemtext": "早安，你好",
+        "elemsplit": "早/安靜/好_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-good_a.mp4"
+    },
+    {
+        "elemtext": "我長大以後想當老師",
+        "elemsplit": "長大/以後_B/想/做/老師_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-grow_up.mp4"
+    },
+    {
+        "elemtext": "你在這裡等我",
+        "elemsplit": "你/這/等_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-guard_a.mp4"
+    },
+    {
+        "elemtext": "今天天氣很熱",
+        "elemsplit": "今天/天氣/熱",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hot.mp4"
+    },
+    {
+        "elemtext": "夏天蚊蟲很多",
+        "elemsplit": "夏天_B/夏天_A/蚊子/多_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hot_2.mp4"
+    },
+    {
+        "elemtext": "姊姊已經30歲了",
+        "elemsplit": "姊姊/年紀/30歲/超過",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-how_old.mp4"
+    },
+    {
+        "elemtext": "他年紀大了身體不好",
+        "elemsplit": "他_A/年紀/老_B/身體_B/不好_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-how_old_2.mp4"
+    },
+    {
+        "elemtext": "姊姊已經30歲了",
+        "elemsplit": "姊姊/年紀/30歲/超過",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-how_old.mp4"
+    },
+    {
+        "elemtext": "他年紀大了身體不好",
+        "elemsplit": "他_A/年紀/老_B/身體_B/不好_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-how_old_2.mp4"
+    },
+    {
+        "elemtext": "如果你不出席會議，記得要跟我說",
+        "elemsplit": "如果/你/會議/參加/不要_S//你/記得/告訴我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-if.mp4"
+    },
+    {
+        "elemtext": "學校裡有一座人工湖",
+        "elemsplit": "學校/裡/人/工/挖/湖/有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-lake.mp4"
+    },
+    {
+        "elemtext": "我看到坵蚓從土裡鑽出來",
+        "elemsplit": "土/平/我/見/蚯蚓爬出來",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-land_soil.mp4"
+    },
+    {
+        "elemtext": "這個地方的土很肥沃",
+        "elemsplit": "這/土/這/土/這/夠_N/肥沃",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-land_soil_2.mp4"
+    },
+    {
+        "elemtext": "陳先生很喜歡那位小姐",
+        "elemsplit": "那/女性/那/陳/先生/見/喜歡",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-man.mp4"
+    },
+    {
+        "elemtext": "我不認識那個男生",
+        "elemsplit": "他_A/男/我_B/見/不認識_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-man_2.mp4"
+    },
+    {
+        "elemtext": "他有許多煩惱的事情",
+        "elemsplit": "他_A/討厭_N/事情/多_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-many.mp4"
+    },
+    {
+        "elemtext": "他的名字看起來很不錯",
+        "elemsplit": "他_A/名字_S/看_N/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-name_s.mp4"
+    },
+    {
+        "elemtext": "看電影時請保持安靜",
+        "elemsplit": "電影/看/講/安靜/依然_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/q/S-quiet.mp4"
+    },
+    {
+        "elemtext": "盒子裡的老照片是珍貴的回憶",
+        "elemsplit": "盒子/這/舊/古老/照片/珍惜/保護/以前",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-recall.mp4"
+    },
+    {
+        "elemtext": "媽媽把紙條貼在冰箱上",
+        "elemsplit": "媽媽/紙/寫/冰箱/貼上",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-refrigerator.mp4"
+    },
+    {
+        "elemtext": "米是台灣的主食",
+        "elemsplit": "台灣/吃/大部分/什麼/米",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rice_a.mp4"
+    },
+    {
+        "elemtext": "米是台灣的主食",
+        "elemsplit": "台灣/吃/大部分/什麼/米",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rice_a.mp4"
+    },
+    {
+        "elemtext": "他很有錢，到處亂花",
+        "elemsplit": "他_A/豐富/有錢/花錢(到處)",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rich.mp4"
+    },
+    {
+        "elemtext": "我自己一個人逛街",
+        "elemsplit": "我/自己_N/一/去_B/路/消遣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-self_n.mp4"
+    },
+    {
+        "elemtext": "我自己一個人逛街",
+        "elemsplit": "我/自己_S/去_B/路/消遣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-self_s.mp4"
+    },
+    {
+        "elemtext": "兒子長得很像爸爸",
+        "elemsplit": "兒子/他_A/爸爸/他倆/臉/像",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-similar.mp4"
+    },
+    {
+        "elemtext": "用動物皮製作產品很殘忍",
+        "elemsplit": "動物/皮/做/那/哭_A/殘忍",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-skin.mp4"
+    },
+    {
+        "elemtext": "我的老師是台中人",
+        "elemsplit": "我/老師_S/台中/人_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-teacher_n.mp4"
+    },
+    {
+        "elemtext": "我本來是老師",
+        "elemsplit": "我_B/原來/老師_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-teacher_s.mp4"
+    },
+    {
+        "elemtext": "今天要考英文",
+        "elemsplit": "今天/英文/考試S/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-test_b_s.mp4"
+    },
+    {
+        "elemtext": "今天要考英文",
+        "elemsplit": "今天/英文/考試S/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-test_b_s.mp4"
+    },
+    {
+        "elemtext": "跟我一同去郊遊",
+        "elemsplit": "旅遊/玩/同/兩個去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-together.mp4"
+    },
+    {
+        "elemtext": "跟我一同去郊遊",
+        "elemsplit": "旅遊/玩/同/兩個去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-together.mp4"
+    },
+    {
+        "elemtext": "跟我一同去郊遊",
+        "elemsplit": "旅遊/玩/同/兩個去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-together.mp4"
+    },
+    {
+        "elemtext": "我們一起走吧",
+        "elemsplit": "我們兩個/來/走",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-walk.mp4"
+    },
+    {
+        "elemtext": "夏天的時候我們會吃西瓜",
+        "elemsplit": "夏天_B/夏天_A/西瓜/吃",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-watermelon.mp4"
+    },
+    {
+        "elemtext": "往西邊走會到公園",
+        "elemsplit": "西/那/走/那/公園/那",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-west.mp4"
+    },
+    {
+        "elemtext": "不要隨便亂丟垃圾",
+        "elemsplit": "你/髒/丟/隨便/不要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-whatever.mp4"
+    },
+    {
+        "elemtext": "不要隨便亂丟垃圾",
+        "elemsplit": "你/髒/丟/隨便/不要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-whatever.mp4"
+    },
+    {
+        "elemtext": "今年是2020年",
+        "elemsplit": "今年/2020/年",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-year.mp4"
+    },
+    {
+        "elemtext": "年輕的時候要多閱讀",
+        "elemsplit": "年輕/過去/年輕/時間_A/讀書/多_A/讀書/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-young.mp4"
+    },
+    {
+        "elemtext": "他的眼睛亮了起來",
+        "elemsplit": "他_A/眼睛/這/亮",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bright_a.mp4"
+    },
+    {
+        "elemtext": "他很孤單，需要陪伴",
+        "elemsplit": "他_A/孤獨_A/他_B/要_S/陪伴/他_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-accompany.mp4"
+    },
+    {
+        "elemtext": "爸爸完全不知道這件事",
+        "elemsplit": "這/事情/爸爸/完全/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-all.mp4"
+    },
+    {
+        "elemtext": "他完全聽不懂我說的話",
+        "elemsplit": "我_B/說/我/演講_S/告訴/他_A//全部/一竅不通/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-all_2.mp4"
+    },
+    {
+        "elemtext": "你不要引誘他人做違法的事情",
+        "elemsplit": "你/不要_S/引誘/什麼_A/違法/做/事情/不",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-attract.mp4"
+    },
+    {
+        "elemtext": "我求媽媽帶我去動物園玩",
+        "elemsplit": "動物園/玩/這/我_B/求/媽媽/求/媽媽/我_B/帶/去_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-beg.mp4"
+    },
+    {
+        "elemtext": "請朝著這張紙吹氣",
+        "elemsplit": "這/張/這/吹",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-blow.mp4"
+    },
+    {
+        "elemtext": "每天跑步對身體很好",
+        "elemsplit": "每天/跑/身體_B/對/好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-body_b.mp4"
+    },
+    {
+        "elemtext": "他很熱情，可是並不囉嗦",
+        "elemsplit": "他_A/熱情/很/可是/囉嗦/不會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-but.mp4"
+    },
+    {
+        "elemtext": "昨天他們一起抓住了小偷",
+        "elemsplit": "小(偷)/這/他_A/昨天/他們/一起_A/抓_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-catch_b.mp4"
+    },
+    {
+        "elemtext": "毛毛蟲變成蝴蝶了",
+        "elemsplit": "毛毛蟲/變/蝴蝶",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-change_a.mp4"
+    },
+    {
+        "elemtext": "請修改這份文件",
+        "elemsplit": "請/張/請/改/這/改",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-change_a_2.mp4"
+    },
+    {
+        "elemtext": "我希望能與你交換位置",
+        "elemsplit": "我_B/希望/什麼_A/你/我_B/位置交換_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-change_position_b.mp4"
+    },
+    {
+        "elemtext": "考試不可作弊",
+        "elemsplit": "考試_S/作弊/不能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cheat.mp4"
+    },
+    {
+        "elemtext": "吃完一大碗冰後我覺得很冷",
+        "elemsplit": "冰/大碗/我_B/吃/覺得/冷",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cold.mp4"
+    },
+    {
+        "elemtext": "遭人批評的時候，要先冷靜的自我反省",
+        "elemsplit": "他們/批評/我// 生氣/不要/冷靜/想/自己_N/看_N/看自己/自己_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-criticize.mp4"
+    },
+    {
+        "elemtext": "我決定努力學習手語",
+        "elemsplit": "手語/學/我_B/決定/努力",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-definite.mp4"
+    },
+    {
+        "elemtext": "你一定要幫我",
+        "elemsplit": "你/幫我/一定",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-definite_2.mp4"
+    },
+    {
+        "elemtext": "他想一定要去美國讀書",
+        "elemsplit": "他_A/想/一定/去_B/美國_A/讀書",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-definite_3.mp4"
+    },
+    {
+        "elemtext": "遇到困難時，我可以幫你",
+        "elemsplit": "碰見/困難/有//我_B/幫你/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-difficult.mp4"
+    },
+    {
+        "elemtext": "昨天的考試很難",
+        "elemsplit": "昨天/考試_S/難",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-difficult_2.mp4"
+    },
+    {
+        "elemtext": "這件事和他沒關係，你不能牽扯到他",
+        "elemsplit": "這/事情/他_A/沒關係_A//你/抓他進來/不能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-does_not_matter.mp4"
+    },
+    {
+        "elemtext": "他努力得到第一名",
+        "elemsplit": "他_A/認真/努力/獲得/第一名_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-effort.mp4"
+    },
+    {
+        "elemtext": "努力學習是為了有更好的將來",
+        "elemsplit": "學習/努力/目的/未來_B/更/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-even_more.mp4"
+    },
+    {
+        "elemtext": "每次出門都要帶錢包",
+        "elemsplit": "每/出/錢/皮包/放進/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-every.mp4"
+    },
+    {
+        "elemtext": "每天游泳對身體很好",
+        "elemsplit": "每天/游泳_A/幫我/身體/好_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-everyday.mp4"
+    },
+    {
+        "elemtext": "他跑得很快",
+        "elemsplit": "他_A/跑/直/快_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fast_s.mp4"
+    },
+    {
+        "elemtext": "他跑得很快",
+        "elemsplit": "他_A/跑/直/快_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fast_s.mp4"
+    },
+    {
+        "elemtext": "他跑得很快",
+        "elemsplit": "他_A/跑/直/快_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fast_s.mp4"
+    },
+    {
+        "elemtext": "表演結束之後來找我",
+        "elemsplit": "表演/結束/完了//你/來/找/我_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-finish.mp4"
+    },
+    {
+        "elemtext": "我可以做完",
+        "elemsplit": "做/結束/我_B/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-finish_2.mp4"
+    },
+    {
+        "elemtext": "她剛剛完成了博士論文",
+        "elemsplit": "這/女生/博士/論文/剛剛/寫/結束",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-finish_3.mp4"
+    },
+    {
+        "elemtext": "她忘了帶錢包出門",
+        "elemsplit": "他_A/出/錢/皮包/他_A/忘記/帶",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-forget.mp4"
+    },
+    {
+        "elemtext": "她忘了帶錢包出門",
+        "elemsplit": "他_A/出/錢/皮包/他_A/忘記/帶",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-forget.mp4"
+    },
+    {
+        "elemtext": "金是一種貴重金屬",
+        "elemsplit": "鐵/金/種類/其中/一/金/貴",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-gold.mp4"
+    },
+    {
+        "elemtext": "早安，你好",
+        "elemsplit": "早/安靜/好_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-good_a.mp4"
+    },
+    {
+        "elemtext": "我很快樂",
+        "elemsplit": "我_B/快樂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-happy.mp4"
+    },
+    {
+        "elemtext": "我沒有錢",
+        "elemsplit": "我_B/錢/沒有_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-havent.mp4"
+    },
+    {
+        "elemtext": "我以後希望當老師",
+        "elemsplit": "我_B/以後/希望/做/老師_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hope.mp4"
+    },
+    {
+        "elemtext": "希望明天是晴天",
+        "elemsplit": "希望/明天/晴天_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hope_2.mp4"
+    },
+    {
+        "elemtext": "請你來我家玩",
+        "elemsplit": "我_B/家/來/玩",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-i_b.mp4"
+    },
+    {
+        "elemtext": "我是學生",
+        "elemsplit": "我_B/學生",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-i_b_2.mp4"
+    },
+    {
+        "elemtext": "我看到坵蚓從土裡鑽出來",
+        "elemsplit": "土/平/我/見/蚯蚓爬出來",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-land_soil.mp4"
+    },
+    {
+        "elemtext": "這個地方的土很肥沃",
+        "elemsplit": "這/土/這/土/這/夠_N/肥沃",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-land_soil_2.mp4"
+    },
+    {
+        "elemtext": "我住在台北",
+        "elemsplit": "我/住_A/台北",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-live_a.mp4"
+    },
+    {
+        "elemtext": "請幫我找一下同學",
+        "elemsplit": "幫我_N/同學_A/找",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-look_for.mp4"
+    },
+    {
+        "elemtext": "陳先生很喜歡那位小姐",
+        "elemsplit": "那/女性/那/陳/先生/見/喜歡",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-man.mp4"
+    },
+    {
+        "elemtext": "我不認識那個男生",
+        "elemsplit": "他_A/男/我_B/見/不認識_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-man_2.mp4"
+    },
+    {
+        "elemtext": "我們下次再見面",
+        "elemsplit": "我們/下/再/見面_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-meet_b.mp4"
+    },
+    {
+        "elemtext": "你還有其他的計劃嗎?",
+        "elemsplit": "你/想/計畫_B/又_A/其他/有沒有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-out.mp4"
+    },
+    {
+        "elemtext": "外面的天氣不錯",
+        "elemsplit": "外面/那/晴天_B/還不錯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-out_2.mp4"
+    },
+    {
+        "elemtext": "剛剛忍不住笑了起來",
+        "elemsplit": "剛剛/忍耐/笑/忍耐/不能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-patient.mp4"
+    },
+    {
+        "elemtext": "剛剛忍不住笑了起來",
+        "elemsplit": "剛剛/忍耐/笑/忍耐/不能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-patient.mp4"
+    },
+    {
+        "elemtext": "這是標準答案",
+        "elemsplit": "這/答案/標準",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-perfect.mp4"
+    },
+    {
+        "elemtext": "全台灣的人民都想阻擋新冠狀病毒散播",
+        "elemsplit": "台灣/全台灣/心/ 一樣/想/一樣/什麼/這/新冠狀病毒/傳播/這/擋",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-refuse.mp4"
+    },
+    {
+        "elemtext": "他瞄了我一眼",
+        "elemsplit": "他_A/見我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-see.mp4"
+    },
+    {
+        "elemtext": "兒子長得很像爸爸",
+        "elemsplit": "兒子/他_A/爸爸/他倆/臉/像",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-similar.mp4"
+    },
+    {
+        "elemtext": "你坐在這裡等我",
+        "elemsplit": "你/這/坐/等_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sit.mp4"
+    },
+    {
+        "elemtext": "我是最後一個交作業的人",
+        "elemsplit": "你們/表格/寫/交/完成/我_B/最後",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tail.mp4"
+    },
+    {
+        "elemtext": "他說我很漂亮",
+        "elemsplit": "他_A/告訴/我_B/漂亮_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tell.mp4"
+    },
+    {
+        "elemtext": "他說會永遠愛我",
+        "elemsplit": "他_A/告訴我/愛/我_B/整天_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tell_2.mp4"
+    },
+    {
+        "elemtext": "我倆是好朋友，從小一起長大",
+        "elemsplit": "我倆/朋友/長大",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-the_two_of_us.mp4"
+    },
+    {
+        "elemtext": "我倆是好朋友，從小一起長大",
+        "elemsplit": "我倆/朋友/長大",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-the_two_of_us.mp4"
+    },
+    {
+        "elemtext": "我們一起走吧",
+        "elemsplit": "我們兩個/來/走",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-walk.mp4"
+    },
+    {
+        "elemtext": "我們一起走吧",
+        "elemsplit": "我們兩個/來/走",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-walk.mp4"
+    },
+    {
+        "elemtext": "我們約好要去KTV唱歌",
+        "elemsplit": "KTV/唱歌/我們/討論/好_B/去_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-we.mp4"
+    },
+    {
+        "elemtext": "我完全不知道這件事",
+        "elemsplit": "這/事情/我_B/完全/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-affairs.mp4"
+    },
+    {
+        "elemtext": "我家有事情要處理",
+        "elemsplit": "我_B/家_A/有/事情/去_B/負責_B/做",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-affairs_2.mp4"
+    },
+    {
+        "elemtext": "我完全不知道這件事",
+        "elemsplit": "這/事情/我_B/完全/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-affairs.mp4"
+    },
+    {
+        "elemtext": "我家有事情要處理",
+        "elemsplit": "我_B/家_A/有/事情/去_B/負責_B/做",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-affairs_2.mp4"
+    },
+    {
+        "elemtext": "他看見蜜蜂就害怕",
+        "elemsplit": "蜜蜂/他_A/見/怕_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_n.mp4"
+    },
+    {
+        "elemtext": "自己去森林很危險",
+        "elemsplit": "自己_N/去_B/森林/危險/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_n_3.mp4"
+    },
+    {
+        "elemtext": "這麼繁重的工作，真叫我害怕",
+        "elemsplit": "這/工作/這些/我_B/怕_N/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_n_2.mp4"
+    },
+    {
+        "elemtext": "我和他很怕閃電",
+        "elemsplit": "電_N/我_B/他_A/怕_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_s.mp4"
+    },
+    {
+        "elemtext": "爸爸完全不知道這件事",
+        "elemsplit": "這/事情/爸爸/完全/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-all.mp4"
+    },
+    {
+        "elemtext": "他完全聽不懂我說的話",
+        "elemsplit": "我_B/說/我/演講_S/告訴/他_A//全部/一竅不通/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-all_2.mp4"
+    },
+    {
+        "elemtext": "我們一起照相",
+        "elemsplit": "我倆/一起/照相",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-camera_a.mp4"
+    },
+    {
+        "elemtext": "過馬路要注意安全",
+        "elemsplit": "路/邊/走/安全/注意",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-careful.mp4"
+    },
+    {
+        "elemtext": "媽媽把這塊肉切成碎塊",
+        "elemsplit": "肉_A/塊/媽媽/剁/碎塊/剁/碎塊",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cut_a.mp4"
+    },
+    {
+        "elemtext": "這份文件需要再增加表格及圖示說明",
+        "elemsplit": "這/張/這/要_S/加/什麼_A/表格/再/第二個/畫/內容/解釋",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chart.mp4"
+    },
+    {
+        "elemtext": "他的小孩長大了",
+        "elemsplit": "他_A/小孩/長大",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-child.mp4"
+    },
+    {
+        "elemtext": "有好多小孩在跑來跑去",
+        "elemsplit": "小孩/他們/跑來跑去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-child_2.mp4"
+    },
+    {
+        "elemtext": "他對菸酒上癮",
+        "elemsplit": "他_A/這/香煙/酒/上癮_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cigarette.mp4"
+    },
+    {
+        "elemtext": "校園禁止抽煙",
+        "elemsplit": "學校/這/抽煙/禁止",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cigarette_2.mp4"
+    },
+    {
+        "elemtext": "這杯咖啡很苦",
+        "elemsplit": "這/咖啡/喝/苦",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-coffee.mp4"
+    },
+    {
+        "elemtext": "剛剛爸爸命令我去整理房 間",
+        "elemsplit": "剛剛/爸爸/命令我/去/房間/整理",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-command.mp4"
+    },
+    {
+        "elemtext": "這隻狗很瘦",
+        "elemsplit": "這/狗/瘦",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dog.mp4"
+    },
+    {
+        "elemtext": "門上有很多裝飾",
+        "elemsplit": "門/這/物體",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-door.mp4"
+    },
+    {
+        "elemtext": "媽媽抱抱小孩",
+        "elemsplit": "小孩/媽媽/抱",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-embrace.mp4"
+    },
+    {
+        "elemtext": "家裡沒有人",
+        "elemsplit": "家_A/裡/人/空_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-empty_b.mp4"
+    },
+    {
+        "elemtext": "環境保護，人人有責",
+        "elemsplit": "環境/保護/每/人/責任",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-environment.mp4"
+    },
+    {
+        "elemtext": "夏天的夜晚很熱",
+        "elemsplit": "夏天/夜晚_A/熱",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-evening.mp4"
+    },
+    {
+        "elemtext": "今天晚上特別安靜",
+        "elemsplit": "今天/晚上_A/安靜",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-evening_2.mp4"
+    },
+    {
+        "elemtext": "日本的櫻花全都開花了",
+        "elemsplit": "日本/變/(到處)/開花",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-flower.mp4"
+    },
+    {
+        "elemtext": "他真的是我朋友 ( 他是一個真誠的朋友)",
+        "elemsplit": "他_A/我_B/朋友/真/是",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-friend.mp4"
+    },
+    {
+        "elemtext": "我的朋友在日本",
+        "elemsplit": "我_B/朋友/那/日本/那",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-friend_2.mp4"
+    },
+    {
+        "elemtext": "他唸書的目的很明確",
+        "elemsplit": "他_A/讀書/目的/清楚/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-goal.mp4"
+    },
+    {
+        "elemtext": "金是一種貴重金屬",
+        "elemsplit": "鐵/金/種類/其中/一/金/貴",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-gold.mp4"
+    },
+    {
+        "elemtext": "我長大以後想當老師",
+        "elemsplit": "長大/以後_B/想/做/老師_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-grow_up.mp4"
+    },
+    {
+        "elemtext": "我會包水餃",
+        "elemsplit": "我_B/水餃/知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_n.mp4"
+    },
+    {
+        "elemtext": "你知道我的眼鏡在哪裡嗎?",
+        "elemsplit": "我_B/眼鏡/哪裡/你/知道_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s.mp4"
+    },
+    {
+        "elemtext": "你認識我的老師嗎?",
+        "elemsplit": "老師_S/你/我_B/老師_S/你/認識_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s_2.mp4"
+    },
+    {
+        "elemtext": "你認識我嗎?",
+        "elemsplit": "你/見我/認識_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s_3.mp4"
+    },
+    {
+        "elemtext": "知識就是力量",
+        "elemsplit": "力量/什麼/知識",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-knowledge.mp4"
+    },
+    {
+        "elemtext": "他寫功課，因為不懂，所以寫了很久",
+        "elemsplit": "他_A/念書/寫/不懂_A/久",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-long.mp4"
+    },
+    {
+        "elemtext": "嬰兒要喝奶",
+        "elemsplit": "嬰兒/奶_S/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-milk_s.mp4"
+    },
+    {
+        "elemtext": "出門記得要帶錢",
+        "elemsplit": "嗨/出/記得/錢/放口袋",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-money.mp4"
+    },
+    {
+        "elemtext": "昨天阿姨來我家玩",
+        "elemsplit": "昨天/阿姨/來我家/玩",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mothers_sister.mp4"
+    },
+    {
+        "elemtext": "我上禮拜跟爸爸去爬山",
+        "elemsplit": "上個星期/我_B/爸爸/我倆/去_B/爬山_A/山",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mountain_climbing_a.mp4"
+    },
+    {
+        "elemtext": "互相關心是婚姻幸福的關鍵",
+        "elemsplit": "互相/關心/這兩個/夫妻/幸福/重要/這",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mutual.mp4"
+    },
+    {
+        "elemtext": "明年我要去美國",
+        "elemsplit": "明年/美國/我/去_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-next_year.mp4"
+    },
+    {
+        "elemtext": "肥胖對身體不好",
+        "elemsplit": "胖_A/對/身體_B/健康/不好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-obesity_a.mp4"
+    },
+    {
+        "elemtext": "肥胖對身體不好",
+        "elemsplit": "胖_A/對/身體_B/健康/不好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-obesity_a.mp4"
+    },
+    {
+        "elemtext": "你變瘦了",
+        "elemsplit": "你/胖_B/變/瘦",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-obesity_b.mp4"
+    },
+    {
+        "elemtext": "你變瘦了",
+        "elemsplit": "你/胖_B/變/瘦",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-obesity_b.mp4"
+    },
+    {
+        "elemtext": "炒菜時要用油",
+        "elemsplit": "菜_N/炒/油_S/倒/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-oil_s.mp4"
+    },
+    {
+        "elemtext": "姊姊沒有男朋友",
+        "elemsplit": "姊姊/男/朋友/沒有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-older_sister.mp4"
+    },
+    {
+        "elemtext": "你還有其他的計劃嗎?",
+        "elemsplit": "你/想/計畫_B/又_A/其他/有沒有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-out.mp4"
+    },
+    {
+        "elemtext": "外面的天氣不錯",
+        "elemsplit": "外面/那/晴天_B/還不錯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-out_2.mp4"
+    },
+    {
+        "elemtext": "我好想出去玩",
+        "elemsplit": "我_B/去_B/玩/想",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-play.mp4"
+    },
+    {
+        "elemtext": "他把我拉過去",
+        "elemsplit": "他_A/拉我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-pull.mp4"
+    },
+    {
+        "elemtext": "外面下雨了",
+        "elemsplit": "外面/下雨",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rain.mp4"
+    },
+    {
+        "elemtext": "下雨不能出門",
+        "elemsplit": "下雨/出/不能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rain_2.mp4"
+    },
+    {
+        "elemtext": "全台灣的人民都想阻擋新冠狀病毒散播",
+        "elemsplit": "台灣/全台灣/心/ 一樣/想/一樣/什麼/這/新冠狀病毒/傳播/這/擋",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-refuse.mp4"
+    },
+    {
+        "elemtext": "河邊有許多野花",
+        "elemsplit": "河/邊/自/花/開花/多",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-river_a.mp4"
+    },
+    {
+        "elemtext": "河邊有許多野花",
+        "elemsplit": "河/邊/自/花/開花/多",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-river_a.mp4"
+    },
+    {
+        "elemtext": "我們兩個離得很近",
+        "elemsplit": "我們兩個/地方/近",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-short_b.mp4"
+    },
+    {
+        "elemtext": "我們兩個離得很近",
+        "elemsplit": "我們兩個/地方/近",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-short_b.mp4"
+    },
+    {
+        "elemtext": "直走到底右轉就到銀行",
+        "elemsplit": "直/走/直/到底/右轉/這/銀行/地方",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-straight.mp4"
+    },
+    {
+        "elemtext": "這道菜看起來很奇怪",
+        "elemsplit": "這/菜_N/盤子/這/奇怪_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-strange_n.mp4"
+    },
+    {
+        "elemtext": "那裡有奇怪的人走來走去",
+        "elemsplit": "那/人_A/奇怪_S/那/走來走去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-strange_s.mp4"
+    },
+    {
+        "elemtext": "忽然下了雨，把每個人都淋溼了",
+        "elemsplit": "忽然_A/下雨/人/這些/淋濕",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-suddenly_a.mp4"
+    },
+    {
+        "elemtext": "這封信請記得交給他",
+        "elemsplit": "這/信/張/信/給_A/他_A/記得",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-supply_a.mp4"
+    },
+    {
+        "elemtext": "旅館提供舒服的床",
+        "elemsplit": "舒服_A/床/舒服_A/那/旅館/那/負責_B/提供_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-supply_b.mp4"
+    },
+    {
+        "elemtext": "他拿了我的小提琴",
+        "elemsplit": "我_B/小提琴/他_A/拿",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-take.mp4"
+    },
+    {
+        "elemtext": "明天市長要來",
+        "elemsplit": "明天/市長/要來",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tomorrow.mp4"
+    },
+    {
+        "elemtext": "睡覺前要刷牙",
+        "elemsplit": "睡_A/前/刷牙/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-toothbrush.mp4"
+    },
+    {
+        "elemtext": "他剛換了一隻綠色的新牙刷",
+        "elemsplit": "綠/牙刷/這/他_A/剛剛/換_B/新",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-toothbrush_2.mp4"
+    },
+    {
+        "elemtext": "他昨天熬夜，所以今天請假",
+        "elemsplit": "他_A/昨天/通宵/現在/請假",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/v/S-vacation_a.mp4"
+    },
+    {
+        "elemtext": "我要看報紙",
+        "elemsplit": "報紙/我_B/欣賞/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/v/S-visit_a.mp4"
+    },
+    {
+        "elemtext": "歡迎光臨台灣",
+        "elemsplit": "歡迎/人來/台灣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-welcome_a.mp4"
+    },
+    {
+        "elemtext": "他願意和你結婚嗎？",
+        "elemsplit": "他_A/你/結婚/他_A/肯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-willing.mp4"
+    },
+    {
+        "elemtext": "他願意和你結婚嗎？",
+        "elemsplit": "他_A/你/結婚/他_A/肯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-willing.mp4"
+    },
+    {
+        "elemtext": "年輕的時候要多閱讀",
+        "elemsplit": "年輕/過去/年輕/時間_A/讀書/多_A/讀書/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-young.mp4"
+    },
+    {
+        "elemtext": "妹妹很喜歡那個男生",
+        "elemsplit": "他_A/男/妹妹/見/喜歡",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-younger_sister.mp4"
+    },
+    {
+        "elemtext": "他有三個弟弟兩個妹妹",
+        "elemsplit": "他_A/弟弟/三/妹妹/二",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-younger_sister_2.mp4"
+    },
+    {
+        "elemtext": "他的眼睛亮了起來",
+        "elemsplit": "他_A/眼睛/這/亮",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bright_a.mp4"
+    },
+    {
+        "elemtext": "人人都要有冒險無懼的精神",
+        "elemsplit": "每/人_A/你們/冒險_B/不怕/要_S/有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-adventure_b.mp4"
+    },
+    {
+        "elemtext": "氣象局宣布明天颱風會侵台",
+        "elemsplit": "天氣/地方/這/宣佈/明天/台灣/颱風/這",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-announce.mp4"
+    },
+    {
+        "elemtext": "他開車經過了許多高樓",
+        "elemsplit": "大樓_A/他_A/開車/經過",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-apartment_building_a.mp4"
+    },
+    {
+        "elemtext": "我們約明天下午三點見面",
+        "elemsplit": "我們兩個/明天/下午/三點/約_B/見面",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-appointment.mp4"
+    },
+    {
+        "elemtext": "我們約明天下午三點見面",
+        "elemsplit": "我們兩個/明天/下午/三點/約_B/見面",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-appointment.mp4"
+    },
+    {
+        "elemtext": "我們約明天下午三點見面",
+        "elemsplit": "我們兩個/明天/下午/三點/約_B/見面",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-appointment.mp4"
+    },
+    {
+        "elemtext": "房子後面開了許多玫瑰花",
+        "elemsplit": "房子/後面/這/開花/玫瑰",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-back.mp4"
+    },
+    {
+        "elemtext": "房子後面開了許多玫瑰花",
+        "elemsplit": "房子/後面/這/開花/玫瑰",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-back.mp4"
+    },
+    {
+        "elemtext": "他獲保釋後接受電視專訪",
+        "elemsplit": "他_A/保釋/保釋/電視/訪問",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bail_b.mp4"
+    },
+    {
+        "elemtext": "藝人日前記者會宣布破產",
+        "elemsplit": "藝人/他_A/將來的最近/紀錄_A/人/會議/宣佈/我_B/破產",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bankrupt.mp4"
+    },
+    {
+        "elemtext": "他每天早晚都洗澡",
+        "elemsplit": "他_A/每天/早上_B/晚上_A/洗澡_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bath_a.mp4"
+    },
+    {
+        "elemtext": "公園裡的玫瑰很美",
+        "elemsplit": "公園/花/玫瑰/美_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-beautiful_n.mp4"
+    },
+    {
+        "elemtext": "我喜歡那個漂亮的女生",
+        "elemsplit": "那/女生/漂亮_N/我_B/喜歡_N/見/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-beautiful_n_2.mp4"
+    },
+    {
+        "elemtext": "公園裡的玫瑰很美",
+        "elemsplit": "公園/花/玫瑰/美_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-beautiful_n.mp4"
+    },
+    {
+        "elemtext": "我喜歡那個漂亮的女生",
+        "elemsplit": "那/女生/漂亮_N/我_B/喜歡_N/見/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-beautiful_n_2.mp4"
+    },
+    {
+        "elemtext": "我求媽媽帶我去動物園玩",
+        "elemsplit": "動物園/玩/這/我_B/求/媽媽/求/媽媽/我_B/帶/去_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-beg.mp4"
+    },
+    {
+        "elemtext": "我相信他不是故意的",
+        "elemsplit": "我_B/相信/他_A/故意_B/不是_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-believe.mp4"
+    },
+    {
+        "elemtext": "一碗米飯大概三百卡",
+        "elemsplit": "米/碗/大概/三百/熱/程度",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bowl.mp4"
+    },
+    {
+        "elemtext": "這輛車很便宜",
+        "elemsplit": "這/車/便宜_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cheap_a.mp4"
+    },
+    {
+        "elemtext": "他的小孩長大了",
+        "elemsplit": "他_A/小孩/長大",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-child.mp4"
+    },
+    {
+        "elemtext": "有好多小孩在跑來跑去",
+        "elemsplit": "小孩/他們/跑來跑去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-child_2.mp4"
+    },
+    {
+        "elemtext": "農曆新年很熱鬧",
+        "elemsplit": "春節_A/溫暖/熱鬧_B/吵鬧",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chinese_new_year_a.mp4"
+    },
+    {
+        "elemtext": "請挑選你要的顏色",
+        "elemsplit": "你/顏色_A/你/想/什麼_A/你/選",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-choose.mp4"
+    },
+    {
+        "elemtext": "他對菸酒上癮",
+        "elemsplit": "他_A/這/香煙/酒/上癮_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cigarette.mp4"
+    },
+    {
+        "elemtext": "校園禁止抽煙",
+        "elemsplit": "學校/這/抽煙/禁止",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cigarette_2.mp4"
+    },
+    {
+        "elemtext": "這座城市很漂亮",
+        "elemsplit": "這/城_S/四周/美_N/美_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-city.mp4"
+    },
+    {
+        "elemtext": "剛剛爸爸命令我去整理房 間",
+        "elemsplit": "剛剛/爸爸/命令我/去/房間/整理",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-command.mp4"
+    },
+    {
+        "elemtext": "他送給我一張照片作紀念",
+        "elemsplit": "他_A/送我/張/照片/紀念",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-commemorate.mp4"
+    },
+    {
+        "elemtext": "這部電影既愚蠢、無聊又保守",
+        "elemsplit": "這/電影/呆/呆板/守舊",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-conservative_a.mp4"
+    },
+    {
+        "elemtext": "咳嗽要記得吃藥",
+        "elemsplit": "咳嗽/藥/吃/記得",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cough.mp4"
+    },
+    {
+        "elemtext": "毀約可不是賠錢就能了事",
+        "elemsplit": "你/契約_A/你/失約_A/賠錢/不",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-covenant_a.mp4"
+    },
+    {
+        "elemtext": "簽訂契約時要先仔細檢查條文",
+        "elemsplit": "契約_A/張/契約_A/要/什麼/閱讀/細/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-covenant_a_2.mp4"
+    },
+    {
+        "elemtext": "過馬路要停下來兩邊看看",
+        "elemsplit": "你/路/走過/等_A/等_B/左見/右見",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cross.mp4"
+    },
+    {
+        "elemtext": "每年換季期間，百貨公司都會降價",
+        "elemsplit": "每/年/衣服/換/什麼/短袖/長袖/換/時間/期_B//這/百貨公司/這/會_N/降價_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cut_price_b.mp4"
+    },
+    {
+        "elemtext": "把英文學好很重要",
+        "elemsplit": "讀/英文/讀/學習/重要",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-english.mp4"
+    },
+    {
+        "elemtext": "他的臉上有疤痕",
+        "elemsplit": "他_A/臉/疤痕",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-face.mp4"
+    },
+    {
+        "elemtext": "工作還沒完成，繼續把它做完",
+        "elemsplit": "工作/完/還沒/再_A/繼續/工作/完",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-for.mp4"
+    },
+    {
+        "elemtext": "連續的大雨使得多處山崩",
+        "elemsplit": "下雨/連/那/山/山崩",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-for_2.mp4"
+    },
+    {
+        "elemtext": "這裡有個怪味道",
+        "elemsplit": "這/聞_B/奇怪_S/聞_B/奇怪_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fragrant.mp4"
+    },
+    {
+        "elemtext": "這花聞起來好香",
+        "elemsplit": "這/花/這/聞_B/香",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fragrant_2.mp4"
+    },
+    {
+        "elemtext": "這杯咖啡聞起來很香",
+        "elemsplit": "這/咖啡/這/聞_B/香",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fragrant_3.mp4"
+    },
+    {
+        "elemtext": "他認真的樣子很帥",
+        "elemsplit": "他_A/認真/臉/認真/英俊/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-handsome.mp4"
+    },
+    {
+        "elemtext": "他認真的樣子很帥",
+        "elemsplit": "他_A/認真/臉/認真/英俊/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-handsome.mp4"
+    },
+    {
+        "elemtext": "女人的體重是秘密",
+        "elemsplit": "女性團體/體重/秘密",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-heavy.mp4"
+    },
+    {
+        "elemtext": "這間屋子很漂亮",
+        "elemsplit": "這/屋子/漂亮_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-house_a.mp4"
+    },
+    {
+        "elemtext": "如果你不出席會議，記得要跟我說",
+        "elemsplit": "如果/你/會議/參加/不要_S//你/記得/告訴我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-if.mp4"
+    },
+    {
+        "elemtext": "登山是其中一種戶外活動",
+        "elemsplit": "戶/外/活動/其中/一/爬山",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-move.mp4"
+    },
+    {
+        "elemtext": "肥胖對身體不好",
+        "elemsplit": "胖_A/對/身體_B/健康/不好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-obesity_a.mp4"
+    },
+    {
+        "elemtext": "你變瘦了",
+        "elemsplit": "你/胖_B/變/瘦",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-obesity_b.mp4"
+    },
+    {
+        "elemtext": "警察識破犯人的計謀",
+        "elemsplit": "他_A/壞人/他_A/設計/他_A/警察/看穿/破",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-penetrate.mp4"
+    },
+    {
+        "elemtext": "警察識破犯人的計謀",
+        "elemsplit": "他_A/壞人/他_A/設計/他_A/警察/看穿/破",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-penetrate.mp4"
+    },
+    {
+        "elemtext": "新年前記得先訂火車票",
+        "elemsplit": "新年/前/火車/票/首先//訂/記得",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-place_an_order.mp4"
+    },
+    {
+        "elemtext": "新年前記得先訂火車票",
+        "elemsplit": "新年/前/火車/票/首先//訂/記得",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-place_an_order.mp4"
+    },
+    {
+        "elemtext": "他計畫明年去滑雪",
+        "elemsplit": "他_A/計畫_B/明年//去_B/雪_B/滑雪",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-plan_b.mp4"
+    },
+    {
+        "elemtext": "老舊建築必須保留原狀",
+        "elemsplit": "大樓_B/舊/古/保護/依然_B/一樣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-protect.mp4"
+    },
+    {
+        "elemtext": "所有動物的血都是紅色的，是吧?",
+        "elemsplit": "動物/這些/紅_N/血_B/全部/紅/是",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-red_n.mp4"
+    },
+    {
+        "elemtext": "最近生活很拮据",
+        "elemsplit": "將來的最近/生活/拮据_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-short_of_money.mp4"
+    },
+    {
+        "elemtext": "兒子長得很像爸爸",
+        "elemsplit": "兒子/他_A/爸爸/他倆/臉/像",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-similar.mp4"
+    },
+    {
+        "elemtext": "南方比北方熱",
+        "elemsplit": "北/地方/南_A/地方/勝過/熱",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-south_a.mp4"
+    },
+    {
+        "elemtext": "忽然下了雨，把每個人都淋溼了",
+        "elemsplit": "忽然_A/下雨/人/這些/淋濕",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-suddenly_a.mp4"
+    },
+    {
+        "elemtext": "我們遲到了，坐計程車去吧",
+        "elemsplit": "我們/遲到_A//去_B/計程車/離開",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-taxi.mp4"
+    },
+    {
+        "elemtext": "從我家到學校很遠",
+        "elemsplit": "學校/我_B/家/很遠",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/v/S-very.mp4"
+    },
+    {
+        "elemtext": "妳願意嫁給我嗎?",
+        "elemsplit": "嫁給我/要_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-want_n.mp4"
+    },
+    {
+        "elemtext": "我要準備比賽",
+        "elemsplit": "比賽/我_B/準備/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-want_s.mp4"
+    },
+    {
+        "elemtext": "我需要三把椅子",
+        "elemsplit": "我_B/需要_S/椅子_B/三",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-want_s_2.mp4"
+    },
+    {
+        "elemtext": "吃飯前記得要先洗手",
+        "elemsplit": "吃飯/之前/你/記得/洗手/首先",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-wash.mp4"
+    },
+    {
+        "elemtext": "我找不到老師，怎麼辦?",
+        "elemsplit": "老師_S/找/做不成/怎麼辦A/怎麼辦B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-what_to_do_a.mp4"
+    },
+    {
+        "elemtext": "我找不到老師，怎麼辦?",
+        "elemsplit": "老師_S/找/做不成/怎麼辦A/怎麼辦B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-what_to_do_b.mp4"
+    },
+    {
+        "elemtext": "你為什麼不相信我?",
+        "elemsplit": "你/相信我/為什麼_B/相信我/不/相信我/為什麼_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-why_b.mp4"
+    },
+    {
+        "elemtext": "我昨天去看電影",
+        "elemsplit": "我_B/昨天/電影/欣賞",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-yesterday.mp4"
+    },
+    {
+        "elemtext": "我昨天去看電影",
+        "elemsplit": "我_B/昨天/電影/欣賞",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-yesterday.mp4"
+    },
+    {
+        "elemtext": "他的眼睛亮了起來",
+        "elemsplit": "他_A/眼睛/這/亮",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bright_a.mp4"
+    },
+    {
+        "elemtext": "他看見蜜蜂就害怕",
+        "elemsplit": "蜜蜂/他_A/見/怕_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_n.mp4"
+    },
+    {
+        "elemtext": "自己去森林很危險",
+        "elemsplit": "自己_N/去_B/森林/危險/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_n_3.mp4"
+    },
+    {
+        "elemtext": "這麼繁重的工作，真叫我害怕",
+        "elemsplit": "這/工作/這些/我_B/怕_N/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_n_2.mp4"
+    },
+    {
+        "elemtext": "我和他很怕閃電",
+        "elemsplit": "電_N/我_B/他_A/怕_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_s.mp4"
+    },
+    {
+        "elemtext": "藝人日前記者會宣布破產",
+        "elemsplit": "藝人/他_A/將來的最近/紀錄_A/人/會議/宣佈/我_B/破產",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bankrupt.mp4"
+    },
+    {
+        "elemtext": "藝人日前記者會宣布破產",
+        "elemsplit": "藝人/他_A/將來的最近/紀錄_A/人/會議/宣佈/我_B/破產",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bankrupt.mp4"
+    },
+    {
+        "elemtext": "弟弟打破了這個玻璃杯",
+        "elemsplit": "玻璃_N/杯子/這/弟弟/拿/打破",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-break.mp4"
+    },
+    {
+        "elemtext": "弟弟打破了這個玻璃杯",
+        "elemsplit": "玻璃_N/杯子/這/弟弟/拿/打破",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-break.mp4"
+    },
+    {
+        "elemtext": "昨天他們一起抓住了小偷",
+        "elemsplit": "小(偷)/這/他_A/昨天/他們/一起_A/抓_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-catch_b.mp4"
+    },
+    {
+        "elemtext": "哥哥追著弟弟跑",
+        "elemsplit": "弟弟/哥哥/追/跑_A/追",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chase.mp4"
+    },
+    {
+        "elemtext": "剛剛發生車禍，於是我申請了保險理賠",
+        "elemsplit": "剛剛/發生/車禍_A/這/申請/保險/索賠",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-claim_for_compensation.mp4"
+    },
+    {
+        "elemtext": "祝你生日快樂",
+        "elemsplit": "祝/蛋糕/快樂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-congratulate.mp4"
+    },
+    {
+        "elemtext": "祝你生日快樂",
+        "elemsplit": "祝/蛋糕/快樂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-congratulate.mp4"
+    },
+    {
+        "elemtext": "他哭了",
+        "elemsplit": "他_A/哭_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cry_a.mp4"
+    },
+    {
+        "elemtext": "孩子的教育不能等",
+        "elemsplit": "孩子/屬於他們/教育/培養/等_A/等_B/不能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cultivate.mp4"
+    },
+    {
+        "elemtext": "剛剛接到學校電話，兒子又逃學了",
+        "elemsplit": "剛剛/接電話/學校/接電話//我_B/兒子/逃/逃學/老是",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cut_class_b.mp4"
+    },
+    {
+        "elemtext": "他送我一張卡片",
+        "elemsplit": "卡片/他_A/送我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-deliver.mp4"
+    },
+    {
+        "elemtext": "這種食物容易消化，適合老人吃。",
+        "elemsplit": "這/東西/吃/消化/簡單_A//這/老人/老_A/吃/適合/這",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-digest.mp4"
+    },
+    {
+        "elemtext": "我們在討論畢業旅行的事情",
+        "elemsplit": "我們/討論/什麼_A/畢業/旅行",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-discuss.mp4"
+    },
+    {
+        "elemtext": "我怕兔子，看到兔子會討厭",
+        "elemsplit": "這/兔子_B/這/怕_N/見/討厭_S/不喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-disagreeable_s.mp4"
+    },
+    {
+        "elemtext": "用電鍋煮蛋很簡單",
+        "elemsplit": "電鍋/蛋_A/蛋放進去電鍋/煮//簡單_A/便利",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-easy_a.mp4"
+    },
+    {
+        "elemtext": "這張考卷很簡單",
+        "elemsplit": "這/紙/考試_S/紙/容易_B/容易_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-easy_a_2.mp4"
+    },
+    {
+        "elemtext": "他常說話說得太自大，你可別相信",
+        "elemsplit": "他_A/演講_N/自大_B/演講_N//你/他_A/相信他/不行",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-egoistic.mp4"
+    },
+    {
+        "elemtext": "我來自三代同堂的大家庭",
+        "elemsplit": "我_B/來自/什麼/大/家庭/三/三代",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-family.mp4"
+    },
+    {
+        "elemtext": "這裡有個怪味道",
+        "elemsplit": "這/聞_B/奇怪_S/聞_B/奇怪_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fragrant.mp4"
+    },
+    {
+        "elemtext": "這花聞起來好香",
+        "elemsplit": "這/花/這/聞_B/香",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fragrant_2.mp4"
+    },
+    {
+        "elemtext": "這杯咖啡聞起來很香",
+        "elemsplit": "這/咖啡/這/聞_B/香",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fragrant_3.mp4"
+    },
+    {
+        "elemtext": "爺爺喜歡爬山",
+        "elemsplit": "爬山_A/爺爺/喜歡_N/他_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-grandfather.mp4"
+    },
+    {
+        "elemtext": "這是奶奶最愛的佛珠",
+        "elemsplit": "佛珠/這/奶奶/很/喜歡_N/愛/這",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-grandmother.mp4"
+    },
+    {
+        "elemtext": "我很快樂",
+        "elemsplit": "我_B/快樂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-happy.mp4"
+    },
+    {
+        "elemtext": "校長是個年輕人",
+        "elemsplit": "校長/他_A/年輕人/他_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-head_of_school.mp4"
+    },
+    {
+        "elemtext": "國王有很多匹馬",
+        "elemsplit": "國王/那/馬/數量/多_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-horse.mp4"
+    },
+    {
+        "elemtext": "今天天氣很熱",
+        "elemsplit": "今天/天氣/熱",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hot.mp4"
+    },
+    {
+        "elemtext": "夏天蚊蟲很多",
+        "elemsplit": "夏天_B/夏天_A/蚊子/多_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hot_2.mp4"
+    },
+    {
+        "elemtext": "今天天氣很熱",
+        "elemsplit": "今天/天氣/熱",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hot.mp4"
+    },
+    {
+        "elemtext": "夏天蚊蟲很多",
+        "elemsplit": "夏天_B/夏天_A/蚊子/多_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hot_2.mp4"
+    },
+    {
+        "elemtext": "這間屋子很漂亮",
+        "elemsplit": "這/屋子/漂亮_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-house_a.mp4"
+    },
+    {
+        "elemtext": "爸爸催促我立刻上床睡覺",
+        "elemsplit": "爸爸/催/立刻/去/睡覺",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-immediately.mp4"
+    },
+    {
+        "elemtext": "爸爸要我馬上回家",
+        "elemsplit": "爸爸/告訴我/馬上/回家/馬上",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-immediately_2.mp4"
+    },
+    {
+        "elemtext": "我看到坵蚓從土裡鑽出來",
+        "elemsplit": "土/平/我/見/蚯蚓爬出來",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-land_soil.mp4"
+    },
+    {
+        "elemtext": "這個地方的土很肥沃",
+        "elemsplit": "這/土/這/土/這/夠_N/肥沃",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-land_soil_2.mp4"
+    },
+    {
+        "elemtext": "那個笑話，讓他笑了五分鐘",
+        "elemsplit": "這/笑話/他_A/笑/摀嘴/五分鐘",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-laugh.mp4"
+    },
+    {
+        "elemtext": "喝太多酒對身體不好",
+        "elemsplit": "酒_N/喝/多/對/身體/不好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-liquor_n.mp4"
+    },
+    {
+        "elemtext": "爸爸很愛媽媽",
+        "elemsplit": "媽媽/爸爸/愛(表情加強)",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-love.mp4"
+    },
+    {
+        "elemtext": "每個地方都有好人和壞人",
+        "elemsplit": "各處/人_A/好 /人_A/不好_B/有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-not_good.mp4"
+    },
+    {
+        "elemtext": "原來他是老師",
+        "elemsplit": "他_A/老師_S/原來",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-originally.mp4"
+    },
+    {
+        "elemtext": "地球表面的70%由海洋覆蓋",
+        "elemsplit": "地球/百分之七十/海/包",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sea.mp4"
+    },
+    {
+        "elemtext": "妹妹生病了",
+        "elemsplit": "妹妹/生病",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sick.mp4"
+    },
+    {
+        "elemtext": "妹妹生病了",
+        "elemsplit": "妹妹/生病",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sick.mp4"
+    },
+    {
+        "elemtext": "這一個容器中的這一顆蘋果壞掉了",
+        "elemsplit": "這/容器/這些/蘋果/一顆顆/這/這一顆/壞/臭/這",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-smelly.mp4"
+    },
+    {
+        "elemtext": "我被罰站好久",
+        "elemsplit": "我_B/罰我/站/等_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-stand.mp4"
+    },
+    {
+        "elemtext": "桌上的瓶子插著一朵花",
+        "elemsplit": "桌子/這/花瓶/花/放",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-table.mp4"
+    },
+    {
+        "elemtext": "他拿了我的小提琴",
+        "elemsplit": "我_B/小提琴/他_A/拿",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-take.mp4"
+    },
+    {
+        "elemtext": "現在是晚餐時間",
+        "elemsplit": "晚餐/時間_B/現在/這/現在",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-time_b.mp4"
+    },
+    {
+        "elemtext": "我剛考完試很累",
+        "elemsplit": "剛剛/考試/完/我_B/累",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tired.mp4"
+    },
+    {
+        "elemtext": "爸爸的工作很累",
+        "elemsplit": "爸爸/工作_A/累",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tired_2.mp4"
+    },
+    {
+        "elemtext": "去國外旅遊時要注意安全",
+        "elemsplit": "國外/去/旅遊/玩/安全/注意",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-travel.mp4"
+    },
+    {
+        "elemtext": "去國外旅遊時要注意安全",
+        "elemsplit": "國外/去/旅遊/玩/安全/注意",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-travel.mp4"
+    },
+    {
+        "elemtext": "昨天我遺失了皮包，真倒楣。",
+        "elemsplit": "昨天/皮包/遺失/怎麼辦_B/倒楣_C",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bad_luck_c.mp4"
+    },
+    {
+        "elemtext": "不要浪費時間",
+        "elemsplit": "嗨/時間_A/浪費/不要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-waste.mp4"
+    },
+    {
+        "elemtext": "你剛剛說了什麼?",
+        "elemsplit": "你/剛剛/說/什麼_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-which_what.mp4"
+    },
+    {
+        "elemtext": "爸爸原諒妹妹打破花瓶",
+        "elemsplit": "花瓶/妹妹/打破/爸爸/原諒",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-yield.mp4"
+    },
+    {
+        "elemtext": "他很孤單，需要陪伴",
+        "elemsplit": "他_A/孤獨_A/他_B/要_S/陪伴/他_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-accompany.mp4"
+    },
+    {
+        "elemtext": "寫作業會增加壓力",
+        "elemsplit": "作業/寫/壓力/加/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-add.mp4"
+    },
+    {
+        "elemtext": "爸爸完全不知道這件事",
+        "elemsplit": "這/事情/爸爸/完全/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-all.mp4"
+    },
+    {
+        "elemtext": "他完全聽不懂我說的話",
+        "elemsplit": "我_B/說/我/演講_S/告訴/他_A//全部/一竅不通/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-all_2.mp4"
+    },
+    {
+        "elemtext": "他問了我一道數學題目",
+        "elemsplit": "數學/題/他_A/問我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-ask.mp4"
+    },
+    {
+        "elemtext": "他問了我一道數學題目",
+        "elemsplit": "數學/題/他_A/問我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-ask.mp4"
+    },
+    {
+        "elemtext": "德國人喜歡喝啤酒",
+        "elemsplit": "德國/人_A/那/啤酒/那/喜歡_N/喝/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-beer.mp4"
+    },
+    {
+        "elemtext": "那隻鳥的顏色很特別",
+        "elemsplit": "那/鳥/顏色_A/特別_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bird.mp4"
+    },
+    {
+        "elemtext": "照顧小孩真麻煩",
+        "elemsplit": "小孩/照顧_A/麻煩",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bothersome.mp4"
+    },
+    {
+        "elemtext": "這個盒子是空的",
+        "elemsplit": "這/盒子/空",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-box.mp4"
+    },
+    {
+        "elemtext": "集市擠滿了買賣東西的人",
+        "elemsplit": "買賣/地方/人_A/擠/買_B/賣/東西/賣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-business.mp4"
+    },
+    {
+        "elemtext": "他幫我買火車票",
+        "elemsplit": "火車_N/票/他_A/幫我/買_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-ticket.mp4"
+    },
+    {
+        "elemtext": "他幫我買火車票",
+        "elemsplit": "火車_N/票/他_A/幫我/買_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-ticket.mp4"
+    },
+    {
+        "elemtext": "老師帶學生參加科學展覽",
+        "elemsplit": "科學展/學生/老師_S/帶/進入",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-carry.mp4"
+    },
+    {
+        "elemtext": "聊天是舒壓的好方法",
+        "elemsplit": "舒服_A//身體/方法/什麼/聊天/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chat_a.mp4"
+    },
+    {
+        "elemtext": "吃飯的時候專心吃飯，請勿聊天",
+        "elemsplit": "你/吃飯_A/聊天/不/吃飯_A/正(認真)/吃飯_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chat_a_2.mp4"
+    },
+    {
+        "elemtext": "星期天去教會",
+        "elemsplit": "禮拜天_S/去_B/教堂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-church.mp4"
+    },
+    {
+        "elemtext": "這裡新蓋了一間教堂",
+        "elemsplit": "這/新/建設/什麼_A/教堂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-church_2.mp4"
+    },
+    {
+        "elemtext": "你的房間整理得很乾淨",
+        "elemsplit": "你/住_A/房間/那/乾淨/棒_A/整理/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-clean.mp4"
+    },
+    {
+        "elemtext": "病人使用過的東西記得必須清洗乾淨",
+        "elemsplit": "病人/這/使用/東西/這/你/記得/什麼/那/東西/乾淨/洗/東西/乾淨/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-clean_2.mp4"
+    },
+    {
+        "elemtext": "你的房間整理得很乾淨",
+        "elemsplit": "你/住_A/房間/那/乾淨/棒_A/整理/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-clean.mp4"
+    },
+    {
+        "elemtext": "病人使用過的東西記得必須清洗乾淨",
+        "elemsplit": "病人/這/使用/東西/這/你/記得/什麼/那/東西/乾淨/洗/東西/乾淨/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-clean_2.mp4"
+    },
+    {
+        "elemtext": "昨天陰天，今天大太陽",
+        "elemsplit": "昨天/陰天//現在/太陽",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cloudy_day.mp4"
+    },
+    {
+        "elemtext": "他通學一年了，身體很累，所以決定住校。",
+        "elemsplit": "他_A/通學_B/一年/身體/累/想/一定/住_A/學校",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-commute_b.mp4"
+    },
+    {
+        "elemtext": "這個市長不腐敗貪婪，很公正",
+        "elemsplit": "這/市長/他_A/貪污/貪心/沒有_A//他_A/公/正/好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-corrupt_a.mp4"
+    },
+    {
+        "elemtext": "國與國之間的關係，瞬息萬變",
+        "elemsplit": "國/國/兩個/關係/忽然/變化",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-country.mp4"
+    },
+    {
+        "elemtext": "國與國之間的關係，瞬息萬變",
+        "elemsplit": "國/國/兩個/關係/忽然/變化",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-country.mp4"
+    },
+    {
+        "elemtext": "做人不要太貪心，否則會因小失大",
+        "elemsplit": "做/人/貪心/不//不然/浪費/怕_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-covet.mp4"
+    },
+    {
+        "elemtext": "孩子的教育不能等",
+        "elemsplit": "孩子/屬於他們/教育/培養/等_A/等_B/不能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cultivate.mp4"
+    },
+    {
+        "elemtext": "孩子的教育不能等",
+        "elemsplit": "孩子/屬於他們/教育/培養/等_A/等_B/不能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cultivate.mp4"
+    },
+    {
+        "elemtext": "保持口腔乾淨是預防蛀牙最好的方法",
+        "elemsplit": "你/口/乾淨/好_B/什麼//蛀牙/刷牙/髒/黏/不行/刷牙/乾淨/蟲/不會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-decayed_tooth.mp4"
+    },
+    {
+        "elemtext": "這個洞穴很深",
+        "elemsplit": "這/洞/很/深_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-deep_b.mp4"
+    },
+    {
+        "elemtext": "這座橋的外型設計很好看又有創意",
+        "elemsplit": "這/橋/這/設計/樣子/見/好_B/創作/好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-design.mp4"
+    },
+    {
+        "elemtext": "我們在討論畢業旅行的事情",
+        "elemsplit": "我們/討論/什麼_A/畢業/旅行",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-discuss.mp4"
+    },
+    {
+        "elemtext": "工作要認真",
+        "elemsplit": "工作/認真/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-do.mp4"
+    },
+    {
+        "elemtext": "我口渴，要喝水",
+        "elemsplit": "乾_A/我_B/喝/要_S/喝/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dry_a.mp4"
+    },
+    {
+        "elemtext": "我口渴，要喝水",
+        "elemsplit": "乾_A/我_B/喝/要_S/喝/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dry_a.mp4"
+    },
+    {
+        "elemtext": "夏天的夜晚很熱",
+        "elemsplit": "夏天/夜晚_A/熱",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-evening.mp4"
+    },
+    {
+        "elemtext": "今天晚上特別安靜",
+        "elemsplit": "今天/晚上_A/安靜",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-evening_2.mp4"
+    },
+    {
+        "elemtext": "你的眼睛怎麼腫腫的",
+        "elemsplit": "你/眼睛/腫/什麼_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-eye.mp4"
+    },
+    {
+        "elemtext": "現在網路上有很多騙人的假新聞",
+        "elemsplit": "現在/網/路/新聞/這些/假/騙/很多",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-false.mp4"
+    },
+    {
+        "elemtext": "工作還沒完成，繼續把它做完",
+        "elemsplit": "工作/完/還沒/再_A/繼續/工作/完",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-for.mp4"
+    },
+    {
+        "elemtext": "連續的大雨使得多處山崩",
+        "elemsplit": "下雨/連/那/山/山崩",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-for_2.mp4"
+    },
+    {
+        "elemtext": "未來移民到外星球是有可能的",
+        "elemsplit": "未來_B/星球/我_B/移居/可以/能/有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-future_b.mp4"
+    },
+    {
+        "elemtext": "我的眼鏡斷掉了",
+        "elemsplit": "我_B/眼鏡/壞掉",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-glasses.mp4"
+    },
+    {
+        "elemtext": "我今年六月高中畢業",
+        "elemsplit": "我_B/今年/六月/高三/畢業",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-graduate.mp4"
+    },
+    {
+        "elemtext": "他有賴床的習慣",
+        "elemsplit": "他_A/習慣_N/什麼_A/床/睡_C",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-habit_n.mp4"
+    },
+    {
+        "elemtext": "每個國家都有他們的習慣",
+        "elemsplit": "每/國家/地方/有/習慣_N/(四處)有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-habit_n_2.mp4"
+    },
+    {
+        "elemtext": "多運動可以保持健康",
+        "elemsplit": "運動/多/身體/健康/依然_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-health_a.mp4"
+    },
+    {
+        "elemtext": "一天一個蘋果，身體健康，不用去看醫生",
+        "elemsplit": "一天_B/蘋果/一/顆/對/身體_B/健康/去_B/看_N/醫生/不用",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-health_a_2.mp4"
+    },
+    {
+        "elemtext": "如果你不出席會議，記得要跟我說",
+        "elemsplit": "如果/你/會議/參加/不要_S//你/記得/告訴我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-if.mp4"
+    },
+    {
+        "elemtext": "殺人是犯法的",
+        "elemsplit": "人_A/殺/這/違法/失約_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-kill_a.mp4"
+    },
+    {
+        "elemtext": "我看到坵蚓從土裡鑽出來",
+        "elemsplit": "土/平/我/見/蚯蚓爬出來",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-land_soil.mp4"
+    },
+    {
+        "elemtext": "這個地方的土很肥沃",
+        "elemsplit": "這/土/這/土/這/夠_N/肥沃",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-land_soil_2.mp4"
+    },
+    {
+        "elemtext": "他有許多煩惱的事情",
+        "elemsplit": "他_A/討厭_N/事情/多_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-many.mp4"
+    },
+    {
+        "elemtext": "登山是其中一種戶外活動",
+        "elemsplit": "戶/外/活動/其中/一/爬山",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-move.mp4"
+    },
+    {
+        "elemtext": "登山是其中一種戶外活動",
+        "elemsplit": "戶/外/活動/其中/一/爬山",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-move.mp4"
+    },
+    {
+        "elemtext": "今天是星期幾呢?",
+        "elemsplit": "今天/星期幾",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-now.mp4"
+    },
+    {
+        "elemtext": "現在是幾點呢?",
+        "elemsplit": "現在/幾時_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-now_2.mp4"
+    },
+    {
+        "elemtext": "他經常睡不著",
+        "elemsplit": "他_A/睡_C/做不成/經常",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-often_a.mp4"
+    },
+    {
+        "elemtext": "我常常去跑步",
+        "elemsplit": "跑_B/我_B/常常",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-often_a_2.mp4"
+    },
+    {
+        "elemtext": "紅線不能停車",
+        "elemsplit": "紅_S/邊/停車/不行",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-parking.mp4"
+    },
+    {
+        "elemtext": "我要參明天下午的會議",
+        "elemsplit": "明天/下午/會議/我/參加//要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-participate.mp4"
+    },
+    {
+        "elemtext": "他通過了重重考驗",
+        "elemsplit": "他_A/考試_N/輪流/他_A/過/通過",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-pass.mp4"
+    },
+    {
+        "elemtext": "警察識破犯人的計謀",
+        "elemsplit": "他_A/壞人/他_A/設計/他_A/警察/看穿/破",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-penetrate.mp4"
+    },
+    {
+        "elemtext": "他解決了這道數學問題",
+        "elemsplit": "這/數學/問題/他/解決/行",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-problem.mp4"
+    },
+    {
+        "elemtext": "沒有解決不了的問題",
+        "elemsplit": "問題/一筆勾銷/難/沒有_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-problem_2.mp4"
+    },
+    {
+        "elemtext": "他推我下去池子裡",
+        "elemsplit": "池/這/池/他_A/我_B/他_A/我_B/他_A/推",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-push.mp4"
+    },
+    {
+        "elemtext": "那棟大樓一層樓要賣一千萬",
+        "elemsplit": "那/大樓_B/一層/一/賣/一千萬",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sell.mp4"
+    },
+    {
+        "elemtext": "他把房子賣了",
+        "elemsplit": "他_A/房子/賣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sell_2.mp4"
+    },
+    {
+        "elemtext": "弟弟喜歡聽歌曲(音樂)",
+        "elemsplit": "聽/歌/弟弟/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sing.mp4"
+    },
+    {
+        "elemtext": "弟弟喜歡聽歌曲(音樂)",
+        "elemsplit": "聽/歌/弟弟/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sing.mp4"
+    },
+    {
+        "elemtext": "我的機車被偷了",
+        "elemsplit": "我_B/機車/偷",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-steal.mp4"
+    },
+    {
+        "elemtext": "我的機車被偷了",
+        "elemsplit": "我_B/機車/偷",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-steal.mp4"
+    },
+    {
+        "elemtext": "紅燈停，綠燈行",
+        "elemsplit": "紅_S/燈/停//綠/燈/走",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-stop.mp4"
+    },
+    {
+        "elemtext": "紅燈停，綠燈行",
+        "elemsplit": "紅_S/燈/停//綠/燈/走",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-stop.mp4"
+    },
+    {
+        "elemtext": "直走到底右轉就到銀行",
+        "elemsplit": "直/走/直/到底/右轉/這/銀行/地方",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-straight.mp4"
+    },
+    {
+        "elemtext": "直走到底右轉就到銀行",
+        "elemsplit": "直/走/直/到底/右轉/這/銀行/地方",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-straight.mp4"
+    },
+    {
+        "elemtext": "直走到底右轉就到銀行",
+        "elemsplit": "直/走/直/到底/右轉/這/銀行/地方",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-straight.mp4"
+    },
+    {
+        "elemtext": "我不喜歡甜食",
+        "elemsplit": "吃/甜_N/吃/我_B/不喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sugar_n.mp4"
+    },
+    {
+        "elemtext": "老師的主要工作是教學",
+        "elemsplit": "老師_S/正/工作/什麼/書/教",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-teach.mp4"
+    },
+    {
+        "elemtext": "老師的主要工作是教學",
+        "elemsplit": "老師_S/正/工作/什麼/書/教",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-teach.mp4"
+    },
+    {
+        "elemtext": "我剛考完試很累",
+        "elemsplit": "剛剛/考試/完/我_B/累",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tired.mp4"
+    },
+    {
+        "elemtext": "爸爸的工作很累",
+        "elemsplit": "爸爸/工作_A/累",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tired_2.mp4"
+    },
+    {
+        "elemtext": "他昨天熬夜，所以今天請假",
+        "elemsplit": "他_A/昨天/通宵/現在/請假",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/v/S-vacation_a.mp4"
+    },
+    {
+        "elemtext": "我要看報紙",
+        "elemsplit": "報紙/我_B/欣賞/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/v/S-visit_a.mp4"
+    },
+    {
+        "elemtext": "希望世界和平",
+        "elemsplit": "希望/世界/和平",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-world.mp4"
+    },
+    {
+        "elemtext": "妹妹沒有看過雪",
+        "elemsplit": "雪_B/妹妹/見/從來沒有_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-snow_b.mp4"
+    },
+    {
+        "elemtext": "我剛剛已經回答了你的問題",
+        "elemsplit": "你/問題/我_B/剛剛/回答你/完了",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-answer.mp4"
+    },
+    {
+        "elemtext": "我剛剛已經回答了你的問題",
+        "elemsplit": "你/問題/我_B/剛剛/回答你/完了",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-answer.mp4"
+    },
+    {
+        "elemtext": "我們去買飲料",
+        "elemsplit": "我們/去_B/飲料/買_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-beverages.mp4"
+    },
+    {
+        "elemtext": "他的白髮變黑了，好神奇",
+        "elemsplit": "他_A/白/髮/變/黑/奇怪_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-black.mp4"
+    },
+    {
+        "elemtext": "我喜歡煮魚料理",
+        "elemsplit": "魚/煮/我_B/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-boil.mp4"
+    },
+    {
+        "elemtext": "集市擠滿了買賣東西的人",
+        "elemsplit": "買賣/地方/人_A/擠/買_B/賣/東西/賣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-business.mp4"
+    },
+    {
+        "elemtext": "我買了去日本的機票",
+        "elemsplit": "飛機/去_B/日本/飛機/票/我_B/買_A/結束",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-buy_a.mp4"
+    },
+    {
+        "elemtext": "昨天他們一起抓住了小偷",
+        "elemsplit": "小(偷)/這/他_A/昨天/他們/一起_A/抓_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-catch_b.mp4"
+    },
+    {
+        "elemtext": "這張椅子少了一隻腳",
+        "elemsplit": "這/椅子/四隻腳/腳/少一",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chair.mp4"
+    },
+    {
+        "elemtext": "這份文件需要再增加表格及圖示說明",
+        "elemsplit": "這/張/這/要_S/加/什麼_A/表格/再/第二個/畫/內容/解釋",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chart.mp4"
+    },
+    {
+        "elemtext": "雲在天上",
+        "elemsplit": "雲/那裡",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cloud.mp4"
+    },
+    {
+        "elemtext": "這衣服穿起來很舒服",
+        "elemsplit": "這/衣服/穿/舒服_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-comfortable_a.mp4"
+    },
+    {
+        "elemtext": "散播疫情假訊息，最高罰300萬元",
+        "elemsplit": "散播/病/擋/傳染/那/假//那/罰/最高/錢/三百/萬",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-contagious.mp4"
+    },
+    {
+        "elemtext": "他又遲到了，令我發狂",
+        "elemsplit": "他_A/遲到_A/老是/積怨_A/發狂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-lose_one's_mind.mp4"
+    },
+    {
+        "elemtext": "遭人批評的時候，要先冷靜的自我反省",
+        "elemsplit": "他們/批評/我// 生氣/不要/冷靜/想/自己_N/看_N/看自己/自己_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-criticize.mp4"
+    },
+    {
+        "elemtext": "過馬路要停下來兩邊看看",
+        "elemsplit": "你/路/走過/等_A/等_B/左見/右見",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cross.mp4"
+    },
+    {
+        "elemtext": "那家店湧入了許多人潮",
+        "elemsplit": "那/商店/人_A/湧入",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-crowd_into.mp4"
+    },
+    {
+        "elemtext": "等車應該依序排隊，不可插隊",
+        "elemsplit": "那/車/這/等/這/人_A/輪流/排隊/插隊/不行",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cut_in_a_line.mp4"
+    },
+    {
+        "elemtext": "台灣製造的機器品質很好",
+        "elemsplit": "台灣/有/機器/建設/各式各樣/品/程度/特別/好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-degree.mp4"
+    },
+    {
+        "elemtext": "我想喝汽水，請你幫我去買好嗎",
+        "elemsplit": "汽水_N/我_B/想/喝//你/幫我/去_B/買_B/好",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-drink.mp4"
+    },
+    {
+        "elemtext": "開車需要有駕照",
+        "elemsplit": "開車/證明/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-drive.mp4"
+    },
+    {
+        "elemtext": "努力學習是為了有更好的將來",
+        "elemsplit": "學習/努力/目的/未來_B/更/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-even_more.mp4"
+    },
+    {
+        "elemtext": "出國旅行前，要記得換一些外幣",
+        "elemsplit": "國外/飛機/旅遊/國外/錢/換_B記得",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-exchange_b.mp4"
+    },
+    {
+        "elemtext": "比較貴的東西品質一定比較好",
+        "elemsplit": "東西/貴/品/程度/一定/棒_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-expensive_a.mp4"
+    },
+    {
+        "elemtext": "他們倆工作忙，很少見面",
+        "elemsplit": "他倆/工作/忙/見面_B/少",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-few.mp4"
+    },
+    {
+        "elemtext": "這裡的水果很少",
+        "elemsplit": "這/水果/這些(種類)/少",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-few_2.mp4"
+    },
+    {
+        "elemtext": "我買了一點麵包",
+        "elemsplit": "麵包/我/買_A/過了_A/一點",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-few_3.mp4"
+    },
+    {
+        "elemtext": "表演結束之後來找我",
+        "elemsplit": "表演/結束/完了//你/來/找/我_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-finish.mp4"
+    },
+    {
+        "elemtext": "我可以做完",
+        "elemsplit": "做/結束/我_B/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-finish_2.mp4"
+    },
+    {
+        "elemtext": "她剛剛完成了博士論文",
+        "elemsplit": "這/女生/博士/論文/剛剛/寫/結束",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-finish_3.mp4"
+    },
+    {
+        "elemtext": "日本的櫻花全都開花了",
+        "elemsplit": "日本/變/(到處)/開花",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-flower.mp4"
+    },
+    {
+        "elemtext": "我們要保護森林",
+        "elemsplit": "森林/我們/保護/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-forest.mp4"
+    },
+    {
+        "elemtext": "你在這裡等我",
+        "elemsplit": "你/這/等_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-guard_a.mp4"
+    },
+    {
+        "elemtext": "我很快樂",
+        "elemsplit": "我_B/快樂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-happy.mp4"
+    },
+    {
+        "elemtext": "我沒有錢",
+        "elemsplit": "我_B/錢/沒有_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-havent.mp4"
+    },
+    {
+        "elemtext": "請幫我拿東西過來",
+        "elemsplit": "東西/幫我/拿",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-help_n.mp4"
+    },
+    {
+        "elemtext": "姊姊已經30歲了",
+        "elemsplit": "姊姊/年紀/30歲/超過",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-how_old.mp4"
+    },
+    {
+        "elemtext": "他年紀大了身體不好",
+        "elemsplit": "他_A/年紀/老_B/身體_B/不好_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-how_old_2.mp4"
+    },
+    {
+        "elemtext": "他每天游手好閒，大家都輕視他",
+        "elemsplit": "他_A/每天/閒閒沒事/休閒/玩//他們/見他/輕視",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-idle.mp4"
+    },
+    {
+        "elemtext": "中場休息三十分鐘",
+        "elemsplit": "介入(中間)/休息/三十分鐘",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-interfere.mp4"
+    },
+    {
+        "elemtext": "中場休息三十分鐘",
+        "elemsplit": "介入(中間)/休息/三十分鐘",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-interfere.mp4"
+    },
+    {
+        "elemtext": "學校裡有一座人工湖",
+        "elemsplit": "學校/裡/人/工/挖/湖/有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-lake.mp4"
+    },
+    {
+        "elemtext": "我喜歡聽音樂",
+        "elemsplit": "唱歌/指揮/我/聽/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-like_n.mp4"
+    },
+    {
+        "elemtext": "我喜歡你",
+        "elemsplit": "你/我_B/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-like_n_2.mp4"
+    },
+    {
+        "elemtext": "那個女生喜歡看書",
+        "elemsplit": "那/女生/喜歡_N/什麼_A//看_N/書",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-like_n_3.mp4"
+    },
+    {
+        "elemtext": "一個人在家好無聊",
+        "elemsplit": "只有一個/家_A/在/無聊",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-lonely_a.mp4"
+    },
+    {
+        "elemtext": "請幫我找一下同學",
+        "elemsplit": "幫我_N/同學_A/找",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-look_for.mp4"
+    },
+    {
+        "elemtext": "我們明年要結婚了",
+        "elemsplit": "我們兩個/明年/結婚",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-marry.mp4"
+    },
+    {
+        "elemtext": "你願意和我結婚嗎?",
+        "elemsplit": "結婚/願意",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-marry_2.mp4"
+    },
+    {
+        "elemtext": "每個星期一都要開會",
+        "elemsplit": "每個星期/星期一/開會/一樣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-meeting.mp4"
+    },
+    {
+        "elemtext": "這次會議因人數過多而取消",
+        "elemsplit": "這/會議/那/人/參加/多/怎麼辦_B/取消",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-meeting_2.mp4"
+    },
+    {
+        "elemtext": "我上禮拜跟爸爸去爬山",
+        "elemsplit": "上個星期/我_B/爸爸/我倆/去_B/爬山_A/山",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mountain_climbing_a.mp4"
+    },
+    {
+        "elemtext": "我要看報紙",
+        "elemsplit": "報紙/我/看/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-newspaper.mp4"
+    },
+    {
+        "elemtext": "今年端午節媽媽要包粽子",
+        "elemsplit": "現在/年/粽子_N/節/媽媽/包粽子_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-number_a.mp4"
+    },
+    {
+        "elemtext": "你的車牌號碼是多少",
+        "elemsplit": "你/開車/牌/號碼_B/嗎",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-number_b.mp4"
+    },
+    {
+        "elemtext": "這件牛仔褲很緊",
+        "elemsplit": "這/牛/褲子/緊/悶",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-oppressive.mp4"
+    },
+    {
+        "elemtext": "我以前很胖，現在變瘦了",
+        "elemsplit": "我_B/以前/胖//現在/瘦/竹子_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-past.mp4"
+    },
+    {
+        "elemtext": "弟弟去郵局寄信",
+        "elemsplit": "弟弟/寄信_N/這/去_B/這/郵局_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-post_office_a.mp4"
+    },
+    {
+        "elemtext": "他的中文進步很多",
+        "elemsplit": "他_A/中文/進步",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-progress.mp4"
+    },
+    {
+        "elemtext": "米是台灣的主食",
+        "elemsplit": "台灣/吃/大部分/什麼/米",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rice_a.mp4"
+    },
+    {
+        "elemtext": "他很有錢，到處亂花",
+        "elemsplit": "他_A/豐富/有錢/花錢(到處)",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rich.mp4"
+    },
+    {
+        "elemtext": "剛剛我跟總統握手",
+        "elemsplit": "剛剛/總統/我_B/握手",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-shake_hands.mp4"
+    },
+    {
+        "elemtext": "我們兩個離得很近",
+        "elemsplit": "我們兩個/地方/近",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-short_b.mp4"
+    },
+    {
+        "elemtext": "信封上面要貼郵票",
+        "elemsplit": "信/信封/信封的左上方/郵票/貼/信封的左上方",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-stamp.mp4"
+    },
+    {
+        "elemtext": "他開始寫作業了",
+        "elemsplit": "他_A/表格/開始/寫",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-start.mp4"
+    },
+    {
+        "elemtext": "這封信請記得交給他",
+        "elemsplit": "這/信/張/信/給_A/他_A/記得",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-supply_a.mp4"
+    },
+    {
+        "elemtext": "這封信請記得交給他",
+        "elemsplit": "這/信/張/信/給_A/他_A/記得",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-supply_a.mp4"
+    },
+    {
+        "elemtext": "這封信請記得交給他",
+        "elemsplit": "這/信/張/信/給_A/他_A/記得",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-supply_a.mp4"
+    },
+    {
+        "elemtext": "旅館提供舒服的床",
+        "elemsplit": "舒服_A/床/舒服_A/那/旅館/那/負責_B/提供_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-supply_b.mp4"
+    },
+    {
+        "elemtext": "每天游泳對身體很好",
+        "elemsplit": "每天/游泳/對_A/身體/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-swim_a.mp4"
+    },
+    {
+        "elemtext": "我是最後一個交作業的人",
+        "elemsplit": "你們/表格/寫/交/完成/我_B/最後",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tail.mp4"
+    },
+    {
+        "elemtext": "我覺得口渴了",
+        "elemsplit": "我_B/覺得/口/渴",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-thirsty.mp4"
+    },
+    {
+        "elemtext": "跟我一同去郊遊",
+        "elemsplit": "旅遊/玩/同/兩個去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-together.mp4"
+    },
+    {
+        "elemtext": "他急著地離開",
+        "elemsplit": "他_A/著急/走了_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/u/S-upset.mp4"
+    },
+    {
+        "elemtext": "我會說三種語言",
+        "elemsplit": "我_B/說/種類/三/知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/v/S-variety.mp4"
+    },
+    {
+        "elemtext": "從我家到學校很遠",
+        "elemsplit": "學校/我_B/家/很遠",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/v/S-very.mp4"
+    },
+    {
+        "elemtext": "今天日期是三月八日",
+        "elemsplit": "今天/日期/三月八日",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-what_date.mp4"
+    },
+    {
+        "elemtext": "他願意和你結婚嗎？",
+        "elemsplit": "他_A/你/結婚/他_A/肯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-willing.mp4"
+    },
+    {
+        "elemtext": "香蕉成熟後的外皮是黃色的",
+        "elemsplit": "香蕉/外/皮/熱/變/黃",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-yellow.mp4"
+    },
+    {
+        "elemtext": "香蕉成熟後的外皮是黃色的",
+        "elemsplit": "香蕉/外/皮/熱/變/黃",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-yellow.mp4"
+    },
+    {
+        "elemtext": "他把暑假作業完成了",
+        "elemsplit": "他_A/暑假/作業/寫/全部_A/結束",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-summer_vacation.mp4"
+    },
+    {
+        "elemtext": "我會游泳",
+        "elemsplit": "我_B/游泳_A/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-able_n.mp4"
+    },
+    {
+        "elemtext": "我完全不知道這件事",
+        "elemsplit": "這/事情/我_B/完全/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-affairs.mp4"
+    },
+    {
+        "elemtext": "我家有事情要處理",
+        "elemsplit": "我_B/家_A/有/事情/去_B/負責_B/做",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-affairs_2.mp4"
+    },
+    {
+        "elemtext": "他問了我一道數學題目",
+        "elemsplit": "數學/題/他_A/問我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-ask.mp4"
+    },
+    {
+        "elemtext": "我每天騎腳踏車上學",
+        "elemsplit": "我_B/每天/騎腳踏車_A/去/讀書",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bicycle_a.mp4"
+    },
+    {
+        "elemtext": "照顧小孩真麻煩",
+        "elemsplit": "小孩/照顧_A/麻煩",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bothersome.mp4"
+    },
+    {
+        "elemtext": "一碗米飯大概三百卡",
+        "elemsplit": "米/碗/大概/三百/熱/程度",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bowl.mp4"
+    },
+    {
+        "elemtext": "我們一起照相",
+        "elemsplit": "我倆/一起/照相",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-camera_a.mp4"
+    },
+    {
+        "elemtext": "我們一起照相",
+        "elemsplit": "我倆/一起/照相",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-camera_a.mp4"
+    },
+    {
+        "elemtext": "醫生要我配合，感冒才會好得快",
+        "elemsplit": "醫生/要_S/我_B/相配/要_S/感冒_B/病/恢復/快_S/能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-catchcold_b.mp4"
+    },
+    {
+        "elemtext": "鐵筷比竹筷還要環保",
+        "elemsplit": "鐵/筷子_N/竹子/筷子_N/比較/這/環保/棒_A/贏",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chopsticks_n.mp4"
+    },
+    {
+        "elemtext": "鐵筷比竹筷還要環保",
+        "elemsplit": "竹/筷子_S/鐵/筷子_S/比較/這/環保/棒_A/贏",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chopsticks_s.mp4"
+    },
+    {
+        "elemtext": "這裡的會員可以免費使用運動器材",
+        "elemsplit": "這/會員/可以/每/所有/可以/什麼/這/運動/東西/什麼/全部/免費/全部/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-commemorative_button.mp4"
+    },
+    {
+        "elemtext": "開會時要充分溝通",
+        "elemsplit": "開會/溝通/要_S/溝通/想/什麼/溝通/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-communication.mp4"
+    },
+    {
+        "elemtext": "散播疫情假訊息，最高罰300萬元",
+        "elemsplit": "散播/病/擋/傳染/那/假//那/罰/最高/錢/三百/萬",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-contagious.mp4"
+    },
+    {
+        "elemtext": "過馬路要停下來兩邊看看",
+        "elemsplit": "你/路/走過/等_A/等_B/左見/右見",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cross.mp4"
+    },
+    {
+        "elemtext": "過馬路要停下來兩邊看看",
+        "elemsplit": "你/路/走過/等_A/等_B/左見/右見",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cross.mp4"
+    },
+    {
+        "elemtext": "跳舞是好的運動",
+        "elemsplit": "跳舞_N/這/運動_A/好_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dance_n.mp4"
+    },
+    {
+        "elemtext": "解散後，大家自行回去",
+        "elemsplit": "解散/大家/自己_N/回去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dismiss.mp4"
+    },
+    {
+        "elemtext": "努力學習是為了有更好的將來",
+        "elemsplit": "學習/努力/目的/未來_B/更/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-even_more.mp4"
+    },
+    {
+        "elemtext": "他開始解釋遲到的理由了",
+        "elemsplit": "他_A/遲到/開始/解釋/什麼",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-explain.mp4"
+    },
+    {
+        "elemtext": "農夫用水管澆農田",
+        "elemsplit": "農/田/那/農夫/水_S/管子/澆水",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-farmer.mp4"
+    },
+    {
+        "elemtext": "我吃飽了",
+        "elemsplit": "我_B/吃飯_A/飽",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-full_b.mp4"
+    },
+    {
+        "elemtext": "爺爺喜歡爬山",
+        "elemsplit": "爬山_A/爺爺/喜歡_N/他_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-grandfather.mp4"
+    },
+    {
+        "elemtext": "葡萄不是長在樹上",
+        "elemsplit": "葡萄/樹/那/掛樹上/那/不是_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-grape.mp4"
+    },
+    {
+        "elemtext": "貓咪跳上了屋頂",
+        "elemsplit": "屋子/屋頂/貓/跳到屋頂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/j/S-jump.mp4"
+    },
+    {
+        "elemtext": "知識就是力量",
+        "elemsplit": "力量/什麼/知識",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-knowledge.mp4"
+    },
+    {
+        "elemtext": "爸爸很愛媽媽",
+        "elemsplit": "媽媽/爸爸/愛(表情加強)",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-love.mp4"
+    },
+    {
+        "elemtext": "他的房間很亂",
+        "elemsplit": "他_A/家_A/住/家裡/亂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mass_a.mp4"
+    },
+    {
+        "elemtext": "他的房間很亂",
+        "elemsplit": "他_A/家_A/住/家裡/亂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mass_a.mp4"
+    },
+    {
+        "elemtext": "每個星期一都要開會",
+        "elemsplit": "每個星期/星期一/開會/一樣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-meeting.mp4"
+    },
+    {
+        "elemtext": "這次會議因人數過多而取消",
+        "elemsplit": "這/會議/那/人/參加/多/怎麼辦_B/取消",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-meeting_2.mp4"
+    },
+    {
+        "elemtext": "媽媽是全天下最好的",
+        "elemsplit": "媽媽/全世界/好_B/第一名_N/好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mother.mp4"
+    },
+    {
+        "elemtext": "看電影時請保持安靜",
+        "elemsplit": "電影/欣賞/安靜/保持",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-movie.mp4"
+    },
+    {
+        "elemtext": "搬家很辛苦",
+        "elemsplit": "搬家_B/辛苦",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-moving_to_a_different_house_b.mp4"
+    },
+    {
+        "elemtext": "這個背包是新的",
+        "elemsplit": "這/背包/新",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-new.mp4"
+    },
+    {
+        "elemtext": "今年端午節媽媽要包粽子",
+        "elemsplit": "現在/年/粽子_N/節/媽媽/包粽子_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-number_a.mp4"
+    },
+    {
+        "elemtext": "今年端午節媽媽要包粽子",
+        "elemsplit": "現在/年/粽子_N/節/媽媽/包粽子_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-number_a.mp4"
+    },
+    {
+        "elemtext": "今年端午節媽媽要包粽子",
+        "elemsplit": "現在/年/粽子_N/節/媽媽/包粽子_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-number_a.mp4"
+    },
+    {
+        "elemtext": "你的車牌號碼是多少",
+        "elemsplit": "你/開車/牌/號碼_B/嗎",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-number_b.mp4"
+    },
+    {
+        "elemtext": "他經常睡不著",
+        "elemsplit": "他_A/睡_C/做不成/經常",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-often_a.mp4"
+    },
+    {
+        "elemtext": "我常常去跑步",
+        "elemsplit": "跑_B/我_B/常常",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-often_a_2.mp4"
+    },
+    {
+        "elemtext": "我好想出去玩",
+        "elemsplit": "我_B/去_B/玩/想",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-play.mp4"
+    },
+    {
+        "elemtext": "我以前很胖，現在變瘦了",
+        "elemsplit": "我_B/以前/胖//現在/瘦/竹子_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-past.mp4"
+    },
+    {
+        "elemtext": "我喜歡運動",
+        "elemsplit": "運動_A/我/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-physical.mp4"
+    },
+    {
+        "elemtext": "每個星期三要運動",
+        "elemsplit": "每/星期三/運動_A/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-physical_2.mp4"
+    },
+    {
+        "elemtext": "我需要做比賽前的準備",
+        "elemsplit": "比賽/我_B/準備/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-prepare.mp4"
+    },
+    {
+        "elemtext": "我需要做比賽前的準備",
+        "elemsplit": "比賽/我_B/準備/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-prepare.mp4"
+    },
+    {
+        "elemtext": "這個節目很好看",
+        "elemsplit": "這/節目_B/看/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-program.mp4"
+    },
+    {
+        "elemtext": "我最近買了一部電腦",
+        "elemsplit": "電腦/我_B/過去的最近/買_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-recent_past.mp4"
+    },
+    {
+        "elemtext": "河邊有許多野花",
+        "elemsplit": "河/邊/自/花/開花/多",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-river_a.mp4"
+    },
+    {
+        "elemtext": "這條道路是新的",
+        "elemsplit": "這/道路/這/新/這",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-road.mp4"
+    },
+    {
+        "elemtext": "這條道路是新的",
+        "elemsplit": "這/道路/這/新/這",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-road.mp4"
+    },
+    {
+        "elemtext": "妹妹搶了弟弟玩具",
+        "elemsplit": "弟弟/玩/他們倆/妹妹/搶_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rob_a.mp4"
+    },
+    {
+        "elemtext": "滑雪是冬季奧運的比賽項目之一",
+        "elemsplit": "雪_A/滑雪/這/冬奧/裡/種類/一",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-skiing.mp4"
+    },
+    {
+        "elemtext": "紅燈停，綠燈行",
+        "elemsplit": "紅_S/燈/停//綠/燈/走",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-stop.mp4"
+    },
+    {
+        "elemtext": "你要好好照顧妹妹",
+        "elemsplit": "妹妹/你/幫忙_N/照顧_A/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-take_care_of_a.mp4"
+    },
+    {
+        "elemtext": "新的手機要一萬元",
+        "elemsplit": "手機/新/錢/一/萬",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-ten_thousand.mp4"
+    },
+    {
+        "elemtext": "謝謝你的幫忙",
+        "elemsplit": "幫忙/謝謝_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-thank_n.mp4"
+    },
+    {
+        "elemtext": "他覺得所有人都要害他",
+        "elemsplit": "他_A/想/全部/害他",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-think.mp4"
+    },
+    {
+        "elemtext": "他每天想著怎麼變瘦",
+        "elemsplit": "他_A/每天/想/如何_B/胖_B/變/瘦",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-think_2.mp4"
+    },
+    {
+        "elemtext": "他急著地離開",
+        "elemsplit": "他_A/著急/走了_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/u/S-upset.mp4"
+    },
+    {
+        "elemtext": "他的大衣很暖和",
+        "elemsplit": "他_A/大/外套/暖和",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-warm.mp4"
+    },
+    {
+        "elemtext": "他的大衣很暖和",
+        "elemsplit": "他_A/大/外套/暖和",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-warm.mp4"
+    },
+    {
+        "elemtext": "他考試得零分",
+        "elemsplit": "他_A/考試_N/零分",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/z/S-zero_b.mp4"
+    },
+    {
+        "elemtext": "這間銀行很古老",
+        "elemsplit": "這/銀行/地方/銀行/舊_A/古老",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bank.mp4"
+    },
+    {
+        "elemtext": "公園裡的玫瑰很美",
+        "elemsplit": "公園/花/玫瑰/美_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-beautiful_n.mp4"
+    },
+    {
+        "elemtext": "我喜歡那個漂亮的女生",
+        "elemsplit": "那/女生/漂亮_N/我_B/喜歡_N/見/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-beautiful_n_2.mp4"
+    },
+    {
+        "elemtext": "森林遊玩要注意蜜蜂，以免被攻擊",
+        "elemsplit": "去_B/森林/玩/注意/什麼_A/蜜蜂/攻擊/小心//如果/攻擊/你/注意",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bee.mp4"
+    },
+    {
+        "elemtext": "鐘響之後，老師就叫學生回來上課",
+        "elemsplit": "鈴_A/完了/老師_N//叫/大家過來/念書",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-call.mp4"
+    },
+    {
+        "elemtext": "我會包水餃",
+        "elemsplit": "我_B/水餃/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chinese_ravioli.mp4"
+    },
+    {
+        "elemtext": "我會包水餃",
+        "elemsplit": "我_B/水餃/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-chinese_ravioli.mp4"
+    },
+    {
+        "elemtext": "這個答案正確",
+        "elemsplit": "這/答案/正確",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-correct.mp4"
+    },
+    {
+        "elemtext": "這個市長不腐敗貪婪，很公正",
+        "elemsplit": "這/市長/他_A/貪污/貪心/沒有_A//他_A/公/正/好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-corrupt_a.mp4"
+    },
+    {
+        "elemtext": "你的手很髒",
+        "elemsplit": "你/手/髒/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dirty.mp4"
+    },
+    {
+        "elemtext": "用電鍋煮蛋很簡單",
+        "elemsplit": "電鍋/蛋_A/蛋放進去電鍋/煮//簡單_A/便利",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-easy_a.mp4"
+    },
+    {
+        "elemtext": "這張考卷很簡單",
+        "elemsplit": "這/紙/考試_S/紙/容易_B/容易_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-easy_a_2.mp4"
+    },
+    {
+        "elemtext": "出國旅行前，要記得換一些外幣",
+        "elemsplit": "國外/飛機/旅遊/國外/錢/換_B記得",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-exchange_b.mp4"
+    },
+    {
+        "elemtext": "這裡有個怪味道",
+        "elemsplit": "這/聞_B/奇怪_S/聞_B/奇怪_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fragrant.mp4"
+    },
+    {
+        "elemtext": "這花聞起來好香",
+        "elemsplit": "這/花/這/聞_B/香",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fragrant_2.mp4"
+    },
+    {
+        "elemtext": "這杯咖啡聞起來很香",
+        "elemsplit": "這/咖啡/這/聞_B/香",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fragrant_3.mp4"
+    },
+    {
+        "elemtext": "所有座位都滿了",
+        "elemsplit": "座位/全部_A/滿",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-full_a.mp4"
+    },
+    {
+        "elemtext": "多看綠色植物對眼睛有益",
+        "elemsplit": "綠/樹/眼睛//見/幫我/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-green.mp4"
+    },
+    {
+        "elemtext": "你喜歡吃漢堡嗎",
+        "elemsplit": "漢堡/吃/你/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hamburger.mp4"
+    },
+    {
+        "elemtext": "你知道我的眼鏡在哪裡嗎?",
+        "elemsplit": "我_B/眼鏡/哪裡/你/知道_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s.mp4"
+    },
+    {
+        "elemtext": "你認識我的老師嗎?",
+        "elemsplit": "老師_S/你/我_B/老師_S/你/認識_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s_2.mp4"
+    },
+    {
+        "elemtext": "你認識我嗎?",
+        "elemsplit": "你/見我/認識_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s_3.mp4"
+    },
+    {
+        "elemtext": "我會三種語言",
+        "elemsplit": "我/語言/三/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-language.mp4"
+    },
+    {
+        "elemtext": "我家離圖書館很近",
+        "elemsplit": "圖書館/我_B/家_A/兩者距離/近",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-library.mp4"
+    },
+    {
+        "elemtext": "剛出生的嬰兒體重很輕",
+        "elemsplit": "嬰兒/剛剛/出生/這/體重/輕",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-light_a.mp4"
+    },
+    {
+        "elemtext": "他寫功課，因為不懂，所以寫了很久",
+        "elemsplit": "他_A/念書/寫/不懂_A/久",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-long.mp4"
+    },
+    {
+        "elemtext": "快輪到他表演了，他很緊張",
+        "elemsplit": "快接近/下一個/他_A/表演//他_A/緊張_A/緊張B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-nervous.mp4"
+    },
+    {
+        "elemtext": "快輪到他表演了，他很緊張",
+        "elemsplit": "快接近/下一個/他_A/表演//他_A/緊張_A/緊張B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-nervous_b.mp4"
+    },
+    {
+        "elemtext": "農夫在田裡種了各種各樣的水果",
+        "elemsplit": "田/農夫/種/水果/各式各樣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-plant_verb.mp4"
+    },
+    {
+        "elemtext": "兒子長得很像爸爸",
+        "elemsplit": "兒子/他_A/爸爸/他倆/臉/像",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-similar.mp4"
+    },
+    {
+        "elemtext": "弟弟喜歡聽歌曲(音樂)",
+        "elemsplit": "聽/歌/弟弟/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sing.mp4"
+    },
+    {
+        "elemtext": "弟弟喜歡聽歌曲(音樂)",
+        "elemsplit": "聽/歌/弟弟/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sing.mp4"
+    },
+    {
+        "elemtext": "他睡著了",
+        "elemsplit": "他_A/睡_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sleep_a.mp4"
+    },
+    {
+        "elemtext": "為了這份計劃，他已經好幾天沒睡覺了",
+        "elemsplit": "這/我/關係/這/計畫_A/這/幾天/全/ 睡_A/沒有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sleep_a_2.mp4"
+    },
+    {
+        "elemtext": "天雨路滑,慢慢走",
+        "elemsplit": "那/下雨/這/路/滑/你/走/慢_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-slow_n.mp4"
+    },
+    {
+        "elemtext": "他向媽媽說對不起",
+        "elemsplit": "他_A/媽媽/我_B/向/媽媽/對不起",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sorry.mp4"
+    },
+    {
+        "elemtext": "這梅子很酸",
+        "elemsplit": "梅/這/酸_B/很/這",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sour_b.mp4"
+    },
+    {
+        "elemtext": "我會說三種語言",
+        "elemsplit": "我_B/說/種類/三/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-speak.mp4"
+    },
+    {
+        "elemtext": "你講話聲音太小了",
+        "elemsplit": "你/說話_A/聲音/說話_A/聲音/小",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-speak_2.mp4"
+    },
+    {
+        "elemtext": "我會說三種語言",
+        "elemsplit": "我_B/說/種類/三/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-speak.mp4"
+    },
+    {
+        "elemtext": "你講話聲音太小了",
+        "elemsplit": "你/說話_A/聲音/說話_A/聲音/小",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-speak_2.mp4"
+    },
+    {
+        "elemtext": "學生喜歡聽老師講鬼故事",
+        "elemsplit": "老師_N/演講_N/鬼_N/故事//學生//他們/聽/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-speech_n.mp4"
+    },
+    {
+        "elemtext": "運動家精神很重要",
+        "elemsplit": "運動/家/精神/重/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-spirit.mp4"
+    },
+    {
+        "elemtext": "上禮拜的颱風很大",
+        "elemsplit": "上個星期/颱風/強",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-typhoon.mp4"
+    },
+    {
+        "elemtext": "我會說三種語言",
+        "elemsplit": "我_B/說/種類/三/知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/v/S-variety.mp4"
+    },
+    {
+        "elemtext": "妳願意嫁給我嗎?",
+        "elemsplit": "嫁給我/要_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-want_n.mp4"
+    },
+    {
+        "elemtext": "我要準備比賽",
+        "elemsplit": "比賽/我_B/準備/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-want_s.mp4"
+    },
+    {
+        "elemtext": "我需要三把椅子",
+        "elemsplit": "我_B/需要_S/椅子_B/三",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-want_s_2.mp4"
+    },
+    {
+        "elemtext": "寫作業會增加壓力",
+        "elemsplit": "作業/寫/壓力/加/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-add.mp4"
+    },
+    {
+        "elemtext": "家庭對人有很大的影響",
+        "elemsplit": "人_A/家_A/地方/影響/大",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-affect.mp4"
+    },
+    {
+        "elemtext": "爸爸很生氣",
+        "elemsplit": "爸爸/生氣_A/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-angry_a.mp4"
+    },
+    {
+        "elemtext": "我求媽媽帶我去動物園玩",
+        "elemsplit": "動物園/玩/這/我_B/求/媽媽/求/媽媽/我_B/帶/去_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-beg.mp4"
+    },
+    {
+        "elemtext": "明天我們要慶祝你的生日",
+        "elemsplit": "你/生日/明天/我們/幫忙/祝/慶祝_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-celebrate_a.mp4"
+    },
+    {
+        "elemtext": "隨著科技的進步，手機功能也越來越複雜",
+        "elemsplit": "科技/快_N/進步/手機/種類/這/複雜/手機/複雜/這/複雜",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-complicated_a.mp4"
+    },
+    {
+        "elemtext": "他最喜歡音樂課",
+        "elemsplit": "唱歌/指揮/課/他_A/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-course.mp4"
+    },
+    {
+        "elemtext": "弟弟喜歡收集盤子",
+        "elemsplit": "盤子/弟弟/喜歡_S/收集/喜歡_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dish.mp4"
+    },
+    {
+        "elemtext": "開車需要有駕照",
+        "elemsplit": "開車/證明/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-drive.mp4"
+    },
+    {
+        "elemtext": "最近又發生以色列和巴勒斯坦國家衝突",
+        "elemsplit": "最近/總是/發生/什麼_A/以色列/這/巴勒斯坦/這/國/二/國家/敵人/常常/發生",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-enemy.mp4"
+    },
+    {
+        "elemtext": "養育孩子是很辛苦",
+        "elemsplit": "小孩/養_B/育/苦/累",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-feed_b.mp4"
+    },
+    {
+        "elemtext": "他把頭髮染成金色",
+        "elemsplit": "他_A/頭髮/顏色_B/變/金/色_A_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hair_a.mp4"
+    },
+    {
+        "elemtext": "今天天氣很熱",
+        "elemsplit": "今天/天氣/熱",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hot.mp4"
+    },
+    {
+        "elemtext": "夏天蚊蟲很多",
+        "elemsplit": "夏天_B/夏天_A/蚊子/多_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hot_2.mp4"
+    },
+    {
+        "elemtext": "努力學習是為了有更好的將來",
+        "elemsplit": "學習/努力/目的/未來_B//更/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-imitate.mp4"
+    },
+    {
+        "elemtext": "他正努力學習如何當爸爸",
+        "elemsplit": "他_A/努力/正/學習/什麼_A/如何_B/做/爸爸",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-imitate_2.mp4"
+    },
+    {
+        "elemtext": "到台灣旅行，行李要經過檢查",
+        "elemsplit": "台灣/旅遊/飛到/行李/檢查/翻箱倒櫃/要",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-investigate.mp4"
+    },
+    {
+        "elemtext": "我答應他的邀請",
+        "elemsplit": "他_A/邀請我//我_B/答應",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-invite.mp4"
+    },
+    {
+        "elemtext": "哥哥教弟弟寫數學功課",
+        "elemsplit": "弟弟/數學/寫/哥哥/教",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-math.mp4"
+    },
+    {
+        "elemtext": "一台機車要價五萬，很貴",
+        "elemsplit": "機車/一/五萬/貴",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-motorcycle.mp4"
+    },
+    {
+        "elemtext": "要隨時保持口腔清潔",
+        "elemsplit": "隨意/時間/口/乾淨/保護/依然_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mouth.mp4"
+    },
+    {
+        "elemtext": "看電影時請保持安靜",
+        "elemsplit": "電影/欣賞/安靜/保持",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-movie.mp4"
+    },
+    {
+        "elemtext": "搬家很辛苦",
+        "elemsplit": "搬家_B/辛苦",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-moving_to_a_different_house_b.mp4"
+    },
+    {
+        "elemtext": "隔壁鄰居是個老先生",
+        "elemsplit": "鄰居/下一個/這/老/先生",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-neighbor.mp4"
+    },
+    {
+        "elemtext": "這是標準答案",
+        "elemsplit": "這/答案/標準",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-perfect.mp4"
+    },
+    {
+        "elemtext": "請再說一次",
+        "elemsplit": "請/再_A/說/請/再_A/說/再_A/一",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-please.mp4"
+    },
+    {
+        "elemtext": "每天練習就會進步",
+        "elemsplit": "每天/練習/進步/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-practice.mp4"
+    },
+    {
+        "elemtext": "媽媽一直罵弟弟",
+        "elemsplit": "弟弟/媽媽/罵_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-scold_a.mp4"
+    },
+    {
+        "elemtext": "那棟大樓一層樓要賣一千萬",
+        "elemsplit": "那/大樓_B/一層/一/賣/一千萬",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sell.mp4"
+    },
+    {
+        "elemtext": "他把房子賣了",
+        "elemsplit": "他_A/房子/賣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sell_2.mp4"
+    },
+    {
+        "elemtext": "這雙鞋子穿起來很舒適",
+        "elemsplit": "這/鞋子_N/穿鞋子/舒服_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-shoe_n.mp4"
+    },
+    {
+        "elemtext": "他的腳掌很寬",
+        "elemsplit": "他_A/腳掌/這/寬_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-spacious_a.mp4"
+    },
+    {
+        "elemtext": "他的腳掌很寬",
+        "elemsplit": "他_A/腳掌/這/寬_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-spacious_a.mp4"
+    },
+    {
+        "elemtext": "他的腳掌很寬",
+        "elemsplit": "他_A/腳掌/這/寬_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-spacious_a.mp4"
+    },
+    {
+        "elemtext": "那個人是誰?",
+        "elemsplit": "那/人_A/他_B/誰",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-who.mp4"
+    },
+    {
+        "elemtext": "弟弟寫了一份備忘錄",
+        "elemsplit": "弟弟/寫/紀錄_A/張/紀錄_A/寫",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-write.mp4"
+    },
+    {
+        "elemtext": "他們兩家從以前到現在積怨很久",
+        "elemsplit": "房子/兩個/地方/這/這/以前/到/現在/積怨_A/久",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-accumulated_hatred_a.mp4"
+    },
+    {
+        "elemtext": "他到機場觀賞飛機起降",
+        "elemsplit": "機場/他_A/去_B/見/飛機起降",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-airport.mp4"
+    },
+    {
+        "elemtext": "明天我安排了一場會議",
+        "elemsplit": "明天/會議/我_B/安排/完了",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-arrange.mp4"
+    },
+    {
+        "elemtext": "媽媽昨天整理好了客廳",
+        "elemsplit": "媽媽/昨天/整理/客/地方/整理/結束",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-arrange_2.mp4"
+    },
+    {
+        "elemtext": "明天我安排了一場會議",
+        "elemsplit": "明天/會議/我_B/安排/完了",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-arrange.mp4"
+    },
+    {
+        "elemtext": "媽媽昨天整理好了客廳",
+        "elemsplit": "媽媽/昨天/整理/客/地方/整理/結束",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-arrange_2.mp4"
+    },
+    {
+        "elemtext": "我今天上班又遲到了",
+        "elemsplit": "今天/工作/我_B/遲到_A/又來了",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-arrive_late.mp4"
+    },
+    {
+        "elemtext": "貓很可愛",
+        "elemsplit": "那/貓/可愛",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cat.mp4"
+    },
+    {
+        "elemtext": "請挑選你要的顏色",
+        "elemsplit": "你/顏色_A/你/想/什麼_A/你/選",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-choose.mp4"
+    },
+    {
+        "elemtext": "請挑選你要的顏色",
+        "elemsplit": "你/顏色_A/你/想/什麼_A/你/選",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-choose.mp4"
+    },
+    {
+        "elemtext": "早上搭公車的人很多很擠",
+        "elemsplit": "早上_B/公車/裡面/人/多/擠",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-crowded.mp4"
+    },
+    {
+        "elemtext": "頭暈是高血壓的症狀之一",
+        "elemsplit": "頭/頭暈/什麼/高血壓/病/其中/一",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dizzy_a.mp4"
+    },
+    {
+        "elemtext": "工作要認真",
+        "elemsplit": "工作/認真/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-do.mp4"
+    },
+    {
+        "elemtext": "昨天的棒球比賽，結果我們輸了",
+        "elemsplit": "昨天/棒球/比賽/結果/我們/輸",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fail_b.mp4"
+    },
+    {
+        "elemtext": "我比賽輸了",
+        "elemsplit": "我_B/比賽/輸",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fail_b_2.mp4"
+    },
+    {
+        "elemtext": "他把頭髮染成金色",
+        "elemsplit": "他_A/頭髮/顏色_B/變/金/色_A_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hair_a.mp4"
+    },
+    {
+        "elemtext": "這間屋子很漂亮",
+        "elemsplit": "這/屋子/漂亮_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-house_a.mp4"
+    },
+    {
+        "elemtext": "努力學習是為了有更好的將來",
+        "elemsplit": "學習/努力/目的/未來_B//更/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-imitate.mp4"
+    },
+    {
+        "elemtext": "他正努力學習如何當爸爸",
+        "elemsplit": "他_A/努力/正/學習/什麼_A/如何_B/做/爸爸",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-imitate_2.mp4"
+    },
+    {
+        "elemtext": "我會包水餃",
+        "elemsplit": "我_B/水餃/知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_n.mp4"
+    },
+    {
+        "elemtext": "你知道我的眼鏡在哪裡嗎?",
+        "elemsplit": "我_B/眼鏡/哪裡/你/知道_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s.mp4"
+    },
+    {
+        "elemtext": "你認識我的老師嗎?",
+        "elemsplit": "老師_S/你/我_B/老師_S/你/認識_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s_2.mp4"
+    },
+    {
+        "elemtext": "你認識我嗎?",
+        "elemsplit": "你/見我/認識_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s_3.mp4"
+    },
+    {
+        "elemtext": "我喜歡聽音樂",
+        "elemsplit": "唱歌/指揮/我/聽/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-like_n.mp4"
+    },
+    {
+        "elemtext": "我喜歡你",
+        "elemsplit": "你/我_B/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-like_n_2.mp4"
+    },
+    {
+        "elemtext": "那個女生喜歡看書",
+        "elemsplit": "那/女生/喜歡_N/什麼_A//看_N/書",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/l/S-like_n_3.mp4"
+    },
+    {
+        "elemtext": "這台機車性能很好",
+        "elemsplit": "這/機車/機器/堅固/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-machine.mp4"
+    },
+    {
+        "elemtext": "考試時要仔細，別看錯題目",
+        "elemsplit": "你/考試_S/閱讀/題/要_S/閱讀/看_S/見/錯/不行/仔細看/要",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mistake.mp4"
+    },
+    {
+        "elemtext": "考試時要仔細，別看錯題目",
+        "elemsplit": "你/考試_S/閱讀/題/要_S/閱讀/看_S/見/錯/不行/仔細看/要",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mistake.mp4"
+    },
+    {
+        "elemtext": "出門記得要帶錢",
+        "elemsplit": "嗨/出/記得/錢/放口袋",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-money.mp4"
+    },
+    {
+        "elemtext": "一台機車要價五萬，很貴",
+        "elemsplit": "機車/一/五萬/貴",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-motorcycle.mp4"
+    },
+    {
+        "elemtext": "辦公室請保持乾淨",
+        "elemsplit": "辦公室_C/乾淨/依然_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-office_c.mp4"
+    },
+    {
+        "elemtext": "橘子是我最喜歡的水果",
+        "elemsplit": "水果/其中/橘子/我/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-orange.mp4"
+    },
+    {
+        "elemtext": "這件褲子是名牌",
+        "elemsplit": "這/褲子/有名/貴",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-pants.mp4"
+    },
+    {
+        "elemtext": "全台灣的人民都想阻擋新冠狀病毒散播",
+        "elemsplit": "台灣/全台灣/心/ 一樣/想/一樣/什麼/這/新冠狀病毒/傳播/這/擋",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-refuse.mp4"
+    },
+    {
+        "elemtext": "這家餐廳生意很好",
+        "elemsplit": "這/餐廳_B/人_A/湧入/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-restaurant_b.mp4"
+    },
+    {
+        "elemtext": "從我家到學校很遠",
+        "elemsplit": "學校/我/家_B/很遠",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-school.mp4"
+    },
+    {
+        "elemtext": "這間學校剛蓋好",
+        "elemsplit": "這/學校/建設/剛剛/建設",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-school_2.mp4"
+    },
+    {
+        "elemtext": "放學後，學生都回家了",
+        "elemsplit": "讀書/解散/學生/他們/回家",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-student.mp4"
+    },
+    {
+        "elemtext": "所有的學生都喜歡那個老師",
+        "elemsplit": "這/老師_S/他們/學生/全部_A/喜歡_S/他_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-student_2.mp4"
+    },
+    {
+        "elemtext": "我不喜歡甜食",
+        "elemsplit": "吃/甜_N/吃/我_B/不喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sugar_n.mp4"
+    },
+    {
+        "elemtext": "請勿喧嘩，我們正在錄音",
+        "elemsplit": "吵鬧/不//我們/錄音",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tape_recording.mp4"
+    },
+    {
+        "elemtext": "不要隨便亂丟垃圾",
+        "elemsplit": "你/髒/丟/隨便/不要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-whatever.mp4"
+    },
+    {
+        "elemtext": "不要隨便亂丟垃圾",
+        "elemsplit": "你/髒/丟/隨便/不要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-whatever.mp4"
+    },
+    {
+        "elemtext": "他經常睡不著",
+        "elemsplit": "他_B/睡_A/做不成/老是",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-always.mp4"
+    },
+    {
+        "elemtext": "我老是忘記寫功課",
+        "elemsplit": "讀書/寫/我_B/忘記/老是",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-always_2.mp4"
+    },
+    {
+        "elemtext": "我買了去日本的機票",
+        "elemsplit": "飛機/去_B/日本/飛機/票/我_B/買_A/結束",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-buy_a.mp4"
+    },
+    {
+        "elemtext": "媽媽很怕蟑螂",
+        "elemsplit": "那/蟑螂媽媽/那/怕",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cockroach.mp4"
+    },
+    {
+        "elemtext": "請你下次記得與我聯絡",
+        "elemsplit": "請/你/下_A/記得/我_B/聯絡/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-contact.mp4"
+    },
+    {
+        "elemtext": "早上搭公車的人很多很擠",
+        "elemsplit": "早上_B/公車/裡面/人/多/擠",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-crowded.mp4"
+    },
+    {
+        "elemtext": "遇到困難時，我可以幫你",
+        "elemsplit": "碰見/困難/有//我_B/幫你/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-difficult.mp4"
+    },
+    {
+        "elemtext": "昨天的考試很難",
+        "elemsplit": "昨天/考試_S/難",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-difficult_2.mp4"
+    },
+    {
+        "elemtext": "環境保護，人人有責",
+        "elemsplit": "環境/保護/每/人/責任",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-environment.mp4"
+    },
+    {
+        "elemtext": "他的臉上有疤痕",
+        "elemsplit": "他_A/臉/疤痕",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-face.mp4"
+    },
+    {
+        "elemtext": "現在網路上有很多騙人的假新聞",
+        "elemsplit": "現在/網/路/新聞/這些/假/騙/很多",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-false.mp4"
+    },
+    {
+        "elemtext": "養育孩子是很辛苦",
+        "elemsplit": "小孩/養_B/育/苦/累",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-feed_b.mp4"
+    },
+    {
+        "elemtext": "請幫我拿東西過來",
+        "elemsplit": "東西/幫我/拿",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-help_n.mp4"
+    },
+    {
+        "elemtext": "請幫我拿東西過來",
+        "elemsplit": "東西/幫我/拿",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-help_n.mp4"
+    },
+    {
+        "elemtext": "請幫我拿東西過來",
+        "elemsplit": "東西/幫我/拿",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-help_n.mp4"
+    },
+    {
+        "elemtext": "到台灣旅行，行李要經過檢查",
+        "elemsplit": "台灣/旅遊/飛到/行李/檢查/翻箱倒櫃/要",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-investigate.mp4"
+    },
+    {
+        "elemtext": "我答應他的邀請",
+        "elemsplit": "他_A/邀請我//我_B/答應",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-invite.mp4"
+    },
+    {
+        "elemtext": "我會包水餃",
+        "elemsplit": "我_B/水餃/知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_n.mp4"
+    },
+    {
+        "elemtext": "你知道我的眼鏡在哪裡嗎?",
+        "elemsplit": "我_B/眼鏡/哪裡/你/知道_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s.mp4"
+    },
+    {
+        "elemtext": "你認識我的老師嗎?",
+        "elemsplit": "老師_S/你/我_B/老師_S/你/認識_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s_2.mp4"
+    },
+    {
+        "elemtext": "你認識我嗎?",
+        "elemsplit": "你/見我/認識_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s_3.mp4"
+    },
+    {
+        "elemtext": "這雞肉飯勉強還可以",
+        "elemsplit": "這/雞/吃飯_A/吃/還不錯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-not_bad.mp4"
+    },
+    {
+        "elemtext": "這雞肉飯勉強還可以",
+        "elemsplit": "這/雞/吃飯_A/吃/還不錯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-not_bad.mp4"
+    },
+    {
+        "elemtext": "這雞肉飯勉強還可以",
+        "elemsplit": "這/雞/吃飯_A/吃/還不錯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-not_bad.mp4"
+    },
+    {
+        "elemtext": "他通過了重重考驗",
+        "elemsplit": "他_A/考試_N/輪流/他_A/過/通過",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-pass.mp4"
+    },
+    {
+        "elemtext": "互相幫忙是應該的",
+        "elemsplit": "幫忙_N/互相/應該/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-should.mp4"
+    },
+    {
+        "elemtext": "我會說三種語言",
+        "elemsplit": "我_B/說/種類/三/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-speak.mp4"
+    },
+    {
+        "elemtext": "你講話聲音太小了",
+        "elemsplit": "你/說話_A/聲音/說話_A/聲音/小",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-speak_2.mp4"
+    },
+    {
+        "elemtext": "謝謝你的幫忙",
+        "elemsplit": "幫忙/謝謝_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-thank_n.mp4"
+    },
+    {
+        "elemtext": "今天的天空是藍色的",
+        "elemsplit": "今天/顏色_A/天空/藍/顏色_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-blue.mp4"
+    },
+    {
+        "elemtext": "這個顏色太暗了",
+        "elemsplit": "這/顏色_A/暗",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-color_n.mp4"
+    },
+    {
+        "elemtext": "他們倆剛離婚",
+        "elemsplit": "他倆/剛剛/離婚",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-divorce.mp4"
+    },
+    {
+        "elemtext": "用電鍋煮蛋很簡單",
+        "elemsplit": "電鍋/蛋_A/蛋放進去電鍋/煮//簡單_A/便利",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-easy_a.mp4"
+    },
+    {
+        "elemtext": "這張考卷很簡單",
+        "elemsplit": "這/紙/考試_S/紙/容易_B/容易_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-easy_a_2.mp4"
+    },
+    {
+        "elemtext": "她昨天離開醫院",
+        "elemsplit": "醫院_B/她/昨天/離開醫院",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hospital_b.mp4"
+    },
+    {
+        "elemtext": "他丟了許多舊報紙",
+        "elemsplit": "他_A/舊_B/報紙/攤開/亂丟",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-old_a.mp4"
+    },
+    {
+        "elemtext": "那隻狗很老了",
+        "elemsplit": "那/狗/老/爬",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-old_b.mp4"
+    },
+    {
+        "elemtext": "地球繞著太陽轉",
+        "elemsplit": "太陽/地球_A/繞著太陽轉",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-revolve.mp4"
+    },
+    {
+        "elemtext": "他把醬油倒的到處都是",
+        "elemsplit": "他_A/醬油/倒(到處)",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-soy_sauce.mp4"
+    },
+    {
+        "elemtext": "我想(同意)他一定來",
+        "elemsplit": "我_B/同意_A/他_A/來/會/一樣",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-agree_h.mp4"
+    },
+    {
+        "elemtext": "歹徒心狠手辣，非常殘忍",
+        "elemsplit": "這/壞/人_A/壞/ 心/殘忍/壞/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bad.mp4"
+    },
+    {
+        "elemtext": "弟弟打破了這個玻璃杯",
+        "elemsplit": "玻璃_N/杯子/這/弟弟/拿/打破",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-break.mp4"
+    },
+    {
+        "elemtext": "你離開時，幫我把門關上",
+        "elemsplit": "你/離開家/幫我/關門",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-close_a_door.mp4"
+    },
+    {
+        "elemtext": "關門時要輕一點",
+        "elemsplit": "你/手把/關門/關門/輕",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-close_a_door_2.mp4"
+    },
+    {
+        "elemtext": "我們要常常關心家人",
+        "elemsplit": "這/家/父母_B/兄弟/這/他們/常常/關心/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-concerned.mp4"
+    },
+    {
+        "elemtext": "我們要常常關心家人",
+        "elemsplit": "這/家/父母_B/兄弟/這/他們/常常/關心/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-concerned.mp4"
+    },
+    {
+        "elemtext": "你要仔細看簽約的內容",
+        "elemsplit": "你/寫/簽約/張/你/閱讀/細/閱讀/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-contract.mp4"
+    },
+    {
+        "elemtext": "他送我一張卡片",
+        "elemsplit": "卡片/他_A/送我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-deliver.mp4"
+    },
+    {
+        "elemtext": "不懂的字要勤查字典",
+        "elemsplit": "字/一竅不通/自己_S/這/檢查/字典/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dictionary.mp4"
+    },
+    {
+        "elemtext": "遇到困難時，我可以幫你",
+        "elemsplit": "碰見/困難/有//我_B/幫你/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-difficult.mp4"
+    },
+    {
+        "elemtext": "昨天的考試很難",
+        "elemsplit": "昨天/考試_S/難",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-difficult_2.mp4"
+    },
+    {
+        "elemtext": "不要難過，我會陪你",
+        "elemsplit": "難過/不/我_B/陪伴/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-discouraged.mp4"
+    },
+    {
+        "elemtext": "你不要因為碰到小小的阻礙而灰心",
+        "elemsplit": "你/碰壁/阻礙_A/少/灰心/不要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-discouraged_2.mp4"
+    },
+    {
+        "elemtext": "等一下去藥局領藥",
+        "elemsplit": "等_A/去_B/藥局/藥/拿",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-medicine.mp4"
+    },
+    {
+        "elemtext": "兒子長得很像爸爸",
+        "elemsplit": "兒子/他_A/爸爸/他倆/臉/像",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-similar.mp4"
+    },
+    {
+        "elemtext": "我會說三種語言",
+        "elemsplit": "我_B/說/種類/三/知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/v/S-variety.mp4"
+    },
+    {
+        "elemtext": "他願意和你結婚嗎？",
+        "elemsplit": "他_A/你/結婚/他_A/肯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-willing.mp4"
+    },
+    {
+        "elemtext": "籃球是我最喜歡的運動",
+        "elemsplit": "運動_A/類別/其中/籃球/我_B/喜歡_N/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-basketball.mp4"
+    },
+    {
+        "elemtext": "他買的麵包很香",
+        "elemsplit": "麵包/他_A/買/這/香",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bread.mp4"
+    },
+    {
+        "elemtext": "我們一起照相",
+        "elemsplit": "我倆/一起/照相",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-camera_a.mp4"
+    },
+    {
+        "elemtext": "弟弟比賽第一名",
+        "elemsplit": "弟弟/比賽/第一名_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-compete.mp4"
+    },
+    {
+        "elemtext": "他與我辯論，往往勝利",
+        "elemsplit": "他_A/我_B/辯論/我_B/輸/他_A/辯論/他_A/贏",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-debate.mp4"
+    },
+    {
+        "elemtext": "你的手很髒",
+        "elemsplit": "你/手/髒/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-dirty.mp4"
+    },
+    {
+        "elemtext": "工作還沒完成，繼續把它做完",
+        "elemsplit": "工作/完/還沒/再_A/繼續/工作/完",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-for.mp4"
+    },
+    {
+        "elemtext": "連續的大雨使得多處山崩",
+        "elemsplit": "下雨/連/那/山/山崩",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-for_2.mp4"
+    },
+    {
+        "elemtext": "我很快樂",
+        "elemsplit": "我_B/快樂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-happy.mp4"
+    },
+    {
+        "elemtext": "聽音樂是休閒之一",
+        "elemsplit": "休息/消遣/什麼_A/這/聽/歌/是",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hear_b.mp4"
+    },
+    {
+        "elemtext": "他的狗被車撞了，他著急得哭了",
+        "elemsplit": "他_A/屬於他/狗//被車撞//他_A/著急/哭_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-his_or_her.mp4"
+    },
+    {
+        "elemtext": "他的狗被車撞了，他著急得哭了",
+        "elemsplit": "他_A/屬於他/狗//被車撞//他_A/著急/哭_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-his_or_her.mp4"
+    },
+    {
+        "elemtext": "我的鑰匙不見了",
+        "elemsplit": "我_B/鑰匙/遺失",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-key.mp4"
+    },
+    {
+        "elemtext": "你要吃麵還是吃飯？",
+        "elemsplit": "麵/米/這兩個/吃/什麼",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-noodles.mp4"
+    },
+    {
+        "elemtext": "每個地方都有好人和壞人",
+        "elemsplit": "各處/人_A/好 /人_A/不好_B/有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-not_good.mp4"
+    },
+    {
+        "elemtext": "台灣護士的專業能力很強",
+        "elemsplit": "台灣/護士/專/業/技術/棒_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-nurse.mp4"
+    },
+    {
+        "elemtext": "我喜歡運動",
+        "elemsplit": "運動_A/我/喜歡_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-physical.mp4"
+    },
+    {
+        "elemtext": "每個星期三要運動",
+        "elemsplit": "每/星期三/運動_A/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-physical_2.mp4"
+    },
+    {
+        "elemtext": "警察是人民保母",
+        "elemsplit": "社會_N/他們/警察/保護/是",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-policeman.mp4"
+    },
+    {
+        "elemtext": "每日鹽巴要適中而不過量",
+        "elemsplit": "每天/鹽_N/中_A/過/不",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-salt_n.mp4"
+    },
+    {
+        "elemtext": "每日鹽巴要適中而不過量",
+        "elemsplit": "每天/鹽_N/中_A/過/不",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-salt_n.mp4"
+    },
+    {
+        "elemtext": "爸爸的襪子很多",
+        "elemsplit": "爸爸/襪子/數量/多_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-socks.mp4"
+    },
+    {
+        "elemtext": "我的機車被偷了",
+        "elemsplit": "我_B/機車/偷",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-steal.mp4"
+    },
+    {
+        "elemtext": "我要看報紙",
+        "elemsplit": "報紙/我_B/欣賞/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/v/S-visit_a.mp4"
+    },
+    {
+        "elemtext": "爸爸原諒妹妹打破花瓶",
+        "elemsplit": "花瓶/妹妹/打破/爸爸/原諒",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/y/S-yield.mp4"
+    }
+]
