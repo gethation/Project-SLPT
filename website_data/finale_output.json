@@ -1,0 +1,1149 @@
+[
+    {
+        "elemtext": "我有一件裙子",
+        "elemsplit": "我_B/裙子/有/一",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-one.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/skirt.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/have.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/o/one.mp4"
+        ]
+    },
+    {
+        "elemtext": "這是標準答案",
+        "elemsplit": "這/答案/標準",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-perfect.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/this.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/answer.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/perfect.mp4"
+        ]
+    },
+    {
+        "elemtext": "工作要認真",
+        "elemsplit": "工作/認真/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-do.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/j/just.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/want_s.mp4"
+        ]
+    },
+    {
+        "elemtext": "下雨不能出門",
+        "elemsplit": "下雨/出/不能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rain_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/r/rain.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/exit.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/cant.mp4"
+        ]
+    },
+    {
+        "elemtext": "他跑得很快",
+        "elemsplit": "他_A/跑/直/快_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fast_s.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/straight.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/fast_s.mp4"
+        ]
+    },
+    {
+        "elemtext": "他們倆工作忙，很少見面",
+        "elemsplit": "他倆/工作/忙/見面_B/少",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-few.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/the_two_of_them.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/b/busy.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/meet_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/few.mp4"
+        ]
+    },
+    {
+        "elemtext": "爸爸要我馬上回家",
+        "elemsplit": "爸爸/告訴我/馬上/回家/馬上",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-immediately_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/f/father.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/immediately.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/immediately.mp4"
+        ]
+    },
+    {
+        "elemtext": "請自我介紹一下",
+        "elemsplit": "(叫人)/我_B/自己/介紹",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-introduce.mp4",
+        "sep_videos": [
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/introduce.mp4"
+        ]
+    },
+    {
+        "elemtext": "這雞肉飯勉強還可以",
+        "elemsplit": "這/雞/吃飯_A/吃/還不錯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-not_bad.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/this.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/chicken.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/eat_rice.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/eat.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/n/not_bad.mp4"
+        ]
+    },
+    {
+        "elemtext": "每個地方都有好人和壞人",
+        "elemsplit": "各處/人_A/好 /人_A/不好_B/有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-not_good.mp4",
+        "sep_videos": [
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/person_a.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/person_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/n/not_good.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/have.mp4"
+        ]
+    },
+    {
+        "elemtext": "今天是星期幾呢?",
+        "elemsplit": "今天/星期幾",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-now.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/n/now.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "現在是幾點呢?",
+        "elemsplit": "現在/幾時_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-now_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/n/now.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/what_time_b.mp4"
+        ]
+    },
+    {
+        "elemtext": "紅燈停，綠燈行",
+        "elemsplit": "紅_S/燈/停//綠/燈/走",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-stop.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/r/red_s.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/l/light_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/stop.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/g/green.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/l/light_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/walk.mp4"
+        ]
+    },
+    {
+        "elemtext": "牙齒是很堅硬的",
+        "elemsplit": "牙齒/硬_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tooth.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/tooth.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/hard.mp4"
+        ]
+    },
+    {
+        "elemtext": "睡覺前要刷牙",
+        "elemsplit": "睡_A/前/刷牙/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-toothbrush.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/s/sleep_a.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/toothbrush.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/want_s.mp4"
+        ]
+    },
+    {
+        "elemtext": "他願意和你結婚嗎？",
+        "elemsplit": "他_A/你/結婚/他_A/肯",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-willing.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/y/you.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/marry.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/willing.mp4"
+        ]
+    },
+    {
+        "elemtext": "寫作業會增加壓力",
+        "elemsplit": "作業/寫/壓力/加/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-add.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/homework_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/write.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/add.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/able_n.mp4"
+        ]
+    },
+    {
+        "elemtext": "爸爸很生氣",
+        "elemsplit": "爸爸/生氣_A/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-angry_a.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/f/father.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/angry_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/v/very.mp4"
+        ]
+    },
+    {
+        "elemtext": "鐘響之後，老師就叫學生回來上課",
+        "elemsplit": "鈴_A/完了/老師_N//叫/大家過來/念書",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-call.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/b/bell.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/finish.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/teacher_s.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/call.mp4",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "你做事一定要考慮清楚，不要反反覆覆",
+        "elemsplit": "你/做/事/什麼//你/想/清楚/再/一定//出爾反爾_B/不要",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-contradict_oneself_b.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/y/you.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4",
+            "none",
+            "none",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/y/you.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/think.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/clear.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/definite.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/contradict_onself_b.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "這個答案正確",
+        "elemsplit": "這/答案/正確",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-correct.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/this.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/answer.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/correct.mp4"
+        ]
+    },
+    {
+        "elemtext": "我決定努力學習手語",
+        "elemsplit": "手語/學/我_B/決定/努力",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-definite.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/s/sign_language.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/definite.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/effort.mp4"
+        ]
+    },
+    {
+        "elemtext": "你一定要幫我",
+        "elemsplit": "你/幫我/一定",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-definite_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/y/you.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/definite.mp4"
+        ]
+    },
+    {
+        "elemtext": "他努力得到第一名",
+        "elemsplit": "他_A/認真/努力/獲得/第一名_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-effort.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/j/just.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/effort.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/pass.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/first_place_n.mp4"
+        ]
+    },
+    {
+        "elemtext": "環境保護，人人有責",
+        "elemsplit": "環境/保護/每/人/責任",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-environment.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/e/environment.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/protect.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/every.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/member.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/r/responsible.mp4"
+        ]
+    },
+    {
+        "elemtext": "昨天的棒球比賽，結果我們輸了",
+        "elemsplit": "昨天/棒球/比賽/結果/我們/輸",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fail_b.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/y/yesterday.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/compete.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/after_all.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/we.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/fail_b.mp4"
+        ]
+    },
+    {
+        "elemtext": "我比賽輸了",
+        "elemsplit": "我_B/比賽/輸",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fail_b_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/compete.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/fail_b.mp4"
+        ]
+    },
+    {
+        "elemtext": "你最好不要失約",
+        "elemsplit": "你/失約_A/不要_S/記得",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-fail_to_keep_an_appointment.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/y/you.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/fail_to_keep_an_appointment.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/dont_want_s.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/r/remember.mp4"
+        ]
+    },
+    {
+        "elemtext": "他唸書的目的很明確",
+        "elemsplit": "他_A/讀書/目的/清楚/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-goal.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/study.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/g/goal.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/clear.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/v/very.mp4"
+        ]
+    },
+    {
+        "elemtext": "爸爸催促我立刻上床睡覺",
+        "elemsplit": "爸爸/催/立刻/去/睡覺",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-immediately.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/f/father.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/immediately.mp4",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "也許明天會下雨",
+        "elemsplit": "明天/下雨/也許/會_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-indefinite.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/tomorrow.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/r/rain.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/indefinite.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/able_n.mp4"
+        ]
+    },
+    {
+        "elemtext": "她可以跟我們一起去旅遊嗎?",
+        "elemsplit": "我們/一起/去/旅行/玩/她/加入/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-may.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/w/we.mp4",
+            "none",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/travel.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/play.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/she_a.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/may.mp4"
+        ]
+    },
+    {
+        "elemtext": "原來他是老師",
+        "elemsplit": "他_A/老師_S/原來",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-originally.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/teacher_n.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/o/originally.mp4"
+        ]
+    },
+    {
+        "elemtext": "妹妹生病了",
+        "elemsplit": "妹妹/生病",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-sick.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/y/younger_sister.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/sick.mp4"
+        ]
+    },
+    {
+        "elemtext": "用動物皮製作產品很殘忍",
+        "elemsplit": "動物/皮/做/那/哭_A/殘忍",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-skin.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/a/animal.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/skin.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/there.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/cry_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/cruel.mp4"
+        ]
+    },
+    {
+        "elemtext": "他今天替我代班",
+        "elemsplit": "他_A/今天/幫我/代替/工作",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-substitute.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/n/now.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/substitute.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4"
+        ]
+    },
+    {
+        "elemtext": "我住在台北",
+        "elemsplit": "我_B/家_B/台北",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-taipei.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/house_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/taipei.mp4"
+        ]
+    },
+    {
+        "elemtext": "他們兩個人是我的朋友",
+        "elemsplit": "他們兩個/我_B/朋友",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-the_two_of_them.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/the_two_of_them.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/friend.mp4"
+        ]
+    },
+    {
+        "elemtext": "希望世界和平",
+        "elemsplit": "希望/世界/和平",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-world.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/hope.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/world.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "他近來的行動怪異",
+        "elemsplit": "他_A/過去的最近/行動/奇怪_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-action.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/r/recent_past.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/action.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/strange_s.mp4"
+        ]
+    },
+    {
+        "elemtext": "自己去森林很危險",
+        "elemsplit": "自己_N/去_B/森林/危險/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_n_3.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/s/self_n.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/g/go_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/forest.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/afraid_n.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/v/very.mp4"
+        ]
+    },
+    {
+        "elemtext": "這麼繁重的工作，真叫我害怕",
+        "elemsplit": "這/工作/這些/我_B/怕_N/很",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-afraid_n_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/this.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/afraid_n.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/v/very.mp4"
+        ]
+    },
+    {
+        "elemtext": "爸爸完全不知道這件事",
+        "elemsplit": "這/事情/爸爸/完全/不知道_N",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-all.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/this.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/affairs.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/father.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/all.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/dont_know_n.mp4"
+        ]
+    },
+    {
+        "elemtext": "我剛剛已經回答了你的問題",
+        "elemsplit": "你/問題/我_B/剛剛/回答你/完了",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-answer.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/y/you.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/problem.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/j/just_now.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/finish.mp4"
+        ]
+    },
+    {
+        "elemtext": "明天我安排了一場會議",
+        "elemsplit": "明天/會議/我_B/安排/完了",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-arrange.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/tomorrow.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/meeting.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/arrange.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/finish.mp4"
+        ]
+    },
+    {
+        "elemtext": "媽媽昨天整理好了客廳",
+        "elemsplit": "媽媽/昨天/整理/客/地方/整理/結束",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-arrange_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/m/mother.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/y/yesterday.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/arrange.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/place_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/arrange.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/finish.mp4"
+        ]
+    },
+    {
+        "elemtext": "我每天騎腳踏車上學",
+        "elemsplit": "我_B/每天/騎腳踏車_A/去/讀書",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bicycle_a.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/everyday.mp4",
+            "none",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/study.mp4"
+        ]
+    },
+    {
+        "elemtext": "他跟我是同學",
+        "elemsplit": "我倆/同學_A/是",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-classmate.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/the_two_of_us.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/classmate.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/b/be.mp4"
+        ]
+    },
+    {
+        "elemtext": "衣服在桌子上",
+        "elemsplit": "桌子/衣服/放",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-clothes.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/table.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/clothes.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/put.mp4"
+        ]
+    },
+    {
+        "elemtext": "你有收集郵票嗎?",
+        "elemsplit": "郵票/張/郵票/你/收集/有沒有",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-collect.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/s/stamp.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/chang.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/stamp.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/y/you.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/collect.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/have_not_have.mp4"
+        ]
+    },
+    {
+        "elemtext": "工作還沒完成，繼續把它做完",
+        "elemsplit": "工作/完/還沒/再_A/繼續/工作/完",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-for.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/n/not_yet.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/again.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/for.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "早安，你好",
+        "elemsplit": "早/安靜/好_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-good_a.mp4",
+        "sep_videos": [
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/q/quiet.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/g/good_a.mp4"
+        ]
+    },
+    {
+        "elemtext": "我長大以後想當老師",
+        "elemsplit": "長大/以後_B/想/做/老師_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-grow_up.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/g/grow_up.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/future_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/think.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/teacher_n.mp4"
+        ]
+    },
+    {
+        "elemtext": "如果你不出席會議，記得要跟我說",
+        "elemsplit": "如果/你/會議/參加/不要_S//你/記得/告訴我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-if.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/if.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/y/you.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/meeting.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/participate.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/dont_want_s.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/y/you.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/r/remember.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "他的名字看起來很不錯",
+        "elemsplit": "他_A/名字_S/看_N/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/n/S-name_s.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/n/name_s.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/l/look_n.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/excellent_a.mp4"
+        ]
+    },
+    {
+        "elemtext": "看電影時請保持安靜",
+        "elemsplit": "電影/看/講/安靜/依然_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/q/S-quiet.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/m/movie.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/speak.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/q/quiet.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/still_b.mp4"
+        ]
+    },
+    {
+        "elemtext": "他很有錢，到處亂花",
+        "elemsplit": "他_A/豐富/有錢/花錢(到處)",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rich.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/abundant.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/r/rich.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "兒子長得很像爸爸",
+        "elemsplit": "兒子/他_A/爸爸/他倆/臉/像",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-similar.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/s/son.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/father.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/the_two_of_them.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/face.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/similar.mp4"
+        ]
+    },
+    {
+        "elemtext": "用動物皮製作產品很殘忍",
+        "elemsplit": "動物/皮/做/那/哭_A/殘忍",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-skin.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/a/animal.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/skin.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/there.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/cry_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/cruel.mp4"
+        ]
+    },
+    {
+        "elemtext": "我本來是老師",
+        "elemsplit": "我_B/原來/老師_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-teacher_s.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/o/originally.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/teacher_n.mp4"
+        ]
+    },
+    {
+        "elemtext": "今天要考英文",
+        "elemsplit": "今天/英文/考試S/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-test_b_s.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/n/now.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/english.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/want_s.mp4"
+        ]
+    },
+    {
+        "elemtext": "我們一起走吧",
+        "elemsplit": "我們兩個/來/走",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-walk.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/the_two_of_us.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/come.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/walk.mp4"
+        ]
+    },
+    {
+        "elemtext": "夏天的時候我們會吃西瓜",
+        "elemsplit": "夏天_B/夏天_A/西瓜/吃",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/w/S-watermelon.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/s/summer_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/hot.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/watermelon.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/eat.mp4"
+        ]
+    },
+    {
+        "elemtext": "他的眼睛亮了起來",
+        "elemsplit": "他_A/眼睛/這/亮",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/b/S-bright_a.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/eye.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/this.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "考試不可作弊",
+        "elemsplit": "考試_S/作弊/不能",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cheat.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/test_b_s.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/cheat.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/cant.mp4"
+        ]
+    },
+    {
+        "elemtext": "遇到困難時，我可以幫你",
+        "elemsplit": "碰見/困難/有//我_B/幫你/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-difficult.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/m/meet_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/difficult.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/have.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/may.mp4"
+        ]
+    },
+    {
+        "elemtext": "昨天的考試很難",
+        "elemsplit": "昨天/考試_S/難",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/d/S-difficult_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/y/yesterday.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/test_b_s.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/difficult.mp4"
+        ]
+    },
+    {
+        "elemtext": "努力學習是為了有更好的將來",
+        "elemsplit": "學習/努力/目的/未來_B/更/棒_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-even_more.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/imitate.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/effort.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/g/goal.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/future_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/even_more.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/excellent_a.mp4"
+        ]
+    },
+    {
+        "elemtext": "每次出門都要帶錢包",
+        "elemsplit": "每/出/錢/皮包/放進/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-every.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/e/every.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/exit.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/money.mp4",
+            "none",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/want_s.mp4"
+        ]
+    },
+    {
+        "elemtext": "每天游泳對身體很好",
+        "elemsplit": "每天/游泳_A/幫我/身體/好_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-everyday.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/e/everyday.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/swim_a.mp4",
+            "none",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/g/good_a.mp4"
+        ]
+    },
+    {
+        "elemtext": "我可以做完",
+        "elemsplit": "做/結束/我_B/可以",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-finish_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/finish.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/may.mp4"
+        ]
+    },
+    {
+        "elemtext": "金是一種貴重金屬",
+        "elemsplit": "鐵/金/種類/其中/一/金/貴",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-gold.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/iron.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/g/gold.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/v/variety.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/in.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/o/one.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/g/gold.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "我很快樂",
+        "elemsplit": "我_B/快樂",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-happy.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/happy.mp4"
+        ]
+    },
+    {
+        "elemtext": "希望明天是晴天",
+        "elemsplit": "希望/明天/晴天_A",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/h/S-hope_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/hope.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/tomorrow.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/sunny_day_a.mp4"
+        ]
+    },
+    {
+        "elemtext": "我是學生",
+        "elemsplit": "我_B/學生",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/i/S-i_b_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/student.mp4"
+        ]
+    },
+    {
+        "elemtext": "他瞄了我一眼",
+        "elemsplit": "他_A/見我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-see.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "他說我很漂亮",
+        "elemsplit": "他_A/告訴/我_B/漂亮_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tell.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/tell.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/b/beautiful_s.mp4"
+        ]
+    },
+    {
+        "elemtext": "他說會永遠愛我",
+        "elemsplit": "他_A/告訴我/愛/我_B/整天_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-tell_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/l/love.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/all_day_b.mp4"
+        ]
+    },
+    {
+        "elemtext": "我倆是好朋友，從小一起長大",
+        "elemsplit": "我倆/朋友/長大",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/t/S-the_two_of_us.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/the_two_of_us.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/friend.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/g/grow_up.mp4"
+        ]
+    },
+    {
+        "elemtext": "我們一起照相",
+        "elemsplit": "我倆/一起/照相",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-camera_a.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/the_two_of_us.mp4",
+            "none",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "有好多小孩在跑來跑去",
+        "elemsplit": "小孩/他們/跑來跑去",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-child_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/c/child.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/they.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "他對菸酒上癮",
+        "elemsplit": "他_A/這/香煙/酒/上癮_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cigarette.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/this.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/cigarette.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/a/addicted_d.mp4"
+        ]
+    },
+    {
+        "elemtext": "校園禁止抽煙",
+        "elemsplit": "學校/這/抽煙/禁止",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/c/S-cigarette_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/s/school.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/this.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/cigarette.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/stop.mp4"
+        ]
+    },
+    {
+        "elemtext": "媽媽抱抱小孩",
+        "elemsplit": "小孩/媽媽/抱",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/e/S-embrace.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/c/child.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/mother.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/embrace.mp4"
+        ]
+    },
+    {
+        "elemtext": "日本的櫻花全都開花了",
+        "elemsplit": "日本/變/(到處)/開花",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-flower.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/j/japan.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/change_b.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/flower.mp4"
+        ]
+    },
+    {
+        "elemtext": "他真的是我朋友 ( 他是一個真誠的朋友)",
+        "elemsplit": "他_A/我_B/朋友/真/是",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-friend.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/friend.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/true.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/b/be.mp4"
+        ]
+    },
+    {
+        "elemtext": "我的朋友在日本",
+        "elemsplit": "我_B/朋友/那/日本/那",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/f/S-friend_2.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/friend.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/there.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/j/japan.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/there.mp4"
+        ]
+    },
+    {
+        "elemtext": "我長大以後想當老師",
+        "elemsplit": "長大/以後_B/想/做/老師_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/g/S-grow_up.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/g/grow_up.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/f/future_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/think.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/do.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/teacher_n.mp4"
+        ]
+    },
+    {
+        "elemtext": "你知道我的眼鏡在哪裡嗎?",
+        "elemsplit": "我_B/眼鏡/哪裡/你/知道_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/k/S-know_s.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/g/glasses.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/where.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/y/you.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/k/know_s.mp4"
+        ]
+    },
+    {
+        "elemtext": "嬰兒要喝奶",
+        "elemsplit": "嬰兒/奶_S/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-milk_s.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/b/baby.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/milk_s.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/want_s.mp4"
+        ]
+    },
+    {
+        "elemtext": "出門記得要帶錢",
+        "elemsplit": "嗨/出/記得/錢/放口袋",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-money.mp4",
+        "sep_videos": [
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/e/exit.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/r/remember.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/m/money.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "互相關心是婚姻幸福的關鍵",
+        "elemsplit": "互相/關心/這兩個/夫妻/幸福/重要/這",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/m/S-mutual.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/m/mutual.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/concerned.mp4",
+            "none",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/g/good_fortune_b.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/this.mp4"
+        ]
+    },
+    {
+        "elemtext": "肥胖對身體不好",
+        "elemsplit": "胖_A/對/身體_B/健康/不好_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-obesity_a.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/o/obesity_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/correct.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/b/body_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/health_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/n/not_good.mp4"
+        ]
+    },
+    {
+        "elemtext": "炒菜時要用油",
+        "elemsplit": "菜_N/炒/油_S/倒/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/o/S-oil_s.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/v/vegetable_n.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/stir_fry.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/o/oil_s.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/pour.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/want_s.mp4"
+        ]
+    },
+    {
+        "elemtext": "他把我拉過去",
+        "elemsplit": "他_A/拉我",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/p/S-pull.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "none"
+        ]
+    },
+    {
+        "elemtext": "外面下雨了",
+        "elemsplit": "外面/下雨",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/r/S-rain.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/o/out.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/r/rain.mp4"
+        ]
+    },
+    {
+        "elemtext": "我們兩個離得很近",
+        "elemsplit": "我們兩個/地方/近",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-short_b.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/t/the_two_of_us.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/p/place_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/short_b.mp4"
+        ]
+    },
+    {
+        "elemtext": "旅館提供舒服的床",
+        "elemsplit": "舒服_A/床/舒服_A/那/旅館/那/負責_B/提供_B",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/s/S-supply_b.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/c/comfortable_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/b/bed.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/comfortable_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/there.mp4",
+            "none",
+            "https://twtsl.ccu.edu.tw/TSL//video/t/there.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/r/responsible.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/s/supply_b.mp4"
+        ]
+    },
+    {
+        "elemtext": "我要看報紙",
+        "elemsplit": "報紙/我_B/欣賞/要_S",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/v/S-visit_a.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/n/newspaper.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/i/i_b.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/v/visit_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/w/want_s.mp4"
+        ]
+    },
+    {
+        "elemtext": "他開車經過了許多高樓",
+        "elemsplit": "大樓_A/他_A/開車/經過",
+        "url": "https://twtsl.ccu.edu.tw/TSL//sentence/a/S-apartment_building_a.mp4",
+        "sep_videos": [
+            "https://twtsl.ccu.edu.tw/TSL//video/a/apartment_building_a.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/h/he_she.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/d/drive.mp4",
+            "https://twtsl.ccu.edu.tw/TSL//video/c/cross.mp4"
+        ]
+    }
+]
