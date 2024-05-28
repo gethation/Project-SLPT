@@ -40,8 +40,8 @@ def video_show(visual_prediction, visual_target, mean, std, output_file):
     background = 255 * np.ones((640, 1280, 3), dtype=np.uint8)
 
     # 创建视频写入器
-    fourcc = cv2.VideoWriter_fourcc(*'MP4V')
-    out = cv2.VideoWriter(output_file, fourcc, 30.0, (1280, 640))
+    # fourcc = cv2.VideoWriter_fourcc(*'H264')
+    # out = cv2.VideoWriter(output_file, fourcc, 30.0, (1280, 640))
     video = []
 
     for keypoints_set_1, keypoints_set_2 in zip(prediction_coordinate, prediction_target):
@@ -92,7 +92,7 @@ def video_show(visual_prediction, visual_target, mean, std, output_file):
             cv2.line(frame[:, 640:], start_point, end_point, (0, 255, 0), 2)
 
         # 将当前帧写入视频
-        out.write(frame)
+        # out.write(frame)
         video.append(frame)
         # cv2.imshow('Astype Key Points', frame)
 
@@ -104,7 +104,16 @@ def video_show(visual_prediction, visual_target, mean, std, output_file):
     # cv2.destroyAllWindows()
     return np.array(video).transpose((0, 3, 1, 2)).astype(np.int8)
 
-
+def os_walk(root_dir):
+    file_path = []
+    dirs_name = []
+    for root, dirs, files in os.walk(root_dir):
+        for file in files:
+            file_path.append(os.path.join(root, file))
+        for d in dirs:
+            dirs_name.append(d)
+            
+    return (file_path, dirs_name)
 
 
 # 定义归一化转换
@@ -115,29 +124,6 @@ def normalize_data(tensor, mean, std):
     normalized_tensor = normalize(tensor)
     return normalized_tensor
 
-def load_mean_std(data_folder):
-    # 加载文件夹中的所有 JSON 文件
-    json_files = [f for f in os.listdir(data_folder) if f.endswith('.json')]
-    
-    sample_num = int(len(json_files)*0.01)
-
-    json_files = np.random.choice(json_files, size=sample_num, replace=False)
-    # 创建一个存储所有数据的列表
-    all_data = []
-
-    # 遍历所有 JSON 文件并加载数据
-    for json_file in json_files:
-        with open(os.path.join(data_folder, json_file), 'r') as file:
-            data = json.load(file)
-            all_data.append(data)
-        
-    # 转换为张量
-    tensor_data = torch.tensor(all_data, dtype=torch.float32)
-
-    # 归一化数据
-    mean, std = tensor_data.mean(), tensor_data.std()
-
-    return mean, std
 
 # 创建Dataset和DataLoader
 class Node_Dataset(Dataset):
@@ -145,8 +131,8 @@ class Node_Dataset(Dataset):
         self.mean = mean
         self.std = std
         self.data_folder = data_folder
-        self.json_files = [f for f in os.listdir(data_folder) if f.endswith('.json')]
-        self.Augmentor = DataAugmentor()
+        self.json_files = [f for f in os_walk(data_folder)[0] if f.endswith('.json')]
+        self.lables_chart = os_walk(data_folder)[1]
     
     def __len__(self):
         return len(self.json_files)
@@ -155,67 +141,98 @@ class Node_Dataset(Dataset):
 
         json_file = self.json_files[idx]
 
-        with open(os.path.join(self.data_folder, json_file), 'r') as file:
+        lable_name = os.path.split(os.path.split(self.json_files[idx])[0])[1]
+
+        with open(json_file, 'r') as file:
             x = json.load(file)
 
-        data = self.Augmentor.augment(x)
+        data = augmentation(x)
         data = torch.as_tensor(torch.from_numpy(data), dtype=torch.float32)
         batch = normalize_data(data, self.mean, self.std)
-        return batch
 
-import numpy as np
+        return [batch, self.lables_chart.index(lable_name)]
 
-class DataAugmentor:
-    def __init__(self, center=(320, 320), angle_range=(-20, 20), scale_range=(0.7, 1.6), offset_range=(-50, 50)):
-        self.center = np.array(center)
-        self.angle = np.radians(np.random.randint(*angle_range))
-        self.scale_factor = np.random.uniform(*scale_range)
-        self.offset = np.random.randint(offset_range[0], offset_range[1], 2)
+def rotate_point(point, center, angle):
 
-    def rotate_point(self, point):
-        offset = point - self.center
-        rotation_matrix = np.array([
-            [np.cos(self.angle), -np.sin(self.angle)],
-            [np.sin(self.angle), np.cos(self.angle)]
-        ])
-        rotated_offset = np.dot(rotation_matrix, offset)
-        rotated_point = rotated_offset + self.center
-        return rotated_point
+    offset = point - center
 
-    def scaling_point(self, point):
-        offset = point - self.center
-        scaled_offset = offset * self.scale_factor
-        scaled_point = scaled_offset + self.center
-        return scaled_point
+    # 创建旋转矩阵
+    rotation_matrix = np.array([[np.cos(angle), -np.sin(angle)],
+                                [np.sin(angle), np.cos(angle)]])
 
-    def random_rotate(self, coordinates):
-        rotated_coordinates = np.empty_like(coordinates)
-        for i, frame in enumerate(coordinates):
-            for j, point in enumerate(frame):
-                rotated_coordinates[i, j] = self.rotate_point(point)
-        return rotated_coordinates
+    # 使用旋转矩阵旋转偏移量
+    rotated_offset = np.dot(rotation_matrix, offset)
 
-    def random_scaling(self, coordinates):
-        scaled_coordinates = np.empty_like(coordinates)
-        for i, frame in enumerate(coordinates):
-            for j, point in enumerate(frame):
-                scaled_coordinates[i, j] = self.scaling_point(point)
-        return scaled_coordinates
+    # 将旋转后的偏移量添加回圆心坐标以获取旋转后的点
+    rotated_point = rotated_offset + center
 
-    def offsetalize(self, coordinates):
-        offsetalized_coordinates = np.empty_like(coordinates)
-        for i, frame in enumerate(coordinates):
-            for j, point in enumerate(frame):
-                offsetalized_coordinates[i, j] = point + self.offset
-        return offsetalized_coordinates
+    return rotated_point
 
-    def augment(self, x):
-        coordinates = np.array(x)
-        coordinates = self.random_rotate(coordinates)
-        coordinates = self.random_scaling(coordinates)
-        coordinates = self.offsetalize(coordinates)
-        return coordinates
+def scaling_point(point, center, scale_factor):
 
+    # 计算点相对于圆心的偏移量
+    offset = point - center
+
+    # 使用缩放因子对偏移量进行缩放
+    scaled_offset = offset * scale_factor
+
+    # 将缩放后的偏移量添加回圆心坐标以获取缩放后的点
+    scaled_point = scaled_offset + center
+
+    return scaled_point
+
+def random_rotate(coordinates):
+    angle = np.radians(np.random.randint(-20, 20))
+    center = [320, 320]
+    rotated_coordinates = np.empty_like(coordinates)
+    for i, frame in enumerate(coordinates):
+        for j, point in enumerate(frame):
+            rotated_coordinates[i,j] = rotate_point(point, center, angle)
+    return rotated_coordinates
+
+def random_scaling(coordinates):
+    scale_factor = np.random.uniform(0.7, 1.6)
+    center = [320, 320]
+    scaled_coordinates = np.empty_like(coordinates)
+    for i, frame in enumerate(coordinates):
+        for j, point in enumerate(frame):
+            scaled_coordinates[i,j] = scaling_point(point, center, scale_factor)
+    return scaled_coordinates
+
+def offsetalize(coordinates):
+    offset = np.random.randint(-50, 50, 2)
+    offsetalized_coordinates = np.empty_like(coordinates)
+    for i, frame in enumerate(coordinates):
+        for j, point in enumerate(frame):
+            offsetalized_coordinates[i,j] = point + offset
+    return offsetalized_coordinates
+def vertical_line():
+    x = np.random.randint(280, 360)  # 隨機生成垂直線的 x 座標
+    return x
+
+def flip_point_vertical(point, x):
+    x_old, y_old = point
+    x_new = 2*x - x_old
+    return x_new, y_old
+
+def flip(coordinates):
+    coordinates_flipped = np.copy(coordinates)
+
+    x_vertical = vertical_line()
+
+    for i in range(coordinates.shape[0]):
+        for j in range(coordinates.shape[1]):
+            coordinates_flipped[i, j] = flip_point_vertical(coordinates[i, j], x_vertical)
+    return coordinates_flipped
+
+def augmentation(x):
+    coordinates = np.array(x)
+    # if np.random.rand()>0.5:
+    #     coordinates = flip(coordinates)
+    coordinates = random_rotate(coordinates)
+    coordinates = random_scaling(coordinates)
+    keypoint_coordinates = offsetalize(coordinates)
+    return keypoint_coordinates
 
 def get_time():
     current_datetime = datetime.datetime.now()
@@ -237,16 +254,15 @@ def log(CHECKPOINT_PATH, model, optimizer, step, mean, std):
     wandb.save(CHECKPOINT_PATH) # saves checkpoint to wandb
 
 class MPJPELoss(nn.Module):
-    def __init__(self, hand_point):
+    def __init__(self):
         super(MPJPELoss, self).__init__()
-        self.hand_point_num = hand_point
 
     def forward(self, predicted_joints, ground_truth_joints):
 
         batch_size = predicted_joints.shape[0]
 
-        predicted_joints = predicted_joints.reshape((batch_size, -1, self.hand_point_num//2, 2))
-        ground_truth_joints = ground_truth_joints.reshape((batch_size, -1, self.hand_point_num//2, 2))
+        predicted_joints = predicted_joints.reshape((batch_size, -1, 80//2, 2))
+        ground_truth_joints = ground_truth_joints.reshape((batch_size, -1, 80//2, 2))
 
         assert predicted_joints.shape == ground_truth_joints.shape, "Input tensors must have the same shape."
         
@@ -257,7 +273,6 @@ class MPJPELoss(nn.Module):
         mpjpe = torch.mean(distances, dim=2)
 
         return torch.mean(mpjpe)
-    
 def copyfile(file_list, folder=''):
   for file in file_list:
     shutil.copyfile(file, os.path.join(folder,os.path.basename(file)))
@@ -272,27 +287,52 @@ def extract_and_split(zip_file_path = '/content/test-dataset.zip',
     with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
         zip_ref.extractall(extract_folder)
 
-    sample_num = int(len(os.listdir(data_folder))*0.001)
+    sample_num = int(len(os.listdir(data_folder))*0.05)
     test_json = [os.path.join(data_folder, name) for name in np.random.choice(os.listdir(data_folder), size=sample_num, replace=False)]
 
     copyfile(test_json, test_folder)
 
-def train_step(model, criterion, batch, optimizer, device='cuda'):
+def calculate_accuracy(predictions, targets):
+    predicted_labels = torch.argmax(predictions, dim=1)
+
+    # 將獨熱形式的目標轉換為類別標籤
+    true_labels = torch.argmax(targets, dim=1)
+
+    # 比較預測和真實標籤以計算準確度
+    accuracy = (predicted_labels == true_labels).float().mean()
+
+    return round(accuracy.item()*100,2)
+
+
+def train_step(model, criterion, batch, targets, optimizer, num_classes, device='cuda'):
+
+    targets = torch.nn.functional.one_hot(targets, num_classes=num_classes).to(torch.float32)
     images = batch.to(device)  # views contains only a single view
-    predictions, targets, _, _ = model(images)
+    targets = targets.to(device)
+
+    predictions = model(images)
+
     loss = criterion(predictions, targets)
     loss.backward()
     optimizer.step()
     optimizer.zero_grad()
     
-    return loss.detach()
+    accuracy = calculate_accuracy(predictions, targets)
 
-def Evaluate(model, criterion, testloader, device='cuda'):
+    return loss.detach(), accuracy
+
+def Evaluate(model, criterion, testloader, num_classes, device='cuda'):
     evaluate_loss = 0
-    for batch in testloader:
+    for batch, targets in testloader:
+
+        targets = torch.nn.functional.one_hot(targets, num_classes=num_classes).to(torch.float32)
         images = batch.to(device)  # views contains only a single view
-        predictions, targets, visual_prediction, visual_target = model(images)
+        targets = targets.to(device)
+
+        predictions = model(images)
         loss = criterion(predictions, targets)
 
+        accuracy = calculate_accuracy(predictions, targets)
+
         evaluate_loss += loss.detach()
-    return evaluate_loss / len(testloader), visual_prediction[0], visual_target[0]
+    return evaluate_loss / len(testloader), accuracy

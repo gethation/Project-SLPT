@@ -12,7 +12,7 @@ import torchvision.transforms as transforms
 from model.model import MAE
 
 mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(max_num_hands=2)  # 设置最大追踪手的数量
+hands = mp_hands.Hands(max_num_hands=1)  # 设置最大追踪手的数量
 mp_drawing = mp.solutions.drawing_utils
 
 def detect(frame, keypoint_coordinates, show):
@@ -103,8 +103,8 @@ def elongate(keypoint_coordinates_dim, new_length):
     return new_array
 
 def extend(keypoint_coordinates, new_length):
-    filled_keypoint_coordinates = np.zeros((new_length, 42, 2))
-    for i in range(keypoint_coordinates.shape[1]-1):
+    filled_keypoint_coordinates = np.zeros((new_length, keypoint_coordinates.shape[1], 2))
+    for i in range(keypoint_coordinates.shape[1]):
         filled_keypoint_coordinates[:, i, 0] = elongate(keypoint_coordinates[:, i, 0], new_length)
         filled_keypoint_coordinates[:, i, 1] = elongate(keypoint_coordinates[:, i, 1], new_length)
 
@@ -244,7 +244,7 @@ def offsetalize(coordinates):
     return offsetalized_coordinates
 
 x = [(i, i+1) for i in range(0,4)]+[(i, i+1) for i in range(5,8)]+[(i, i+1) for i in range(9,12)]+[(i, i+1) for i in range(13,16)]+[(i, i+1) for i in range(17,19)]+[(0,5),(0,17),(5,9),(9,13),(13,17)]
-connections = [i for i in x]+[ (i[0]+21, i[1]+21) for i in x]
+connections = [i for i in x]+[ (i[0]+20, i[1]+20) for i in x]
 
 def visualize(input_file, lenth=64):
     with open(input_file, 'r') as f:
@@ -290,7 +290,7 @@ def visualize(input_file, lenth=64):
 
     cv2.destroyAllWindows()
 
-def put_text(frame, elapsed_time, break_time, num=0):
+def put_text(frame, elapsed_time, break_time, recording_time, num=0):
 
     cv2.putText(frame, f'Time: {float(elapsed_time):.1f} seconds', (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 0), 1)
     # cv2.putText(frame, f'NuM: {num}/{100}', (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 0), 1)
@@ -307,11 +307,11 @@ def put_text(frame, elapsed_time, break_time, num=0):
     if elapsed_time <= break_time:
         cv2.rectangle(frame, (0, height-15), (int((elapsed_time/break_time)*width), height), (0, 0, 250), -1)
     if elapsed_time > break_time:
-        cv2.rectangle(frame, (0, height-15), (int(((elapsed_time-break_time)/2)*width), height), (0, 250, 0), -1)
+        cv2.rectangle(frame, (0, height-15), (int(((elapsed_time-break_time)/recording_time)*width), height), (0, 250, 0), -1)
 
     return frame
 
-def web_cam(break_time=3, save_folder = ''):
+def web_cam(break_time=3, recording_time = 2, save_folder = ''):
     segment = []
     cap = cv2.VideoCapture(0)
 
@@ -345,13 +345,13 @@ def web_cam(break_time=3, save_folder = ''):
 
 
         # 计算经过的时间
-        frame = put_text(frame, elapsed_time, break_time, num)
+        frame = put_text(frame, elapsed_time, break_time, recording_time, num)
 
 
         if elapsed_time < break_time:
             start_frame = frame_counter
 
-        if elapsed_time >= break_time+2:
+        if elapsed_time >= break_time + recording_time:
             start_time = time.time()
 
             end_frame = frame_counter
@@ -451,9 +451,8 @@ def node_json(input_video, output_folder):
     with open(output_file, 'w') as f:
         json.dump(keypoint_coordinates, f, indent=4)
 
-def split_json(input_json, output_folder, time_mark_path):
+def split_json(input_json, output_folder, time_mark_path, uniform_length=64):
 
-    uniform_length = 64
 
     os.makedirs(output_folder, exist_ok=True)
 
