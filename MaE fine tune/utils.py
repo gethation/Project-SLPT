@@ -287,7 +287,7 @@ def extract_and_split(zip_file_path = '/content/test-dataset.zip',
     with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
         zip_ref.extractall(extract_folder)
 
-    sample_num = int(len(os.listdir(data_folder))*0.05)
+    sample_num = int(len(os.listdir(data_folder))*0.001)
     test_json = [os.path.join(data_folder, name) for name in np.random.choice(os.listdir(data_folder), size=sample_num, replace=False)]
 
     copyfile(test_json, test_folder)
