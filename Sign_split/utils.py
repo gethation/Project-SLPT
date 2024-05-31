@@ -12,7 +12,7 @@ import torchvision.transforms as transforms
 from model.model import MAE
 
 mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(max_num_hands=1)  # 设置最大追踪手的数量
+hands = mp_hands.Hands(max_num_hands=2)  # 设置最大追踪手的数量
 mp_drawing = mp.solutions.drawing_utils
 
 def detect(frame, keypoint_coordinates, show):
@@ -218,7 +218,7 @@ def scaling_point(point, center, scale_factor):
     return scaled_point
 
 def random_rotate(coordinates):
-    angle = np.radians(np.random.randint(-20, 20))
+    angle = np.radians(np.random.randint(-1, 1))
     center = [320, 320]
     rotated_coordinates = np.empty_like(coordinates)
     for i, frame in enumerate(coordinates):
@@ -227,7 +227,7 @@ def random_rotate(coordinates):
     return rotated_coordinates
 
 def random_scaling(coordinates):
-    scale_factor = np.random.uniform(0.6, 1.5)
+    scale_factor = np.random.uniform(1, 1.5)
     center = [320, 320]
     scaled_coordinates = np.empty_like(coordinates)
     for i, frame in enumerate(coordinates):
@@ -244,7 +244,7 @@ def offsetalize(coordinates):
     return offsetalized_coordinates
 
 x = [(i, i+1) for i in range(0,4)]+[(i, i+1) for i in range(5,8)]+[(i, i+1) for i in range(9,12)]+[(i, i+1) for i in range(13,16)]+[(i, i+1) for i in range(17,19)]+[(0,5),(0,17),(5,9),(9,13),(13,17)]
-connections = [i for i in x]+[ (i[0]+20, i[1]+20) for i in x]
+connections = [i for i in x]+[ (i[0]+21, i[1]+21) for i in x]
 
 def visualize(input_file, lenth=64):
     with open(input_file, 'r') as f:
@@ -475,6 +475,30 @@ def split_json(input_json, output_folder, time_mark_path, uniform_length=64):
         except:
             pass
 
+def split_func(input_json, output_folder, time_mark, index, uniform_length=64):
+
+
+    os.makedirs(output_folder, exist_ok=True)
+
+    with open(input_json, 'r') as f:
+        coordinates_jason = json.load(f)
+
+    
+    for i, (pointerL, pointerR) in enumerate(time_mark):
+        #print((pointerL, pointerR))
+        try:
+            keypoint_coordinates = coordinates_jason[pointerL:pointerR]
+            keypoint_coordinates = fixed(keypoint_coordinates)
+            keypoint_coordinates = takeout_zero(keypoint_coordinates)
+            keypoint_coordinates = extend(keypoint_coordinates, uniform_length).tolist()
+
+            output_file = os.path.join(output_folder, f'result_{index}.json')
+
+            with open(output_file, 'w') as f:
+                json.dump(keypoint_coordinates, f, indent=4)
+        except:
+            pass
+
 class ViT(nn.Module):
     def __init__(self, pretrained_model):
         super(ViT, self).__init__()
@@ -523,10 +547,70 @@ def augmentation(x):
 def load_json(path, mean, std, augment = False):
     with open(path, 'r') as file:
         json_ = json.load(file)
-    x = coordinate_transform(json_)
+    x = np.array(json_)
     if augment:
         x = augmentation(x)
     data = torch.as_tensor(torch.from_numpy(x), dtype=torch.float32)
     batch = normalize_data(data, mean, std)
 
     return batch.unsqueeze(0)
+
+class ViT(nn.Module):
+    def __init__(self, pretrained_model, num_class):
+        super(ViT, self).__init__()
+        self.backbone = nn.Sequential(
+                    pretrained_model.backbone,
+                    nn.Linear(768, num_class),
+                    nn.Softmax(dim=1)
+                )
+        self.out_dim = 80
+
+    def forward(self, images):
+        batch_size = images.shape[0]
+        seq_length = images.shape[1]
+        images = images.reshape((batch_size, seq_length, self.out_dim))
+        x = self.backbone(images)
+        return x
+    
+
+def visualize_slider(input_file, length=64):
+    with open(input_file, 'r') as f:
+        coordinates = json.load(f)
+    coordinates = np.array(coordinates)
+    keypoint_coordinates = extend(coordinates, length).astype(np.int16)
+
+    # 创建窗口和滑动条
+    cv2.namedWindow('Hand Key Points')
+    total_frames = len(keypoint_coordinates)
+    cv2.createTrackbar('Frame', 'Hand Key Points', 0, total_frames - 1, lambda x: None)
+
+    # 创建白色背景
+    background = 255 * np.ones((640, 640, 3), dtype=np.uint8)
+
+    while True:
+        # 读取滑动条的位置
+        frame_index = cv2.getTrackbarPos('Frame', 'Hand Key Points')
+        keypoints = keypoint_coordinates[frame_index]
+        
+        # 创建背景的副本
+        frame = background.copy()
+
+        # 绘制关键点
+        for i, keypoint in enumerate(keypoints):
+            x, y = keypoint[0], keypoint[1]
+            color = (0, 0, 255) if i >= 21 else (255, 0, 0)
+            if i not in [20, 41]:
+                cv2.circle(frame, (x, y), 5, color, -1)
+
+        # 连接指定的点
+        for connection in connections:
+            start_point = tuple(keypoints[connection[0]])
+            end_point = tuple(keypoints[connection[1]])
+            cv2.line(frame, start_point, end_point, (0, 255, 0), 2)
+
+        cv2.imshow('Hand Key Points', frame)
+
+        if cv2.waitKey(100) & 0xFF == ord('q'):
+            break
+
+    cv2.destroyAllWindows()
